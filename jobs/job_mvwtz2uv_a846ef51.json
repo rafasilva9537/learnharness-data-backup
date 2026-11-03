@@ -1,0 +1,204 @@
+{
+	"id": "job_mvwtz2uv_a846ef51",
+	"kind": "pdf",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_701755",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1 CCO.pdf",
+		"question": "Liste todas as questões (objetivas e discursivas) do Simulado 1 CCO, indicando para cada questão o número, a subárea da Ciência da Computação e o conceito técnico específico cobrado."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-10-31T20:05:25.687Z",
+	"updatedAt": "2026-10-31T20:09:28.007Z",
+	"usage": {
+		"model": "openrouter:google/gemini-3.8-flash",
+		"inputTokens": 98420,
+		"outputTokens": 10668,
+		"cacheReadTokens": 258978,
+		"cacheWriteTokens": 0,
+		"reasoningTokens": 10402,
+		"cacheWrite1hTokens": 0,
+		"steps": 14,
+		"calls": [
+			{
+				"inputTokens": 893,
+				"outputTokens": 118,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 108
+			},
+			{
+				"inputTokens": 1625,
+				"outputTokens": 176,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 159
+			},
+			{
+				"inputTokens": 21897,
+				"outputTokens": 73,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 57
+			},
+			{
+				"inputTokens": 5785,
+				"outputTokens": 127,
+				"cacheReadTokens": 16212,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 108
+			},
+			{
+				"inputTokens": 2340,
+				"outputTokens": 56,
+				"cacheReadTokens": 20251,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 37
+			},
+			{
+				"inputTokens": 2877,
+				"outputTokens": 646,
+				"cacheReadTokens": 20237,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 629
+			},
+			{
+				"inputTokens": 24330,
+				"outputTokens": 4148,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 4131
+			},
+			{
+				"inputTokens": 8754,
+				"outputTokens": 70,
+				"cacheReadTokens": 20255,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 47
+			},
+			{
+				"inputTokens": 5934,
+				"outputTokens": 397,
+				"cacheReadTokens": 24288,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 374
+			},
+			{
+				"inputTokens": 3441,
+				"outputTokens": 624,
+				"cacheReadTokens": 28321,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 601
+			},
+			{
+				"inputTokens": 5220,
+				"outputTokens": 1580,
+				"cacheReadTokens": 28309,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 1557
+			},
+			{
+				"inputTokens": 3900,
+				"outputTokens": 42,
+				"cacheReadTokens": 32352,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 20
+			},
+			{
+				"inputTokens": 5100,
+				"outputTokens": 2579,
+				"cacheReadTokens": 32335,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 2561
+			},
+			{
+				"inputTokens": 6324,
+				"outputTokens": 32,
+				"cacheReadTokens": 36418,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 13
+			}
+		],
+		"lastStep": {
+			"inputTokens": 6324,
+			"outputTokens": 32,
+			"cacheReadTokens": 36418,
+			"cacheWriteTokens": 0,
+			"cacheWrite1hTokens": 0,
+			"reasoningTokens": 13
+		}
+	},
+	"error": "iteration limit (14) reached without a brief.",
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1 CCO.pdf",
+		"question": "Liste todas as questões (objetivas e discursivas) do Simulado 1 CCO, indicando para cada questão o número, a subárea da Ciência da Computação e o conceito técnico específico cobrado.",
+		"brief": "PDF failed: iteration limit (14) reached without a brief.",
+		"pagesRead": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			14,
+			18,
+			29
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}

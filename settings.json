@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"dictation": {
+		"language": "pt-BR"
+	},
+	"claudeCode": {
+		"enabled": false
+	},
+	"agent": {
+		"tools": {
+			"explain": false
+		},
+		"graphTools": {
+			"enabled": true
+		}
+	},
+	"models": {
+		"strong": {
+			"model": {
+				"provider": "antigravity-subscription",
+				"id": "claude-opus-5-5"
+			},
+			"thinkingLevel": "medium"
+		},
+		"cheap": {
+			"model": {
+				"provider": "antigravity-subscription",
+				"id": "gemini-3.8-flash"
+			},
+			"thinkingLevel": "medium"
+		},
+		"vision": {
+			"model": {
+				"provider": "antigravity-subscription",
+				"id": "gemini-3.8-flash"
+			},
+			"thinkingLevel": "medium"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+# Trava de segredos
+*auth*.json
+*credentials*.json
+*.env*
+*.key
+# Arquivos temporarios e logs
+debug/
+*.tmp
+*.lock

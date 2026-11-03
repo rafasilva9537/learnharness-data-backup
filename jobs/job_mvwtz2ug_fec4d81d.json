@@ -1,0 +1,85 @@
+{
+	"id": "job_mvwtz2ug_fec4d81d",
+	"kind": "pdf",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_701710",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\PORTARIA Nº 157, DE 14 DE ABRIL DE 2026 - PORTARIA Nº 157, DE 14 DE ABRIL DE 2026 - DOU - Ciência da Computação.pdf",
+		"question": "Extraia a lista completa de conteúdos programáticos (objetos de conhecimento), competências e estrutura da prova (quantidade de questões objetivas e discursivas) definidos na Portaria nº 157/2026 para o ENADE de Ciência da Computação (Bacharelado)."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-10-31T20:05:25.672Z",
+	"updatedAt": "2026-10-31T20:08:22.433Z",
+	"usage": {
+		"model": "openrouter:google/gemini-3.8-flash",
+		"inputTokens": 10687,
+		"outputTokens": 2269,
+		"cacheReadTokens": 0,
+		"cacheWriteTokens": 0,
+		"reasoningTokens": 1454,
+		"cacheWrite1hTokens": 0,
+		"steps": 4,
+		"calls": [
+			{
+				"inputTokens": 955,
+				"outputTokens": 176,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 166
+			},
+			{
+				"inputTokens": 1277,
+				"outputTokens": 40,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 22
+			},
+			{
+				"inputTokens": 2997,
+				"outputTokens": 222,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 198
+			},
+			{
+				"inputTokens": 5458,
+				"outputTokens": 1831,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 1068
+			}
+		],
+		"lastStep": {
+			"inputTokens": 5458,
+			"outputTokens": 1831,
+			"cacheReadTokens": 0,
+			"cacheWriteTokens": 0,
+			"cacheWrite1hTokens": 0,
+			"reasoningTokens": 1068
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\PORTARIA Nº 157, DE 14 DE ABRIL DE 2026 - PORTARIA Nº 157, DE 14 DE ABRIL DE 2026 - DOU - Ciência da Computação.pdf",
+		"question": "Extraia a lista completa de conteúdos programáticos (objetos de conhecimento), competências e estrutura da prova (quantidade de questões objetivas e discursivas) definidos na Portaria nº 157/2026 para o ENADE de Ciência da Computação (Bacharelado).",
+		"brief": "### Estrutura da Prova\nA prova do Enade possui duração total de 4 horas e é composta por dois blocos (p. 1):\n* **Formação Geral:** 15 questões de múltipla escolha (p. 1).\n* **Componente Específico (Ciência da Computação):** 30 questões de múltipla escolha e 1 questão discursiva (p. 1).\n\n---\n\n### Competências Avaliadas\nO componente específico afere duas macrocompetências e suas respectivas habilidades (p. 1-2):\n* **Competência I:** Capacidade de especificar, projetar, implementar, validar e promover a evolução de sistemas computacionais (*hardware* e/ou *software*), empregando teorias, modelos, técnicas e ferramentas adequadas (p. 1). Envolve as habilidades de: (1) conhecer fundamentos da computação; (2) conhecer métodos e ferramentas matemáticas e estatísticas para modelagem e resolução de problemas; (3) analisar requisitos de sistemas e de usabilidade; (4) avaliar a aplicabilidade de métodos e ferramentas computacionais; e (5) aplicar soluções computacionais em diversos domínios (p. 2).\n* **Competência II:** Capacidade de gerenciar recursos, projetos e sistemas computacionais, aplicando métodos, boas práticas e ferramentas adequadas ao contexto (p. 2). Envolve as habilidades de: (1) entender riscos na concepção e uso de sistemas; (2) aplicar conceitos e ferramentas de gestão de projetos e sistemas; (3) aplicar temas e princípios recorrentes (abstração, complexidade, localidade de referência/*caching*, compartilhamento de recursos, segurança, concorrência, evolução de sistemas); (4) analisar dados e informações para tomada de decisão; (5) avaliar o impacto social e ambiental da computação; e (6) integrar conhecimentos teóricos para solucionar problemas contemporâneos (p. 2).\n\n---\n\n### Conteúdos Programáticos (Objetos de Conhecimento)\nO Art. 6º estabelece a lista completa com os 20 objetos de conhecimento referenciais da área (p. 2):\n1. Algoritmos e estruturas de dados (p. 2);\n2. Engenharia de software (p. 2);\n3. Interação humano-computador (p. 2);\n4. Ética, computação e sociedade (p. 2);\n5. Sistemas digitais (p. 2);\n6. Organização e arquitetura de computadores (p. 2);\n7. Sistemas operacionais (p. 2);\n8. Lógica e matemática discreta (p. 2);\n9. Fundamentos e técnicas de programação (p. 2);\n10. Paradigmas de linguagens de programação (p. 2);\n11. Redes de computadores (p. 2);\n12. Inteligência artificial (p. 2);\n13. Bancos de dados (p. 2);\n14. Computação gráfica e processamento de imagem (p. 2);\n15. Teoria dos grafos (p. 2);\n16. Probabilidade e estatística (p. 2);\n17. Sistemas distribuídos (p. 2);\n18. Teoria da computação (p. 2);\n19. Compiladores (p. 2);\n20. Segurança da informação (p. 2).\n\nPages consulted: 1, 2, 3",
+		"pagesRead": [
+			1,
+			2,
+			3
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

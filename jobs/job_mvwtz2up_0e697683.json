@@ -1,0 +1,197 @@
+{
+	"id": "job_mvwtz2up_0e697683",
+	"kind": "pdf",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_701740",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\2017_PROVA_CIE_COM_BACHAREL_BAIXA.pdf",
+		"question": "Liste todas as questões de formação específica (discursivas 3 a 5 e objetivas 9 a 35) da prova ENADE 2017 de Ciência da Computação, indicando para cada questão o número, o tema/subárea da Ciência da Computação cobrado e o conceito técnico exato exigido para resolvê-la."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-10-31T20:05:25.681Z",
+	"updatedAt": "2026-10-31T20:08:10.405Z",
+	"usage": {
+		"model": "openrouter:google/gemini-3.8-flash",
+		"inputTokens": 107596,
+		"outputTokens": 13431,
+		"cacheReadTokens": 476647,
+		"cacheWriteTokens": 0,
+		"reasoningTokens": 9586,
+		"cacheWrite1hTokens": 0,
+		"steps": 12,
+		"calls": [
+			{
+				"inputTokens": 938,
+				"outputTokens": 150,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 140
+			},
+			{
+				"inputTokens": 1922,
+				"outputTokens": 206,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 183
+			},
+			{
+				"inputTokens": 2132,
+				"outputTokens": 31,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 14
+			},
+			{
+				"inputTokens": 46808,
+				"outputTokens": 434,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 412
+			},
+			{
+				"inputTokens": 2432,
+				"outputTokens": 34,
+				"cacheReadTokens": 44814,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 15
+			},
+			{
+				"inputTokens": 8523,
+				"outputTokens": 65,
+				"cacheReadTokens": 44823,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 45
+			},
+			{
+				"inputTokens": 3671,
+				"outputTokens": 181,
+				"cacheReadTokens": 52968,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 158
+			},
+			{
+				"inputTokens": 9521,
+				"outputTokens": 1363,
+				"cacheReadTokens": 52975,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 1337
+			},
+			{
+				"inputTokens": 7228,
+				"outputTokens": 40,
+				"cacheReadTokens": 61114,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 14
+			},
+			{
+				"inputTokens": 9905,
+				"outputTokens": 40,
+				"cacheReadTokens": 65180,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 14
+			},
+			{
+				"inputTokens": 8509,
+				"outputTokens": 40,
+				"cacheReadTokens": 73319,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 14
+			},
+			{
+				"inputTokens": 6007,
+				"outputTokens": 10847,
+				"cacheReadTokens": 81454,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 7240
+			}
+		],
+		"lastStep": {
+			"inputTokens": 6007,
+			"outputTokens": 10847,
+			"cacheReadTokens": 81454,
+			"cacheWriteTokens": 0,
+			"cacheWrite1hTokens": 0,
+			"reasoningTokens": 7240
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\2017_PROVA_CIE_COM_BACHAREL_BAIXA.pdf",
+		"question": "Liste todas as questões de formação específica (discursivas 3 a 5 e objetivas 9 a 35) da prova ENADE 2017 de Ciência da Computação, indicando para cada questão o número, o tema/subárea da Ciência da Computação cobrado e o conceito técnico exato exigido para resolvê-la.",
+		"brief": "Apresenta-se a análise detalhada de todas as 30 questões do Componente Específico da prova do ENADE 2017 de Ciência da Computação (questões discursivas 3 a 5 e objetivas 9 a 35), especificando número, subárea temática e o conceito técnico exato exigido para a sua resolução.\n\n---\n\n### Questões Discursivas (Formação Específica)\n\n* **Questão Discursiva 03** (p. 13)\n  * **Subárea:** Algoritmos e Estruturas de Dados.\n  * **Conceito Técnico Exato:** Análise assintótica de complexidade de tempo $\\Theta(n)$ e espaço $\\Theta(n)$ em algoritmo recursivo de percurso de lista simplesmente encadeada; eliminação de recursão mediante o uso explícito de uma estrutura de dados de Pilha (LIFO) de inteiros com primitivas (`empilhar`, `desempilhar`, `pilha_vazia`), mantendo a complexidade linear $\\Theta(n)$ para impressão invertida (da cauda para a cabeça).\n* **Questão Discursiva 04** (p. 14)\n  * **Subárea:** Engenharia de Software / Modelagem Orientada a Objetos.\n  * **Conceito Técnico Exato:** Modelagem de Diagrama de Classes UML com hierarquia de herança, classe abstrata anotada com a restrição `{abstract}` (`Colaborador`) e método polimórfico abstrato de cálculo salarial implementado nas subclasses concretas (`Comissionado`, `Horista`, `Assalariado`), incluindo associações e multiplicidades (`Departamento` 1 $\\leftrightarrow$ 1..* `Colaborador`) e expressões das fórmulas salariais.\n* **Questão Discursiva 05** (p. 15)\n  * **Subárea:** Teoria dos Grafos e Algoritmos.\n  * **Conceito Técnico Exato:** Rastreamento determinístico do algoritmo de Busca em Profundidade (*Depth-First Search* — DFS) em dígrafo com controle de vértices visitados a partir do vértice inicial $r$, aplicando critério de desempate por ordem alfabética crescente para determinar a ordem de descoberta dos nós; construção da matriz de adjacências booleana correspondente.\n\n---\n\n### Questões Objetivas (Formação Específica)\n\n* **Questão 09** (p. 16)\n  * **Subárea:** Estruturas de Dados (Árvores Balanceadas).\n  * **Conceito Técnico Exato:** Inserção em Árvore AVL, cálculo dos fatores de balanceamento ($FB$) dos nós ancestrais e execução de **rotação simples à direita** na subárvore desbalanceada (raiz 5, $FB=+2$, filho 4 com $FB=+1$) para restaurar a invariante da árvore binária balanceada.\n* **Questão 10** (p. 17)\n  * **Subárea:** Engenharia de Software / Padrões de Projeto (*Design Patterns*).\n  * **Conceito Técnico Exato:** Padrão de projeto comportamental *Observer* (GoF) para desacoplamento e notificação dinâmica *publish-subscribe* entre sujeito e múltiplos observadores dependentes; distinção em relação ao estilo arquitetural Cliente-Servidor clássico (baseado em requisição/resposta ativa do cliente).\n* **Questão 11** (p. 17)\n  * **Subárea:** Programação Orientada a Objetos (POO).\n  * **Conceito Técnico Exato:** Princípio do encapsulamento e modificadores de visibilidade/acesso: semântica do modificador `protected`, que garante que o membro é visível na classe em que foi definido e em todas as suas classes descendentes (subclasses por herança).\n* **Questão 12** (p. 18)\n  * **Subárea:** Arquitetura e Organização de Computadores.\n  * **Conceito Técnico Exato:** Organização da memória principal de acesso aleatório (RAM): relação entre a largura do Registrador de Endereços de Memória ($MAR = N$ bits $\\Rightarrow 2^N$ células endereçáveis), capacidade do Registrador de Dados da Memória ($MDR$) frente a grandezas numéricas que extrapolam a capacidade de uma célula individual e acoplamento entre a largura da célula e o tamanho do $MDR$.\n* **Questão 13** (p. 19)\n  * **Subárea:** Sistemas Digitais / Lógica Combinacional.\n  * **Conceito Técnico Exato:** Análise de circuito lógico booleano com portas AND e OR cuja função de saída é $S = (Ta \\land Tb) \\lor (Tb \\land Tc) = Tb \\land (Ta \\lor Tc)$, interpretando o diagrama de formas de onda temporais para identificar os instantes discretos ($t_1$ a $t_8$) de acionamento do sinal.\n* **Questão 14** (p. 19)\n  * **Subárea:** Matemática Discreta / Fundamentos da Computação.\n  * **Conceito Técnico Exato:** Definição formal e identificação de Relações de Equivalência em conjuntos (propriedades reflexiva, simétrica e transitiva), reconhecendo a relação de identidade ($a = b$) e a relação de congruência por paridade da soma ($a+b$ é par).\n* **Questão 15** (p. 20)\n  * **Subárea:** Redes de Computadores e Segurança da Informação.\n  * **Conceito Técnico Exato:** Ataques *Man-in-the-Middle* via envenenamento de cache ARP (*ARP Spoofing*) em redes IEEE 802.11 (Wi-Fi) e contra-ataques criptográficos baseados em autenticação de pontos de acesso com chaves públicas / certificados digitais (TLS/SSL e 802.1X).\n* **Questão 16** (p. 20)\n  * **Subárea:** Segurança da Informação.\n  * **Conceito Técnico Exato:** Princípios da segurança corporativa: vulnerabilidade inerente ao fator humano perante técnicas de engenharia social, concepção da segurança como um processo contínuo (não como um produto estático) e relevância da ética e conformidade normativa.\n* **Questão 17** (p. 21)\n  * **Subárea:** Inteligência Artificial / Informática na Educação.\n  * **Conceito Técnico Exato:** Sistemas Tutores Inteligentes e algoritmos adaptativos de IA: modelagem do perfil do estudante e mineração/reconhecimento de padrões a partir do histórico de respostas para personalização da aprendizagem.\n* **Questão 18** (p. 21)\n  * **Subárea:** Algoritmos e Estruturas de Dados.\n  * **Conceito Técnico Exato:** Depuração lógica do algoritmo de ordenação por inserção (*Insertion Sort*): correção da condição do laço interno para ordem crescente (`while(j >= 0 && v[j] > chave)`) e do deslocamento correto do elemento anterior para a posição à direita (`v[j+1] = v[j]`).\n* **Questão 19** (p. 22)\n  * **Subárea:** Bancos de Dados.\n  * **Conceito Técnico Exato:** Junção relacional interna (`INNER JOIN`) em SQL sobre modelo Entidade-Relacionamento: cruzamento entre entidade forte (`Deputado`), entidade associativa (`Participacao`) e entidade de evento (`Secao`) via integridade referencial de chaves primárias e estrangeiras.\n* **Questão 20** (p. 23)\n  * **Subárea:** Redes de Computadores.\n  * **Conceito Técnico Exato:** *Trade-offs* da camada de transporte entre os protocolos TCP (orientado à conexão, confiável, com confirmação e controle de congestionamento) e UDP (não orientado à conexão, sem garantia de entrega, com baixa latência para aplicações sensíveis a atrasos).\n* **Questão 21** (p. 23)\n  * **Subárea:** Lógica Matemática / Lógica Proposicional.\n  * **Conceito Técnico Exato:** Formalização de sentenças da linguagem natural em lógica proposicional envolvendo condicionais e bicondicionais (\"se e somente se\" aninhado à implicação: $E \\rightarrow (R \\leftrightarrow A)$).\n* **Questão 22** (p. 24)\n  * **Subárea:** Projeto e Análise de Algoritmos.\n  * **Conceito Técnico Exato:** Paradigma Guloso (*Greedy Algorithms*): propriedade da escolha gulosa e subestrutura ótima no Problema do Troco (*Change-Making Problem*) para sistemas monetários canônicos versus o fato de que a estratégia gulosa não garante a solução global ótima para qualquer problema ou conjunto arbitrário de moedas.\n* **Questão 23** (p. 24)\n  * **Subárea:** Teoria da Computação e Linguagens Formais.\n  * **Conceito Técnico Exato:** Limitações de autômatos finitos (DFA/NFA) pela ausência de memória auxiliar/pilha para contagem irrestrita; aplicação do Lema do Bombeamento (*Pumping Lemma*) comprovando que linguagens com casamento arbitrário de parênteses (Linguagem de Dyck) não são regulares, mas sim livres de contexto.\n* **Questão 24** (p. 25)\n  * **Subárea:** Teoria dos Grafos e Otimização Combinatória.\n  * **Conceito Técnico Exato:** Algoritmo de Dijkstra para caminhos mínimos com pesos não-negativos; princípio da subestrutura ótima dos caminhos mínimos (qualquer subcaminho de um caminho mínimo é também mínimo); distinção entre Árvore Geradora Mínima (Kruskal/MST) e Árvore de Caminhos Mínimos.\n* **Questão 25** (p. 25)\n  * **Subárea:** Análise de Complexidade de Algoritmos.\n  * **Conceito Técnico Exato:** Análise de complexidade temporal e espacial da função recursiva ingênua de Fibonacci ($T(n) = \\Theta(\\phi^n)$, exponencial em tempo, e altura da pilha $O(n)$, linear em espaço); possibilidade de otimização iterativa com tempo linear $O(n)$ e espaço constante $O(1)$.\n* **Questão 26** (p. 26)\n  * **Subárea:** Processamento Digital de Imagens.\n  * **Conceito Técnico Exato:** Filtragem espacial não-linear: aplicação do **filtro da mediana** para atenuação eficaz de ruído impulsivo (*salt and pepper*) com capacidade intrínseca de preservação de bordas e contornos nítidos.\n* **Questão 27** (p. 26)\n  * **Subárea:** Computação Gráfica.\n  * **Conceito Técnico Exato:** Modelos de iluminação e sombreamento (*shading*): efeito perceptivo das Bandas de Mach e aspecto facetado decorrentes do sombreamento constante (*Flat Shading*); modelo de iluminação de Phong para renderização de realces e reflexões especulares via interpolação de normais.\n* **Questão 28** (p. 27)\n  * **Subárea:** Engenharia de Software.\n  * **Conceito Técnico Exato:** Metodologias Ágeis e *framework* Scrum: entrega incremental por meio de iterações de tempo fixo (*Sprints*) e envolvimento contínuo do cliente na priorização de requisitos; distinção entre práticas nativas do Scrum e práticas originárias de outros métodos ágeis (como a Programação em Pares, própria do XP).\n* **Questão 29** (p. 27)\n  * **Subárea:** Sistemas Operacionais.\n  * **Conceito Técnico Exato:** Gerenciamento de memória virtual: simulação comparativa de faltas de página (*page faults*) sob os algoritmos de substituição FIFO (*First-In, First-Out*) e LRU (*Least Recently Used*) para uma sequência de referências e número fixo de molduras.\n* **Questão 30** (p. 28)\n  * **Subárea:** Compiladores / Teoria de Linguagens.\n  * **Conceito Técnico Exato:** Análise sintática descendente preditiva: construção e verificação de conflitos na tabela de análise sintática LL(1) a partir do cálculo dos conjuntos FIRST e FOLLOW; identificação de não-determinismo/ambiguidade na gramática livre de contexto quando uma célula da tabela contém múltiplas produções.\n* **Questão 31** (p. 29)\n  * **Subárea:** Sistemas Operacionais / Programação Concorrente.\n  * **Conceito Técnico Exato:** Concorrência entre *threads* (POSIX Threads — `pthreads`) sem sincronização mútua sobre variáveis compartilhadas globais; análise dos cenários de intercalação (*interleaving*) determinando que os fluxos possíveis resultam na impressão de \"1\", de \"2\" ou de nenhum valor, mas nunca ambos.\n* **Questão 32** (p. 30)\n  * **Subárea:** Inteligência Artificial.\n  * **Conceito Técnico Exato:** Paradigma de Agentes Inteligentes (Russell & Norvig): formalismo matemático da função do agente (mapeamento da sequência perceptiva para ações) versus programa do agente; cardinalidade do espaço de estados no problema do Mundo do Aspirador de Pó ($2 \\times 2^2 = 8$ estados possíveis) e distinção entre percepção e ação.\n* **Questão 33** (p. 31)\n  * **Subárea:** Análise de Algoritmos.\n  * **Conceito Técnico Exato:** Relações de recorrência e complexidade assintótica: dedução da recorrência $T(n) = T(n/2) + O(n)$ (distinta do Mergesort, que possui duas chamadas recursivas $2T(n/2) + O(n)$); determinação de que o número de chamadas recursivas é $\\Theta(\\log n)$ e que o número total de execuções do laço interno converge para uma série geométrica $O(n)$.\n* **Questão 34** (p. 32)\n  * **Subárea:** Bancos de Dados.\n  * **Conceito Técnico Exato:** Normalização de dados relacionais: critérios da Primeira Forma Normal — 1FN (requisito de atomicidade de atributos, violado por campos multivalorados compostos), dependência funcional total na Segunda Forma Normal (2FN) e ausência de dependências transitivas na Terceira Forma Normal (3FN).\n* **Questão 35** (p. 33)\n  * **Subárea:** Sistemas Operacionais / Programação Concorrente.\n  * **Conceito Técnico Exato:** Condições de Coffman para Impasse (*Deadlock*): formação de espera circular (*circular wait*) decorrente de duas *threads* alocando dois recursos compartilhados ($E_1$ e $E_2$) em ordens inversas/cruzadas; prevenção de *deadlock* pela técnica de imposição de ordenação estrita/hierárquica na requisição de recursos por todos os processos.\n\n---\nPages consulted: 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35.",
+		"pagesRead": [
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35
+		],
+		"pagesConsulted": [
+			2,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}

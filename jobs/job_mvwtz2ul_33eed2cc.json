@@ -1,0 +1,202 @@
+{
+	"id": "job_mvwtz2ul_33eed2cc",
+	"kind": "pdf",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_701725",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\2021_PROVA_bacharelado_ciencia_computacao.pdf",
+		"question": "Liste todas as questões de formação específica (discursivas 3 a 5 e objetivas 9 a 35) da prova ENADE 2021 de Ciência da Computação, indicando para cada questão o número, o tema/subárea da Ciência da Computação cobrado e o conceito técnico exato exigido para resolvê-la."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-10-31T20:05:25.677Z",
+	"updatedAt": "2026-10-31T20:08:06.613Z",
+	"usage": {
+		"model": "openrouter:google/gemini-3.8-flash",
+		"inputTokens": 37918,
+		"outputTokens": 9105,
+		"cacheReadTokens": 100502,
+		"cacheWriteTokens": 0,
+		"reasoningTokens": 6300,
+		"cacheWrite1hTokens": 0,
+		"steps": 11,
+		"calls": [
+			{
+				"inputTokens": 934,
+				"outputTokens": 116,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 106
+			},
+			{
+				"inputTokens": 2041,
+				"outputTokens": 292,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 271
+			},
+			{
+				"inputTokens": 4875,
+				"outputTokens": 95,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 72
+			},
+			{
+				"inputTokens": 2247,
+				"outputTokens": 245,
+				"cacheReadTokens": 3947,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 225
+			},
+			{
+				"inputTokens": 2193,
+				"outputTokens": 298,
+				"cacheReadTokens": 5957,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 278
+			},
+			{
+				"inputTokens": 3318,
+				"outputTokens": 43,
+				"cacheReadTokens": 7996,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 23
+			},
+			{
+				"inputTokens": 4296,
+				"outputTokens": 43,
+				"cacheReadTokens": 10030,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 23
+			},
+			{
+				"inputTokens": 3845,
+				"outputTokens": 48,
+				"cacheReadTokens": 14083,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 28
+			},
+			{
+				"inputTokens": 5130,
+				"outputTokens": 95,
+				"cacheReadTokens": 16123,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 75
+			},
+			{
+				"inputTokens": 2574,
+				"outputTokens": 402,
+				"cacheReadTokens": 20156,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 367
+			},
+			{
+				"inputTokens": 6465,
+				"outputTokens": 7428,
+				"cacheReadTokens": 22210,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0,
+				"reasoningTokens": 4832
+			}
+		],
+		"lastStep": {
+			"inputTokens": 6465,
+			"outputTokens": 7428,
+			"cacheReadTokens": 22210,
+			"cacheWriteTokens": 0,
+			"cacheWrite1hTokens": 0,
+			"reasoningTokens": 4832
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\2021_PROVA_bacharelado_ciencia_computacao.pdf",
+		"question": "Liste todas as questões de formação específica (discursivas 3 a 5 e objetivas 9 a 35) da prova ENADE 2021 de Ciência da Computação, indicando para cada questão o número, o tema/subárea da Ciência da Computação cobrado e o conceito técnico exato exigido para resolvê-la.",
+		"brief": "A avaliação do Componente Específico da prova ENADE 2021 de Ciência da Computação compreende 3 questões discursivas (3 a 5) e 27 questões objetivas (9 a 35), distribuídas nas áreas centrais da computação (pp. 14-43):\n\n### Questões Discursivas (3 a 5)\n* **Questão Discursiva 03** (pp. 14-15): **Lógica Matemática / Lógica para Computação**. Exige avaliação de fórmulas proposicionais em tabela-verdade, verificação de tautologia, determinação de satisfatibilidade de conjuntos de fórmulas e dedução de consequência lógica (implicação semântica).\n* **Questão Discursiva 04** (p. 16): **Circuitos Digitais / Arquitetura de Computadores**. Exige a síntese de um somador completo de 1 bit (*Full Adder*), incluindo construção de tabela-verdade de três entradas ($A, B, C_{in}$) e duas saídas ($S, C_{out}$), derivação de equações booleanas e desenho esquemático do circuito com portas lógicas (XOR, AND, OR).\n* **Questão Discursiva 05** (pp. 17-18): **Estruturas de Dados e Algoritmos**. Exige simulação do algoritmo de construção de *Max-Heap* (`buildHeap`/`heapify`) sobre um arranjo de inteiros e análise assintótica de complexidade de tempo de pior caso da operação `heapify` ($O(\\log n)$ / $\\Theta(\\log n)$).\n\n---\n\n### Questões Objetivas (9 a 35)\n* **Questão 09** (p. 19): **Sistemas Operacionais**. Exige a correlação entre algoritmos de escalonamento de processos (prioridades, round-robin, RMS, SJF) e classes de ambientes operacionais (sistemas interativos, de tempo real e em lote).\n* **Questão 10** (p. 19): **Estruturas de Dados**. Exige a caracterização do comportamento e regras de inserção/remoção de estruturas lineares fundamentais: Deque, Lista Simplesmente Encadeada, Pilha (LIFO) e Fila (FIFO).\n* **Questão 11** (p. 20): **Inteligência Artificial / Aprendizado Profundo (*Deep Learning*)**. Exige princípios de treinamento e arquiteturas de redes neurais profundas para visão computacional, identificando o papel de Redes Neurais Convolucionais (CNNs) e ampliação do conjunto de dados para acurácia e generalização.\n* **Questão 12** (p. 21): **Legislação, Ética e Segurança da Informação**. Exige conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018), cobrando o tratamento de dados pessoais sensíveis, reversibilidade de anonimização, direitos dos titulares e competências da ANPD.\n* **Questão 13** (p. 22): **Engenharia de Software**. Exige fundamentos de processos de desenvolvimento iterativo e evolutivo, no qual cada iteração gera incrementos parciais executáveis testáveis pelo cliente como protótipos funcionais.\n* **Questão 14** (p. 23): **Arquitetura de Computadores**. Exige o conceito da Arquitetura de Von Neumann (armazenamento conjunto de dados e instruções codificados em binário na memória) e diferenciação frente a técnicas microarquiteturais modernas de busca antecipada (*prefetching*).\n* **Questão 15** (p. 24): **Engenharia de Software / Métodos Ágeis**. Exige papéis e responsabilidades no framework Scrum, identificando a atuação do *Scrum Master* (facilitador metodológico) e do *Product Owner* (direcionamento de valor do produto) e a autonomia auto-organizável da equipe de desenvolvimento.\n* **Questão 16** (p. 25): **Circuitos Digitais / Álgebra Booleana**. Exige análise e mapeamento direto de circuito combinacional com portas lógicas inversoras (NOT), AND e OR para a respectiva expressão booleana resultante $((X_3 \\cdot X_2') + X_1')'$.\n* **Questão 17** (pp. 26-27): **Sistemas Operacionais / Programação Concorrente**. Exige conceitos de exclusão mútua em seções críticas, avaliando o uso de desabilitação de interrupções no nível do núcleo do SO e sua ineficácia/inadequação em arquiteturas multiprocessadas.\n* **Questão 18** (p. 27): **Aprendizado de Máquina (*Machine Learning*)**. Exige a distinção conceitual entre aprendizado supervisionado (modelos como regressão linear, dados rotulados e erro entre saída obtida e desejada) e não supervisionado (agrupamento/reconhecimento de padrões sem rótulos prévios).\n* **Questão 19** (p. 28): **Interação Humano-Computador (IHC) / Engenharia de Requisitos**. Exige a aplicação e finalidade das técnicas de *Personas* e *Cenários* na elicitação de requisitos, destacando a contextualização de usuários reais e revelação de requisitos implícitos.\n* **Questão 20** (p. 29): **Algoritmos e Estruturas de Dados**. Exige rastreamento de código e comparação assintótica entre busca linear ($O(n)$) e busca binária recursiva com divisão e conquista ($O(\\log n)$) sobre vetor ordenado.\n* **Questão 21** (p. 30): **Redes de Computadores / Modelos de Camadas**. Exige o papel e a camada de operação de dispositivos de rede, identificando a atuação de *bridges* e *switches* na camada de enlace (isolamento de domínios de colisão e comutação por endereço MAC sem inspeção do payload IP).\n* **Questão 22** (p. 31): **Banco de Dados**. Exige regras de mapeamento de modelo conceitual Entidade-Relacionamento (DER) para modelo lógico relacional, especificamente a propagação de chaves primárias como chaves estrangeiras em relacionamentos 1:N.\n* **Questão 23** (p. 32): **Estruturas de Dados**. Exige inserção de elementos em Árvore Binária de Busca (BST) e propriedades dos percursos, requerendo o conhecimento de que o percurso em-ordem (*in-order traversal*) produz os elementos em ordem estritamente crescente.\n* **Questão 24** (p. 33): **Segurança da Informação e Criptografia**. Exige o papel de primitivas criptográficas: criptografia assimétrica para autenticação de remetente, vetores de inicialização (IV) contra ataques de repetição, simetria do algoritmo AES e verificação de integridade via funções hash (SHA-256).\n* **Questão 25** (p. 34): **Computação em Nuvem (*Cloud Computing*)**. Exige taxonomia do NIST para modelos de serviço (SaaS, IaaS) e características essenciais, identificando o nível de controle do usuário sobre sistemas operacionais e aplicações em IaaS e a abstração completa em SaaS.\n* **Questão 26** (p. 35): **Interação Humano-Computador (IHC)**. Exige classificação e técnicas de interfaces adaptativas nos níveis de conteúdo (fragmentos condicionais, variantes de texto), navegação (ordenação/ocultação de links) e apresentação (estilos, layouts).\n* **Questão 27** (p. 36): **Probabilidade e Estatística Aplicada**. Exige interpretação de histogramas e aplicação da Regra Empírica da Distribuição Normal ($z = \\pm 2$ desvios padrão correspondendo a aproximadamente $95,44\\%$ dos dados no intervalo $[\\mu - 2\\sigma, \\mu + 2\\sigma]$).\n* **Questão 28** (pp. 36-37): **Arquitetura de Computadores / Processadores**. Exige funcionamento de *pipeline* de instruções de 5 estágios, abrangendo propagação de bolhas (*stalls*) por falha de busca e mitigação de desvios condicionais por *Branch Target Buffer* (BTB).\n* **Questão 29** (p. 38): **Processamento Digital de Imagens / Visão Computacional**. Exige morfologia matemática para imagens em níveis de cinza/binárias, contrastando as definições dos operadores de Dilatação (máximo local sob o elemento estruturante) e Erosão (mínimo local sob o elemento estruturante).\n* **Questão 30** (p. 39): **Compiladores**. Exige a divisão e atribuições das fases de compilação: análise léxica (geração de tokens específicos da linguagem), análise sintática (validação estrutural da gramática), análise semântica e otimização de código intermediário.\n* **Questão 31** (p. 40): **Teoria da Computação / Linguagens Formais e Autômatos**. Exige rastreamento de transições e fita de Máquina de Turing determinística para reconhecimento de palíndromos binários de tamanho par ($ww^R$) e sua classificação como linguagem livre de contexto aceita por autômato com pilha.\n* **Questão 32** (p. 41): **Análise de Algoritmos / Ordenação**. Exige análise do algoritmo *Quicksort* com partição de Lomuto, cobrando sua não estabilidade, complexidade média de tempo $O(n \\log n)$ e uso de memória de pilha recursiva $O(n)$ no pior caso.\n* **Questão 33** (p. 42): **Paradigmas de Programação / Programação Lógica**. Exige sintaxe e unificação em Prolog, requerendo escrita de regra lógica com conjunção de predicados, igualdade/desigualdade de variáveis (`X \\= Y`) e verificação de predicados unários (`mulher/1`) para inferir parentesco.\n* **Questão 34** (p. 43): **Teoria dos Grafos / Algoritmos em Grafos**. Exige execução passo a passo do algoritmo de Dijkstra para caminhos mínimos, rastreando a atualização/relaxamento das estimativas de custo acumulado na fila de prioridades após as duas primeiras iterações a partir do vértice de origem.\n* **Questão 35** (p. 43): **Sistemas Distribuídos**. Exige conceitos de arquitetura distribuída, destacando a propriedade de escalabilidade como capacidade de adicionar recursos computacionais para suportar aumento de demanda, além de aspectos de heterogeneidade e sincronização.\n\nPages consulted: 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43",
+		"pagesRead": [
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43
+		],
+		"pagesConsulted": [
+			2,
+			4,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}
