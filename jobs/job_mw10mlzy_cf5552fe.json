@@ -1,0 +1,77 @@
+{
+	"id": "job_mw10mlzy_cf5552fe",
+	"kind": "pdf",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_1546437",
+	"input": {
+		"question": "Extraia todo o conteúdo deste arquivo de gabarito do Simulado 1 (questões, respostas e quaisquer classificações de temas/disciplinas presentes).",
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1_gabarito.pdf"
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-03T18:22:45.982Z",
+	"updatedAt": "2026-11-03T18:24:38.352Z",
+	"usage": {
+		"model": "antigravity-subscription:gemini-3.8-flash",
+		"inputTokens": 7667,
+		"outputTokens": 2581,
+		"cacheReadTokens": 0,
+		"cacheWriteTokens": 0,
+		"cacheWrite1hTokens": 0,
+		"steps": 4,
+		"calls": [
+			{
+				"inputTokens": 1001,
+				"outputTokens": 70,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 1164,
+				"outputTokens": 54,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 1594,
+				"outputTokens": 61,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 3908,
+				"outputTokens": 2396,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 3908,
+			"outputTokens": 2396,
+			"cacheReadTokens": 0,
+			"cacheWriteTokens": 0,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1_gabarito.pdf",
+		"question": "Extraia todo o conteúdo deste arquivo de gabarito do Simulado 1 (questões, respostas e quaisquer classificações de temas/disciplinas presentes).",
+		"brief": "O documento consiste exclusivamente nas tabelas de respostas objetivas (questões 01 a 45) de dois cursos, sem conter nenhuma classificação textual de temas, disciplinas ou áreas do conhecimento (p. 1, 2). \n\n### Gabarito – Simulado Ciência da Computação (p. 1)\n* **01–10:** 01-B, 02-A, 03-B, 04-B, 05-C, 06-C, 07-D, 08-C, 09-A *(sublinhado no original)*, 10-A\n* **11–20:** 11-C, 12-A, 13-B, 14-C, 15-C, 16-D, 17-E, 18-C, 19-A, 20-C\n* **21–30:** 21-E, 22-A, 23-D, 24-A, 25-C, 26-B, 27-D, 28-C, 29-C, 30-C\n* **31–40:** 31-C, 32-D, 33-A, 34-A, 35-D, 36-A, 37-A, 38-E, 39-B, 40-A\n* **41–45:** 41-D, 42-E, 43-D, 44-C, 45-D\n\n### Gabarito – Simulado Engenharia da Computação (p. 2)\n* **01–10:** 01-B, 02-A, 03-B, 04-B, 05-C, 06-C, 07-D, 08-C, 09-A, 10-A\n* **11–20:** 11-C, 12-A, 13-B, 14-C, 15-C, 16-D, 17-E, 18-C, 19-A, 20-C\n* **21–30:** 21-E, 22-A, 23-D, 24-A, 25-C, 26-B, 27-D, 28-C, 29-D *(sublinhado)*, 30-A *(sublinhado)*\n* **31–40:** 31-A *(sublinhado)*, 32-B *(sublinhado)*, 33-A, 34-C *(sublinhado)*, 35-D, 36-B *(sublinhado)*, 37-A, 38-E, 39-A *(sublinhado)*, 40-D *(sublinhado)*\n* **41–45:** 41-D, 42-E *(sublinhado)*, 43-D, 44-C, 45-D\n\nPages consulted: 1, 2",
+		"pagesRead": [
+			1,
+			2
+		],
+		"pagesConsulted": [
+			1,
+			2
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

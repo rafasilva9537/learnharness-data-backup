@@ -1,0 +1,136 @@
+{
+	"id": "chat_mw13yjg0_6070742e",
+	"title": "teste",
+	"createdAt": "2026-11-03T19:56:01.392Z",
+	"updatedAt": "2026-11-03T19:56:06.967Z",
+	"messages": [
+		{
+			"id": "msg_mw13yjit_744d9077",
+			"role": "user",
+			"content": "teste",
+			"timestamp": 1793735761493
+		},
+		{
+			"role": "assistant",
+			"api": "antigravity-generative-ai",
+			"provider": "antigravity-subscription",
+			"model": "gemini-4-argon",
+			"content": [
+				{
+					"type": "toolCall",
+					"id": "call_158763",
+					"name": "list_sessions",
+					"arguments": {},
+					"thoughtSignature": "EqACCp0CAWkUfRM8NC4nnJEE+CYVVPFy4TX7cA9D848iIqb/Kwp3ji8ueFJ1ycP+7VQ87RLXzEGRzFnLa8PP34gHIu4jY1IcpJsKgK/hKVM1RKL4VHEBe3MJ6KiKylM6vdZ84X6jBvmYb+Z3iXy1xcnbM1Te6dv8m211Qc6iKRrl1mEtmoDi++4z6nHQDsHtLfg903Q8IAeJQHxfcUXHDrFSyFGMSEoF7HPxKcFPMk7WT8pLypDls8sfq7qR17x+REr7ZxHh7LgZA2K0/qA64BYkk9sqF21iU2BJy8UDSJgqheY9nrcgN8On4UR1re2mRnTKPOI8N5i5D28c5M+6AofQpmfSIIsuMx01Qd5viylBX/hKdeI+/1RP/eqewuo+Jz8Z"
+				}
+			],
+			"usage": {
+				"input": 6425,
+				"output": 48,
+				"cacheRead": 0,
+				"cacheWrite": 0,
+				"totalTokens": 6473,
+				"cost": {
+					"input": 0.01285,
+					"output": 0.000576,
+					"cacheRead": 0,
+					"cacheWrite": 0,
+					"total": 0.013426
+				}
+			},
+			"stopReason": "toolUse",
+			"timestamp": 1793735761505,
+			"rawStopReason": "STOP",
+			"durationMs": 2712,
+			"thinkingLevel": "medium",
+			"id": "msg_mw13ynqv_22174fa0"
+		},
+		{
+			"role": "toolResult",
+			"toolCallId": "call_158763",
+			"toolName": "list_sessions",
+			"content": [
+				{
+					"type": "text",
+					"text": "The knowledge graph is empty — no session has contributed propositions yet."
+				}
+			],
+			"details": "The knowledge graph is empty — no session has contributed propositions yet.",
+			"isError": false,
+			"durationMs": 4,
+			"timestamp": 1793735764225,
+			"id": "msg_mw13ynqv_9a89cbfb"
+		},
+		{
+			"role": "assistant",
+			"api": "antigravity-generative-ai",
+			"provider": "antigravity-subscription",
+			"model": "gemini-4-argon",
+			"content": [
+				{
+					"type": "toolCall",
+					"id": "call_157924",
+					"name": "ask_user_question",
+					"arguments": {
+						"question": "O que você gostaria de aprender ou explorar hoje?"
+					},
+					"thoughtSignature": "EtgECtUEAWkUfRPLfK7yfU9OeKPy/cOOr15diASagHB+5FUqbb9Lq5Bj6L9kg802yPmhTmAln5fqED+TkYkDRTfO+uBhJaoZu3X0cv/Dw0b6Ohr4PyGM8J0mwXWokL33fJuLaPumDjBAj6ISr7ElYWgJ8zcSvne5UCwE+hKTGSl6k96GuKGwf4Z3KrHUVSthv+R/qGxggStCELPqkF2fhRfcBu4Ccij9GNRakrlyJmES+zfDBELUb59qUUS8cuQzCFFrnX9jUFzV9ujwmkd8ZWiVjUnWvLAepNcKV4rrk0Q2hcAUmOB/ISjT6/CIub9GB8zlQU713wK2lrXKX2G5E67ls0Xqhl8y3pI0PkA0TSD5RplOAc8ae/6gHlJB3AcK+gFR+WGEbgcX28++h7rjn+aDQv+nk7RdrMfKVnSdj97fYa9xJAYvftayqGAaELiPIR5edl8gHGV4bAvwDdQBplAcrKEh4Y7h0H2c5YSbn3Jhg/h1jbekac+JZ91jrA+QShw2OcgJlOKFIAL7tFXWGihiP98vftNeM2NK3GfjZHCZITY2vbeeYq08lf/UuRCMEAnCMcEakTUYQvWYluqHuafelnh+xQf0u/xI4uhxtovElVoQiHplsBZfHWWHJhsI1LovG6j83Y1N+beNB8/470LviAj9Gd+CF+alXxlQECDzCU/4XHeJauZ637KjcToETknaGmhibobLxQ75mqU1lmCe4o6MuOiSUrcnG7jTRC/w+rXOsK032KcptRKfuCPv1mwciC6rl2qDh7USYL5K4nSaSbTyktmPHtTi"
+				}
+			],
+			"usage": {
+				"input": 6499,
+				"output": 134,
+				"cacheRead": 0,
+				"cacheWrite": 0,
+				"totalTokens": 6633,
+				"cost": {
+					"input": 0.012998,
+					"output": 0.001608,
+					"cacheRead": 0,
+					"cacheWrite": 0,
+					"total": 0.014606
+				}
+			},
+			"stopReason": "toolUse",
+			"timestamp": 1793735764226,
+			"rawStopReason": "STOP",
+			"durationMs": 2738,
+			"thinkingLevel": "medium",
+			"id": "msg_mw13ynqv_1e56732a"
+		}
+	],
+	"version": 1,
+	"settings": {
+		"model": {
+			"provider": "antigravity-subscription",
+			"id": "gemini-4-argon"
+		},
+		"thinkingLevel": "medium"
+	},
+	"turns": [
+		{
+			"id": "d0d9e315-0545-40d2-9e21-7e8442893846",
+			"messageId": "msg_mw13ynqv_22174fa0",
+			"at": "2026-11-03T19:56:06.968Z",
+			"model": "antigravity-subscription:gemini-4-argon",
+			"steps": [
+				{
+					"inputTokens": 6425,
+					"outputTokens": 48,
+					"cacheReadTokens": 0,
+					"cacheWriteTokens": 0,
+					"cacheWrite1hTokens": 0,
+					"reasoningTokens": 0
+				},
+				{
+					"inputTokens": 6499,
+					"outputTokens": 134,
+					"cacheReadTokens": 0,
+					"cacheWriteTokens": 0,
+					"cacheWrite1hTokens": 0,
+					"reasoningTokens": 0
+				}
+			]
+		}
+	]
+}

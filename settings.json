@@ -18,7 +18,7 @@
 		"strong": {
 			"model": {
 				"provider": "antigravity-subscription",
-				"id": "claude-opus-5-5"
+				"id": "gemini-4-argon"
 			},
 			"thinkingLevel": "medium"
 		},
@@ -36,5 +36,8 @@
 			},
 			"thinkingLevel": "medium"
 		}
+	},
+	"graph": {
+		"enabled": true
 	}
 }
