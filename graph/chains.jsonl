@@ -1,0 +1,11 @@
+{"id":"arg_d2a9fe545917","premises":["n_73167848d531"],"conclusion":"n_2973e0ef0b54","createdAt":"2026-11-04T17:13:25.706Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_6f036aca3b27","premises":["n_73167848d531"],"conclusion":"n_6709cdb826af","createdAt":"2026-11-04T17:13:25.706Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_b0b62af97a32","premises":["n_2973e0ef0b54","n_84bf7b35f893"],"conclusion":"n_5af9cfc7c283","createdAt":"2026-11-04T17:13:25.706Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_623b7160c64b","premises":["n_0995cb560553"],"conclusion":"n_6c67a78caae0","createdAt":"2026-11-04T18:07:50.929Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_1dd6752aac0b","premises":["n_11c31081d641"],"conclusion":"n_40b6bc463dae","createdAt":"2026-11-04T18:08:16.578Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_24d1aac462c6","premises":["n_40b6bc463dae"],"conclusion":"n_1802fe0a5961","createdAt":"2026-11-04T18:08:16.578Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_12f41da12a51","premises":["n_56f32dfeb11c"],"conclusion":"n_661c4f0e0010","createdAt":"2026-11-04T19:16:37.117Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_de9696bcd035","premises":["n_876f57a284d4"],"conclusion":"n_48f45d2b91fd","createdAt":"2026-11-04T19:17:20.419Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_92f44b72d9a8","premises":["n_876f57a284d4","n_56f32dfeb11c"],"conclusion":"n_93d82ce5b907","createdAt":"2026-11-04T20:08:03.318Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_a62e741c01d0","premises":["n_93d82ce5b907","n_56f32dfeb11c"],"conclusion":"n_501a891b9879","createdAt":"2026-11-04T20:08:03.318Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}
+{"id":"arg_06980f4870c9","premises":["n_56f32dfeb11c"],"conclusion":"n_7c724035f50c","createdAt":"2026-11-04T20:08:03.318Z","provenance":[{"chatId":"chat_mvwty99n_dae6e561","messageId":""}]}

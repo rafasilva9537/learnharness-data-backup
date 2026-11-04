@@ -1,0 +1,22 @@
+{
+	"id": "job_mw2echg9_0e6f23f6",
+	"kind": "visual",
+	"chatId": "chat_mvwty99n_dae6e561",
+	"toolCallId": "call_246115",
+	"input": {
+		"brief": "Hand-authored clean SVG diagram showing a 1-bit Full Adder logic circuit. \nInputs on the left: A, B, and Cin.\nIntermediate gates:\n- First XOR gate takes inputs A and B to produce intermediate signal (A XOR B).\n- Second XOR gate takes (A XOR B) and Cin to produce final output S (Sum).\n- AND gate 1 takes A and B to produce term (A AND B).\n- AND gate 2 takes (A XOR B) and Cin to produce term (Cin AND (A XOR B)).\n- OR gate takes the outputs of AND gate 1 and AND gate 2 to produce final output Cout (Carry-out).\nOutputs on the right: S and Cout clearly labeled.\nClear signal wires, crisp labels with standard gate shapes (XOR, AND, OR), high contrast on clean background."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-04T17:34:34.329Z",
+	"updatedAt": "2026-11-04T17:34:51.223Z",
+	"error": "FAILED: No render engine available: the app's own browser helper failed to start and no system Chrome/Chromium was found. Install Google Chrome or set CHROME_PATH to a Chrome executable. (Verification is mandatory — demos are never delivered untested.)",
+	"result": {
+		"svg": "",
+		"notes": "FAILED: No render engine available: the app's own browser helper failed to start and no system Chrome/Chromium was found. Install Google Chrome or set CHROME_PATH to a Chrome executable. (Verification is mandatory — demos are never delivered untested.)"
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}
