@@ -4,7 +4,7 @@
 		"language": "pt-BR"
 	},
 	"claudeCode": {
-		"enabled": false
+		"enabled": true
 	},
 	"agent": {
 		"tools": {
@@ -17,24 +17,24 @@
 	"models": {
 		"strong": {
 			"model": {
-				"provider": "antigravity-subscription",
-				"id": "gemini-4-argon"
+				"provider": "claude-code",
+				"id": "opus"
 			},
-			"thinkingLevel": "medium"
+			"thinkingLevel": "high"
 		},
 		"cheap": {
 			"model": {
-				"provider": "antigravity-subscription",
-				"id": "gemini-3.8-flash"
+				"provider": "claude-code",
+				"id": "sonnet"
 			},
-			"thinkingLevel": "medium"
+			"thinkingLevel": "high"
 		},
 		"vision": {
 			"model": {
-				"provider": "antigravity-subscription",
-				"id": "gemini-3.8-flash"
+				"provider": "claude-code",
+				"id": "sonnet"
 			},
-			"thinkingLevel": "medium"
+			"thinkingLevel": "high"
 		}
 	},
 	"graph": {
