@@ -1,0 +1,75 @@
+{
+	"id": "job_mw9ncacq_91891547",
+	"kind": "pdf",
+	"chatId": "chat_mw9nbxpt_653b8fcc",
+	"toolCallId": "toolu_01MsXjD4XbEEWBEstjS3FGdr",
+	"input": {
+		"path": "C:\\Users\\Usuário\\GitHub\\ObsidianStudies\\TCC\\Materiais\\plano_de_trabalho dupla - Completo (1).pdf",
+		"question": "This is a student's undergraduate thesis (TCC) work plan, written in Portuguese, done as a pair. Extract with page citations: (1) title, authors, advisor, institution, course; (2) the problem, objectives (general and specific), justification; (3) proposed methodology — what they plan to build/evaluate, which methods, tools, datasets, metrics; (4) how it relates to or builds on the \"MAGMA\" paper (any mention of MAGMA or related work); (5) schedule/timeline and deliverables; (6) references cited; (7) any research questions or hypotheses. Summarize precisely what the student is committing to do, so a tutor can connect the MAGMA paper to this plan."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-09T19:20:44.906Z",
+	"updatedAt": "2026-11-09T19:21:57.068Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 8,
+		"outputTokens": 3154,
+		"cacheReadTokens": 7180,
+		"cacheWriteTokens": 15241,
+		"cacheWrite1hTokens": 0,
+		"steps": 4,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2659,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 2659,
+				"cacheWriteTokens": 191,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 121,
+				"cacheReadTokens": 2850,
+				"cacheWriteTokens": 4152,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2936,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 8239,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 2936,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 8239,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "C:\\Users\\Usuário\\GitHub\\ObsidianStudies\\TCC\\Materiais\\plano_de_trabalho dupla - Completo (1).pdf",
+		"question": "This is a student's undergraduate thesis (TCC) work plan, written in Portuguese, done as a pair. Extract with page citations: (1) title, authors, advisor, institution, course; (2) the problem, objectives (general and specific), justification; (3) proposed methodology — what they plan to build/evaluate, which methods, tools, datasets, metrics; (4) how it relates to or builds on the \"MAGMA\" paper (any mention of MAGMA or related work); (5) schedule/timeline and deliverables; (6) references cited; (7) any research questions or hypotheses. Summarize precisely what the student is committing to do, so a tutor can connect the MAGMA paper to this plan.",
+		"brief": "**Brief: TCC work plan (4 pages, Portuguese), \"Grafos Multicamadas para Preservação de Consistência em Diálogos Multiagente\"**\n\n**(1) Identification**\n- Title: *Grafos Multicamadas para Preservação de Consistência em Diálogos Multiagente* (p. 1).\n- Authors (a pair): Rafael da Silva Estrela (matrícula 2312130005) and Manoel Matheus Correia dos Anjos (matrícula 2122130045) (p. 1).\n- Advisor: Prof. Roger Rocha Ferreira (p. 1).\n- Institution: Instituto de Educação Superior de Brasília (IESB), Direção Acadêmica, Coordenação de TCC. The form is a \"Plano de Trabalho Individual\" for TCC (p. 1).\n- The course name is not stated. The schedule is for semester 2026/02 and mentions \"TCC II\" as a later stage (p. 2).\n- The signature date and the start and end dates are blank (pp. 1, 3).\n\n**(2) Problem, objectives, justification**\n- Summary: The plan is to implement a narrative system. Multiple LLM-based agents talk to each other and to the user to produce a continuous, coherent plot. Each agent knows who it is, including its experiences, relationships, and personality (p. 1).\n- Justification: Multi-agent AI is used in interactive narratives, investigation games, and negotiation simulations. In these, coherence requires each participant to keep its past experiences, knowledge limits, and individuality over time. Linear text approaches fail to retain long histories at low computational cost. Multilayer graph architectures such as MAGMA are an alternative. The study's importance is extending MAGMA from a single agent to multiple agents with individual perspectives and restricted information (p. 1).\n- Problem: With independent agents, the shared knowledge base is constantly updated. This requires validation so that confidential data is not shared. Answers must also be correct, produced in acceptable time, and use reasonable resources (p. 1).\n- General objective: Adapt the MAGMA architecture to preserve the coherence of LLM-generated multi-agent narratives. This should make long plots possible even when they contain lies, secrets, and different points of view (p. 1).\n- Specific objectives (pp. 1–2):\n  1. Model the memory graph so that real events are separated from mere character statements.\n  2. Implement visibility rules on database nodes so each agent accesses only the facts it witnessed.\n  3. Develop contradiction detection in the history, to update the status of past statements when new facts appear.\n  4. Evaluate narrative coherence and computational efficiency, comparing the solution with traditional memory approaches.\n\n**(3) Methodology**\n- Process: Weekly meetings on Fridays at 19h. They cover progress and technical output. They also document how changes to the system model affected the benchmark results (p. 2).\n- Build: A prototype that extends the MAGMA reference source code (MIT license). It is compared against MAGMA and a third-party RAG implementation (p. 2).\n- Activities (p. 3):\n  - Proof of concept: a simplified implementation integrating a graph database with the LLM agents.\n  - Tests: dialogues in controlled scenarios, testing context retention and secret privacy.\n  - Comparative analysis: token consumption, response time, logical consistency, and memory integrity.\n- Metrics named: token consumption, response time, logical consistency, memory integrity (p. 3). Coherence and efficiency are the evaluation axes (p. 2).\n- Datasets: none are specified. The plan says \"benchmarks\" (p. 2) and \"controlled scenarios\" (p. 3) but names no concrete dataset. DEBATE is cited only as a \"reference to test\" secrets and viewpoints (p. 2).\n- The plan gives no details on the graph database, the LLM models, or the contradiction-detection algorithm.\n\n**(4) Relation to MAGMA and related work (p. 2, also p. 1)**\n- MAGMA (Jiang et al., 2026), *A Multi-Graph based Agentic Memory Architecture for AI Agents*. It organizes long-term memory into four graph layers: temporal, entities, causal, and semantic. It is \"the basic structure adapted in this project\" (p. 2).\n- MAGMA was designed for a single agent. The project extends it to multiple agents with asymmetric information and secrecy (p. 1).\n- The \"Requisitos da adaptação\" step maps MAGMA's limitations for multiple agents. It also specifies the requirements for information asymmetry and secrecy (p. 3).\n- The \"Estudo inicial\" step is a literature review focused on MAGMA and relational memory structures (p. 3).\n- MAGMA is also a comparison baseline, and the plan expects to preserve the long-term retention and logical consistency of MAGMA's original layers (p. 2).\n- Other works and the role each plays in the plan (p. 2):\n  - AdaMARP (Xu et al., 2026): separates real physical actions from what characters only say. It is the basis for distinguishing facts from statements in the graph.\n  - DEBATE (Chuang et al., 2025): a benchmark of whether agents keep their own opinions over long conversations. It is a reference for testing secrets and viewpoints.\n  - ToMAgent (Zhou et al., 2024): Theory of Mind, modeling what each agent knows or ignores about others. It grounds the secrecy and privacy rules.\n  - \"Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents\" (Ji et al., 2026): shows that retrieval from structured graphs uses fewer resources than linear text in long dialogues. It is the basis for measuring token savings and response time.\n\n**(5) Schedule and deliverables (pp. 2–3), semester 2026/02, 20 weeks**\n- Estudo inicial: weeks 4, 5, 8.\n- Requisitos da adaptação: weeks 8–9.\n- Modelagem: week 10.\n- Prova de conceito: weeks 10–11.\n- Testes: weeks 12–13.\n- Análise comparativa: week 13.\n- Relatório parcial: week 14.\n- Gravação (explanatory video): weeks 15 and 16.\n- Apresentação oral (defense before the examining board): week 16.\n- Ajustes para TCC II: weeks 16–17.\n- Deadlines (p. 3):\n  - Introduction: 09/10/2026.\n  - Method: 23/10/2026.\n  - End of data collection: 30/10/2026.\n  - End of data analysis: 04/11/2026.\n  - Results: 06/11/2026.\n  - Discussion: 10/11/2026.\n  - Final TCC version: 13/11/2026.\n  - Defense preview: 27/11/2026.\n- In-person meetings are on Fridays from 19:00 to 21:00, on 02/10, 09/10, 16/10, 23/10, 30/10, 06/11, 13/11, 20/11, and 29/11 (p. 3). Note that 29/11 is listed in the document but is not a Friday.\n- The partial report is to contain the introduction, theoretical support, methodology, test results, and next steps (p. 3).\n\n**(6) References** (cited in the \"Suporte teórico\" section, p. 2; there is no separate reference list)\n- Jiang et al., 2026 (MAGMA).\n- Xu et al., 2026 (AdaMARP).\n- Chuang et al., 2025 (DEBATE).\n- Zhou et al., 2024 (ToMAgent).\n- Ji et al., 2026 (Memory is Reconstructed, Not Retrieved).\n\n**(7) Research questions and hypotheses**\n- No formal research questions or hypotheses are stated. The \"Resultados esperados\" section (p. 2) gives implicit hypotheses:\n  - H1: Separating real events from statements, combined with node-level visibility rules, prevents secret leakage and sustains individual viewpoints throughout the plot.\n  - H2: The multi-agent adaptation preserves MAGMA's long-term retention and the logical consistency of its original layers.\n  - H3: The solution will use fewer tokens and have lower response time than traditional memory approaches.\n\n**What the student commits to:** extending MAGMA's four-layer graph memory into a multi-agent narrative system with three additions:\n- a facts-versus-statements distinction;\n- per-agent node visibility rules;\n- contradiction detection.\n\nThey then evaluate it against MAGMA and a third-party RAG baseline on token use, latency, logical consistency, memory integrity, and secret privacy (pp. 1–3).\n\nPages consulted: 1, 2, 3, 4",
+		"pagesRead": [
+			2
+		],
+		"pagesConsulted": [
+			2
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

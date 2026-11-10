@@ -20,7 +20,7 @@
 				"provider": "claude-code",
 				"id": "opus"
 			},
-			"thinkingLevel": "high"
+			"thinkingLevel": "xhigh"
 		},
 		"cheap": {
 			"model": {
