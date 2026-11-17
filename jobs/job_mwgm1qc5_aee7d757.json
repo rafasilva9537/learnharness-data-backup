@@ -1,0 +1,81 @@
+{
+	"id": "job_mwgm1qc5_aee7d757",
+	"kind": "pdf",
+	"chatId": "chat_mwgliw1o_92817a43",
+	"toolCallId": "toolu_01JWw1TVgMUDWN214KzNqRZg",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Segunda Avaliação - Compiladores (IESB) - 1º Semestre de 2022 - Turmas - Ybadoo.pdf",
+		"question": "Esta é uma prova de Compiladores (IESB, 2022/1, A2) convertida de página web para PDF. 1) Liste TODAS as questões com o enunciado completo (inclua gramáticas, expressões regulares, autômatos, tabelas, código — transcreva literalmente). 2) Para cada questão, se o PDF contiver a solução/resolução, transcreva a resolução completa passo a passo, exatamente na forma e notação que o professor usa (nomes dos passos, formato das tabelas, como ele monta conjuntos FIRST/FOLLOW, tabelas de análise, árvores, autômatos etc.). 3) Para cada imagem/figura (ex.: diagrama de autômato, árvore sintática, tabela), leia visualmente e transcreva tudo: estados, estado inicial, finais, transições com rótulos, nós, células. Se alguma imagem estiver ilegível ou ausente, diga explicitamente. 4) Indique se as soluções estão no PDF ou só links para páginas externas. Cite páginas."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-14T16:18:56.021Z",
+	"updatedAt": "2026-11-14T16:24:31.611Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 8,
+		"outputTokens": 6285,
+		"cacheReadTokens": 5013,
+		"cacheWriteTokens": 21886,
+		"cacheWrite1hTokens": 0,
+		"steps": 4,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2805,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 141,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1347,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 180,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 6269,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 5927,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 11465,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 5927,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 11465,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Segunda Avaliação - Compiladores (IESB) - 1º Semestre de 2022 - Turmas - Ybadoo.pdf",
+		"question": "Esta é uma prova de Compiladores (IESB, 2022/1, A2) convertida de página web para PDF. 1) Liste TODAS as questões com o enunciado completo (inclua gramáticas, expressões regulares, autômatos, tabelas, código — transcreva literalmente). 2) Para cada questão, se o PDF contiver a solução/resolução, transcreva a resolução completa passo a passo, exatamente na forma e notação que o professor usa (nomes dos passos, formato das tabelas, como ele monta conjuntos FIRST/FOLLOW, tabelas de análise, árvores, autômatos etc.). 3) Para cada imagem/figura (ex.: diagrama de autômato, árvore sintática, tabela), leia visualmente e transcreva tudo: estados, estado inicial, finais, transições com rótulos, nós, células. Se alguma imagem estiver ilegível ou ausente, diga explicitamente. 4) Indique se as soluções estão no PDF ou só links para páginas externas. Cite páginas.",
+		"brief": "# Brief: Segunda Avaliação – Compiladores (IESB, 2022/1), Ybadoo\n\n**Resumo sobre as soluções:** o PDF traz soluções só para a Questão 05 (programa Simpletron), a Questão 06 (quádruplas) e a Questão Extra (código objeto). As Questões 01 a 04 são de múltipla escolha e o PDF não marca nenhum gabarito nem resolução para elas. Não há links externos de solução. O único link é a página da Wikipédia sobre números primos (p. 3). As soluções estão escritas na própria página, como tabela ou bloco de código, e não há resolução passo a passo. O PDF não tem FIRST/FOLLOW, tabelas de análise, árvores nem autômatos. A única imagem é o logo da Ybadoo (p. 1). Todas as tabelas e códigos estão em texto e foram conferidas visualmente, sem nada ilegível. A página foi impressa em 14/11/26 de www.ybadoo.com.br/turmas/2022_01/iesb_cmp/A2/.\n\n## Questão 01 (1,0 pt) (p. 1)\nO enunciado explica as notações infixada, pré-fixada (`+ x y`) e pós-fixada (`x y +`) e diz que as duas últimas dispensam parênteses por usarem a noção de pilha. Pede: \"Analise as assertivas a seguir, considerando a gramática livre de contexto G.\"\n\n```\nG = ({A, E, T, F}, {a, b, c, d, e, f, =, +, -, *, /}, P, A)\nP = {A → F=E\n     E → E+T | E-T | T\n     T → T*F | T/F | F\n     F → a | b | c | d | e | f}\n```\n- I. A notação pré-fixada da expressão aritmética `a = f / c + c / e - f + c - f + b` é `= a + / f c - / c e + f - c + f b`.\n- II. A notação pré-fixada da expressão aritmética `a = d * b * f + d / c + f + e / a` é `= a + + + * * d b f / d c f / e a`.\n- III. A notação pós-fixada da expressão aritmética `a = e * d / e - b - a * a * d / c` é `a e d * e / b - a a * d * c / - =`.\n- IV. A notação pós-fixada da expressão aritmética `a = a - e + a * f - e + d + c / b` é `a a e a f * e d c b / + + - + - =`.\n\n\"Quais das assertivas apresentadas estão corretas?\"\n- a. apenas I e II\n- b. apenas I e III\n- c. apenas II e III\n- d. apenas II e IV\n- e. apenas III e IV\n\n**Solução:** não consta no PDF.\n\n## Questão 02 (1,0 pt) (pp. 1–2)\nO enunciado lista os requisitos de um gerador de código objeto: o código deve ser correto e de alta qualidade, usar bem os recursos da máquina e executar eficientemente. Diz também que gerar código ótimo é indecidível, então na prática usam-se heurísticas. Pede: \"o código objeto apresentado a seguir é equivalente a qual comando de atribuição.\"\n\n```\nLOAD   x, R0\nCOPY  R0, R1\nLOAD   y, R2\nADD   R2, R0\nSUB   R1, R2\nCOPY  R0, R1\nDIV   R1, R2\nSUB   R2, R0\nADD   R2, R0\nSTORE R0,  z\n```\n- a. `z = (y - x) / (x + y) + (y - x) / (x + y) - (x + y)`\n- b. `z = (x + y) - (y - x) / (x + y) + (y - x) / (x + y)`\n- c. `z = (x + y) - (y - x) / (x + y) + (x + y) / (y - x)`\n- d. `z = (x + y) - (x + y) / (y - x) + (y - x) / (x + y)`\n- e. `z = (x + y) / (y - x) + (y - x) / (x + y) - (x + y)`\n\n**Solução:** não consta no PDF.\n\n## Questão 03 (1,0 pt) (p. 2)\nO enunciado define código intermediário e árvore de sintaxe. A árvore de sintaxe é uma forma condensada da árvore de derivação, em que só os operandos são folhas, os operadores são nós interiores e as cadeias de produções simples (A → B, B → C) são eliminadas. O grafo de sintaxe inclui essas simplificações e ainda fatora as subexpressões comuns, eliminando-as. Pede: \"Analise as assertivas a seguir, considerando a gramática livre de contexto G.\"\n\n```\nG = ({A, E, T, F}, {a, b, c, d, e, f, =, +, -, *, /}, P, A)\nP = {A → F=E\n     E → T+E | T-E | T\n     T → F*T | F/T | F\n     F → a | b | c | d | e | f}\n```\nEsta gramática é diferente da Questão 01, porque aqui as produções são recursivas à direita.\n- I. A expressão `a = a * f / a + c - d + f / a - b` teria uma das subexpressões `f / a` eliminada pelo grafo de sintaxe.\n- II. A expressão `a = f / b + e - c * f / b - c * f` teria uma das subexpressões `f / b` eliminada pelo grafo de sintaxe.\n- III. A expressão `a = f / b + e - c * f / b - c * f` teria uma das subexpressões `c * f` eliminada pelo grafo de sintaxe.\n- IV. A expressão `a = f * b / a + f * b * d - b - c` teria uma das subexpressões `f * b` eliminada pelo grafo de sintaxe.\n\nAs alternativas a–e são as mesmas da Questão 01: a = I e II; b = I e III; c = II e III; d = II e IV; e = III e IV.\n\n**Solução:** não consta no PDF.\n\n## Questão 04 (1,0 pt) (pp. 2–3)\nPrograma em sintaxe C:\n```c\nvoid xpto(int a, int b, int c)\n{\n  a = b * c;\n  b = a + c;\n}\n\nvoid main()\n{\n  int x;\n  int y;\n\n  scanf(\"%d\", &x);\n  scanf(\"%d\", &y);\n\n  xpto(x, y, x + 2);\n\n  printf(\"%d\", x);\n  printf(\"%d\", y);\n}\n```\n\"Com base no programa apresentado, avalie as asserções a seguir.\"\n- I. Valores fornecidos 5 e 6, parâmetros por **valor**: impressos 42 e 49.\n- II. Valores fornecidos 1 e 2, parâmetros por **referência**: impressos 6 e 9.\n- III. Valores fornecidos 2 e 3, parâmetros por **nome**: impressos 12 e 16.\n- IV. Valores fornecidos 3 e 4, parâmetros por **valor-resultado**: impressos 20 e 25.\n\nAs alternativas a–e são as mesmas da Questão 01.\n\n**Solução:** não consta no PDF.\n\n## Questão 05 (1,0 pt) (p. 3)\n**Enunciado:** \"Desenvolva um programa em Simpletron Machine Language, que verifique se o número fornecido pelo usuário é um número primo. Caso o valor fornecido pelo usuário seja um número primo, o programa deverá apresentar como resposta o valor 1. Caso o valor fornecido pelo usuário não seja um número primo, o programa deverá apresentar como resposta o valor 0. E caso o usuário forneça um valor inválido, o programa deverá apresentar como resposta o valor -1.\" Há um link para a Wikipédia sobre números primos.\n\n**Solução (está no PDF):** logo abaixo do enunciado vem uma tabela com a legenda \"Questão 06 da Segunda Avaliação\". É um erro de rotulagem da página, pois a tabela pertence à Questão 05. As colunas são Posição, Palavra e Instrução (pp. 3–4):\n\n| Posição | Palavra | Instrução |\n|---|---|---|\n| 00 | +1020 | read N |\n| 01 | +2020 | load N |\n| 02 | +4114 | branch negative to 14 |\n| 03 | +4214 | branch zero to 14 |\n| 04 | +3122 | subtract 1 |\n| 05 | +2121 | store D |\n| 06 | +3122 | subtract 1 |\n| 07 | +4216 | branch zero to 16 |\n| 08 | +4118 | branch negative to 18 |\n| 09 | +2020 | load N |\n| 10 | +3421 | module D |\n| 11 | +4218 | branch zero to 18 |\n| 12 | +2021 | load D |\n| 13 | +4004 | branch to 04 |\n| 14 | +1123 | write -1 |\n| 15 | +4019 | branch to 19 |\n| 16 | +1122 | write 1 |\n| 17 | +4019 | branch to 19 |\n| 18 | +1124 | write 0 |\n| 19 | +4300 | halt |\n| 20 | +0000 | variable N |\n| 21 | +0000 | variable D |\n| 22 | +0001 | constant 1 |\n| 23 | -0001 | constant -1 |\n| 24 | +0000 | constant 0 |\n\n- Depois da tabela há a seção \"Simulação da Solução do Exercício\", com um botão \"Executar\" e uma caixa de saída que mostra só \"Welcome to Simpletron!\" (p. 4). O simulador é interativo e não foi executado no PDF.\n- Não há comentário textual do professor. A explicação a seguir é só uma leitura do código: as posições 02 e 03 desviam para a saída -1 se N for negativo ou zero. D começa em N-1 e o laço 04–13 testa N mod D, com saída 0 se o resto for zero. Chegando a D = 1, escreve 1, e se N = 1 escreve 0.\n- Os mnemônicos têm opcodes numéricos: read = 10, write = 11, load = 20, store = 21, subtract = 31, módulo = 34, branch = 40, branch negative = 41, branch zero = 42, halt = 43.\n\n## Questão 06 (1,0 pt) (pp. 4–5)\n**Enunciado:** \"A fase de otimização do código intermediário vem logo após a fase de geração desse código e tem por objetivo tornar o código intermediário mais apropriado para a produção de código objeto (código de máquina) eficiente, tanto em relação ao tamanho como ao tempo de execução. Uma das técnicas de otimização de código intermediário consiste em identificar segmentos sequencias do programa, chamados blocos básicos, e representá-los através de grafos dirigidos e submetê-los a um processo de otimização. Apresente o código de três endereços otimizado da seguinte sequência de comandos, sobre a gramática livre de contexto G.\"\n```\nx = (a * b) / (c + e - f);\ny = d / a * b - (c + e);\nz = d / a * (e - f);\n```\n```\nG = ({A, E, T, V, F}, {a, b, c, d, e, f, x, y, z, =, +, -, *, /, (, )}, P, A)\nP = {A → F=E\n     E → T+E | T-E | T\n     T → V*T | V/T | V\n     V → (E) | F\n     F → a | b | c | d | e | f | x | y | z}\n```\n\n**Solução (está no PDF, p. 5):** \"Código de três endereços, representado por quádruplas\". As colunas são oper, arg1, arg2, result.\n\n| # | oper | arg1 | arg2 | result |\n|---|---|---|---|---|\n| (0) | * | a | b | T1 |\n| (1) | - | e | f | T2 |\n| (2) | + | c | T2 | T3 |\n| (3) | / | T1 | T3 | T4 |\n| (4) | = | T4 | | x |\n| (5) | / | d | T1 | T5 |\n| (6) | + | c | e | T6 |\n| (7) | - | T5 | T6 | T7 |\n| (8) | = | T7 | | y |\n| (9) | * | a | T2 | T8 |\n| (10) | / | d | T8 | T9 |\n| (11) | = | T9 | | z |\n\n- O PDF não mostra o grafo dirigido do bloco básico. Mostra só o resultado em quádruplas.\n- O resultado reaproveita subexpressões: T1 = a*b é usado em (3) e (5), e T2 = e-f é usado em (2) e (9).\n- Como a gramática é recursiva à direita, `c + e - f` é calculado como `c + (e - f)`. Por isso (2) usa `c T2`.\n- Também por isso `d / a * b` vira `d / (a * b)` em (5), e `d / a * (e - f)` vira `d / (a * (e - f))` em (9)–(10).\n\n## Questão Extra (1,0 pt) (p. 5)\n**Enunciado:** \"Apresente o código objeto resultante do código de três endereços otimizado obtido na Questão 06.\"\n\n**Solução (está no PDF), transcrita com os comentários do professor:**\n```\nLOAD   a, R0 // R0 = a\nLOAD   b, R1 // R1 = b\nMUL   R1, R0 // R0 = R0 * R1 (a * b)\nCOPY  R0, R1 // R1 = R0      (a * b)\nLOAD   e, R2 // R2 = e\nLOAD   f, R3 // R3 = f\nSUB   R3, R2 // R2 = R2 - R3 (e - f)\nLOAD   c, R3 // R3 = c\nADD   R2, R3 // R3 = R3 + R2 (c + (e - f))\nDIV   R3, R0 // R0 = R0 / R3 ((a * b) / (c + (e - f)))\nSTORE R0,  x\nLOAD   d, R0 // R0 = d\nDIV   R1, R0 // R0 = R0 / R1 (d / (a * b))\nLOAD   c, R1 // R1 = c\nLOAD   e, R3 // R3 = e\nADD   R3, R1 // R1 = R1 + R3 (c + e)\nSUB   R1, R0 // R0 = R0 - R1 ((d / (a * b)) - (c + e))\nSTORE R0,  y\nLOAD   a, R0 // R0 = a\nMUL   R2, R0 // R0 = R0 * R2 (a * (e - f))\nLOAD   d, R1 // R1 = d\nDIV   R0, R1 // R1 = R1 / R0 (d / (a * (e - f)))\nSTORE R1,  z\n```\n**Convenção de operandos:** nas instruções `ADD`, `SUB`, `MUL` e `DIV`, o segundo registrador é o destino, e `op Rs, Rd` faz `Rd = Rd op Rs`. Nos comentários, `MUL R1, R0` vira `R0 = R0 * R1` e `DIV R1, R0` vira `R0 = R0 / R1`.\n\nPages consulted: 1, 2, 3, 4, 5",
+		"pagesRead": [
+			1,
+			3,
+			4,
+			5
+		],
+		"pagesConsulted": [
+			1,
+			3,
+			4,
+			5
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

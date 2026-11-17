@@ -1,0 +1,107 @@
+{
+	"id": "job_mwgm1qej_60e636bb",
+	"kind": "pdf",
+	"chatId": "chat_mwgliw1o_92817a43",
+	"toolCallId": "toolu_011dBxgrYYg9xCDbYBKmNoSc",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\plano-ensino-cmp.pdf",
+		"question": "Plano de ensino da disciplina de Compiladores (IESB). Extraia: ementa, objetivos, conteúdo programático completo por unidade/aula (especialmente quais tópicos correspondem aos slides CMP05, CMP06, CMP07 e CMP08), critérios de avaliação (A1, A2, pesos), o que cai na segunda avaliação (A2), e a bibliografia. Cite páginas."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-14T16:18:56.107Z",
+	"updatedAt": "2026-11-14T16:24:31.621Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 16,
+		"outputTokens": 7809,
+		"cacheReadTokens": 11697,
+		"cacheWriteTokens": 94028,
+		"cacheWrite1hTokens": 0,
+		"steps": 8,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2556,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1062,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 3104,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 5360,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 259,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 8037,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 394,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 12374,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 354,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 16732,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 271,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 21097,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 3330,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 26810,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 3330,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 26810,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\plano-ensino-cmp.pdf",
+		"question": "Plano de ensino da disciplina de Compiladores (IESB). Extraia: ementa, objetivos, conteúdo programático completo por unidade/aula (especialmente quais tópicos correspondem aos slides CMP05, CMP06, CMP07 e CMP08), critérios de avaliação (A1, A2, pesos), o que cai na segunda avaliação (A2), e a bibliografia. Cite páginas.",
+		"brief": "**Resumo:** O plano de ensino de Compiladores (IESB, turma ENGCNM4B, 7º período, código MDC168, 60h teóricas, prof. Cristiano Lehrer, currículo 2020/1) não menciona os slides CMP05 a CMP08 em nenhum ponto (p. 1–5). Ele também não lista os conteúdos da P2 de forma explícita. Reli o texto das 5 páginas e renderizei as pp. 2, 3 e 5 para conferir a fórmula e o cronograma. As partes marcadas como inferência abaixo são minhas.\n\n**Ementa (p. 1)**\n- Introdução e organização e estrutura de compiladores e interpretadores.\n- Revisão de linguagens formais e BNF.\n- Análise léxica e tabela de símbolos.\n- Análise sintática: LR(1) simples, LR(1) canônico, LR(1) LA e LL(1); geradores de analisadores léxicos e sintáticos.\n- Tratamento de erros.\n- Análise semântica: linguagens com e sem escopo, linguagens orientadas a objeto e gramáticas de atributos.\n- Geração de código: estruturas de memória em tempo de execução, código intermediário e implementação da geração de código.\n- Otimização de código dependente e independente da máquina.\n- Projeto e implementação de um tradutor.\n\n**Objetivos (p. 1)**\n- Competência: promover o raciocínio lógico do aluno e o aprendizado das soluções que compiladores e interpretadores adotam para traduzir linguagens modernas.\n- Habilidades: conceituar os principais recursos de compiladores e interpretadores. Desenvolver soluções algorítmicas para compilação e interpretação.\n\n**Conteúdo programático**\n- **Unidade I, Fase de Análise (p. 1):** conceitos básicos, análise léxica, análise sintática e análise semântica.\n- **Unidade II, Fase de Síntese (p. 1):** geração de código intermediário, otimização de código, gerência de memória e geração de código objeto.\n- **Cronograma, 1º bimestre (p. 5):**\n  - 04/ago: apresentação do plano e introdução aos compiladores.\n  - 11/ago: análise léxica e linguagem SIMPLE.\n  - 18/ago: análise sintática.\n  - 25/ago: análise sintática descendente.\n  - 01/set: análise sintática redutiva.\n  - 08/set: análise semântica e revisão para a P1.\n  - 15/set: P1.\n- **Cronograma, 2º bimestre (p. 5):**\n  - 22/set: entrega e correção da P1 e interpretador SML. Na imagem, essa linha fica fora das duas chaves de bimestre.\n  - 29/set: interpretador SML. Na imagem, a chave do 2º bimestre começa aqui e vai até 10/nov.\n  - 06/out: geração de código intermediário.\n  - 20/out: otimização de código intermediário.\n  - 27/out: gerência de memória.\n  - 03/nov: geração de código objeto.\n  - 10/nov: desenvolvimento do compilador para SML.\n  - 17/nov: P2.\n- **Depois da P2 (p. 5):** 24/nov entrega e correção da P2, 01/dez revisão para a P3 e 08/dez P3.\n- **CMP05–CMP08:** o plano não traz numeração de slides, então não dá para confirmar quais tópicos correspondem a cada um. Se os slides seguirem a ordem do cronograma, uma hipótese é CMP05 = geração de código intermediário, CMP06 = otimização, CMP07 = gerência de memória e CMP08 = geração de código objeto. Essa hipótese precisa ser conferida com os próprios slides, porque o interpretador SML, que vem antes desses tópicos, pode ocupar numeração própria.\n\n**Avaliação (pp. 2–3)**\n- P1 e P2 são provas escritas, individuais e sem consulta, com questões objetivas e discursivas, de 0,0 a 6,0 (p. 2).\n- AA1 e AA2 são atividades avaliativas individuais aplicadas antes de cada prova, de 0,0 a 2,0 (p. 2).\n- IP1 (fase de análise) e IP2 (fase de síntese) formam o compilador de SIMPLE para Simpletron Machine Language, de 0,0 a 2,0. Pode ser feito individualmente ou em grupo de no máximo 2 alunos (p. 2).\n- A1 = P1 + AA1 + IP1 e A2 = P2 + AA2 + IP2, cada um com no máximo 10 pontos. MInt = 0,4·A1 + 0,6·A2, ou seja, A1 pesa 40% e A2 pesa 60% (p. 2).\n- Datas: P1 em 15/09/2026, P2 em 17/11/2026 e P3 em 08/12/2026 (pp. 2–3).\n- Se MInt < 5,0, o aluno faz a P3, com todo o conteúdo do semestre. A média final é MAX(0,4·P3 + 0,6·A2, 0,4·A1 + 0,6·P3) (p. 3).\n- A P3 substitui A1 ou A2, mas não os dois. Quem faltar à P1 ou à P2 faz a P3, que repõe só um deles (p. 3).\n- Aprovação exige frequência de pelo menos 75% e média de pelo menos 5,0. Frequência abaixo de 75% reprova automaticamente, sem recuperação (p. 3).\n- Não há trabalhos extras para substituir ou complementar nota (p. 3).\n- Contestação de nota: prazo de 24h após a entrega, por e-mail para o professor. Quem não contestar nesse prazo concorda automaticamente com a nota (p. 3).\n- Menções: SS de 9 a 10, MS de 7 a 8,9, MM de 5 a 6,9, MI de 3 a 4,9, II de 0,1 a 2,9 e SR para 0,0 (p. 4).\n\n**O que cai na A2**\n- O plano não diz literalmente o que cai na P2 (pp. 2–3, 5).\n- Inferência a partir do cronograma: a P2 cai em 17/11/2026, logo depois dos tópicos da Unidade II (pp. 1, 5). Esses tópicos são geração de código intermediário, otimização de código intermediário, gerência de memória e geração de código objeto. A IP2 é o compilador da fase de síntese, e a aula de desenvolvimento dele é em 10/nov (pp. 2, 5).\n- A P3, ao contrário, cobre o semestre inteiro (p. 3).\n- O plano diz que pode ser alterado durante o semestre, então vale confirmar o escopo da P2 com o professor (p. 4).\n\n**Bibliografia (p. 4)**\n- **Básica:**\n  - Aho, Lam, Sethi e Ullman, *Compiladores: Princípios, Técnicas e Ferramentas*, 2ª ed., Pearson Addison-Wesley, 2008.\n  - Price, *Implementação de Linguagens de Programação: compiladores*, 3ª ed., UFRGS/Sagra Luzzatto, 2005.\n  - Free Software Foundation, *Internals of the GNU compilers* (gcc.gnu.org/onlinedocs/gccint/).\n- **Complementar:**\n  - Menezes, *Linguagens Formais e Autômatos*, Bookman, 2008.\n  - Aho, Sethi e Ullman, *Compilers: Principles, Techniques, and Tools*, Addison-Wesley, 1986.\n  - Grune et al., *Projeto moderno de compiladores*, Campus, 2001.\n  - Lewis e Papadimitriou, *Elementos de Teoria da Computação*, 2ª ed., Bookman, 2004.\n  - Levine, Mason e Brown, *Lex & Yacc*, 2ª ed., O'Reilly, 1992.\n\nPages consulted: 1, 2, 3, 4, 5",
+		"pagesRead": [
+			2,
+			3,
+			5
+		],
+		"pagesConsulted": [
+			2,
+			3,
+			5
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

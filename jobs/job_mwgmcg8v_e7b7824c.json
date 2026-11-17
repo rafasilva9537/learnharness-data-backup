@@ -1,0 +1,91 @@
+{
+	"id": "job_mwgmcg8v_e7b7824c",
+	"kind": "pdf",
+	"chatId": "chat_mwgmbz63_d8b7dd51",
+	"toolCallId": "toolu_01WxgReuxTq5QBKoJ3no28yS",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Processamento de Imagens\\slides - 2026-10-26.pdf",
+		"question": "Produce a detailed outline of all content in these lecture slides: every topic, definition, formula (in LaTeX), algorithm, worked example (with numbers), and diagram description. Note any prerequisites referenced from earlier lectures. Cite pages."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-14T16:27:16.159Z",
+	"updatedAt": "2026-11-14T16:30:54.544Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 6,
+		"outputTokens": 312,
+		"cacheReadTokens": 5013,
+		"cacheWriteTokens": 20323,
+		"cacheWrite1hTokens": 0,
+		"steps": 3,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 827,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 191,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1139,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 84,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 18357,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 84,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 18357,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"error": "the reader crashed — claude CLI refused a harness tool call before MCP admission",
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Processamento de Imagens\\slides - 2026-10-26.pdf",
+		"question": "Produce a detailed outline of all content in these lecture slides: every topic, definition, formula (in LaTeX), algorithm, worked example (with numbers), and diagram description. Note any prerequisites referenced from earlier lectures. Cite pages.",
+		"brief": "PDF failed: the reader crashed — claude CLI refused a harness tool call before MCP admission",
+		"pagesRead": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

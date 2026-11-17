@@ -1,0 +1,94 @@
+{
+	"id": "job_mwgml9wu_a06c0e2d",
+	"kind": "pdf",
+	"chatId": "chat_mwgliw1o_92817a43",
+	"toolCallId": "toolu_01AArMWAq3HwBSeFxbh9j9HJ",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Simpletron Machine Language - Compiladores - Tutoriais - Ybadoo.pdf",
+		"question": "Tutorial de Simpletron Machine Language (SML), site Ybadoo, disciplina de Compiladores. Preciso de: 1) a especificação completa da máquina: memória (tamanho, formato da palavra), acumulador, contador de instruções e demais registradores; 2) a tabela COMPLETA de instruções, com código numérico, mnemônico (em inglês e português, se houver) e semântica exata (ex.: 10 read, 11 write, 20 load, 21 store, 30 add, 31 subtract, 32 divide, 33 multiply, 34 module/resto, 40 branch, 41 branch negative, 42 branch zero, 43 halt; confirme ou corrija e inclua qualquer outra); 3) todos os exemplos de programas, transcritos com as colunas exatas do professor (Posição, Palavra, Instrução) e a explicação de cada um; 4) as convenções que o professor usa: onde ficam variáveis e constantes (fim do programa?), como escreve 'variable'/'constant', como representa constantes negativas (ex.: -0001), divisão inteira ou não, comportamento de write/read; 5) exercícios propostos, se houver. Leia figuras/tabelas visualmente. Cite páginas."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-14T16:34:07.854Z",
+	"updatedAt": "2026-11-14T16:34:56.873Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 10,
+		"outputTokens": 6189,
+		"cacheReadTokens": 8355,
+		"cacheWriteTokens": 52993,
+		"cacheWrite1hTokens": 0,
+		"steps": 5,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1183,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1473,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 117,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 11794,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 303,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 17311,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 5672,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 21232,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 5672,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 21232,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Simpletron Machine Language - Compiladores - Tutoriais - Ybadoo.pdf",
+		"question": "Tutorial de Simpletron Machine Language (SML), site Ybadoo, disciplina de Compiladores. Preciso de: 1) a especificação completa da máquina: memória (tamanho, formato da palavra), acumulador, contador de instruções e demais registradores; 2) a tabela COMPLETA de instruções, com código numérico, mnemônico (em inglês e português, se houver) e semântica exata (ex.: 10 read, 11 write, 20 load, 21 store, 30 add, 31 subtract, 32 divide, 33 multiply, 34 module/resto, 40 branch, 41 branch negative, 42 branch zero, 43 halt; confirme ou corrija e inclua qualquer outra); 3) todos os exemplos de programas, transcritos com as colunas exatas do professor (Posição, Palavra, Instrução) e a explicação de cada um; 4) as convenções que o professor usa: onde ficam variáveis e constantes (fim do programa?), como escreve 'variable'/'constant', como representa constantes negativas (ex.: -0001), divisão inteira ou não, comportamento de write/read; 5) exercícios propostos, se houver. Leia figuras/tabelas visualmente. Cite páginas.",
+		"brief": "**Resumo:** o PDF é a página 10 do tutorial de Compiladores do Ybadoo, \"Simpletron Machine Language\". Ele traz a especificação da máquina, a tabela de opcodes e 39 exercícios propostos. **Não traz programas resolvidos** nem tabelas com as colunas Posição/Palavra/Instrução. Também não define nenhuma convenção sobre variable/constant. O único código SML do documento é a entrada de exemplo do Exercício 10.01.\n\n## 1) Especificação da máquina\n- **Palavra:** número decimal de 4 dígitos com sinal, por exemplo +3364, -1293, +0007, -0001 (p. 1).\n- **Memória:** 100 palavras, endereçadas por 00, 01, …, 99 (p. 1). No Exercício 10.01 ela é simulada como um array `memory` de 100 elementos (p. 2).\n- **Conteúdo de uma posição:** instrução, dado ou área não utilizada, que fica indefinida (p. 1).\n- **Instruções:**\n  - Ocupam uma palavra, com sinal sempre positivo. Dados podem ter + ou − (p. 1).\n  - Os 2 primeiros dígitos são o código de operação. Os 2 últimos são o operando, que é o endereço da memória em que a operação atua (pp. 1–2).\n- **Início da execução:** a primeira instrução fica sempre na posição 00 e a execução começa por ela (p. 1).\n- **Acumulador:** é um \"registrador especial\" onde a informação é colocada antes de ser usada em cálculos ou examinada (p. 1).\n- **Registradores do simulador (Exercício 10.01, pp. 2–3):**\n  - `accumulator`.\n  - `instructionCounter`, a posição da próxima instrução.\n  - `instructionRegister`, que recebe a instrução buscada: `instructionRegister = memory[instructionCounter];`.\n  - `operationCode = instructionRegister / 100;` (os 2 dígitos da esquerda).\n  - `operand = instructionRegister % 100;` (os 2 dígitos da direita).\n  - Todos os registradores começam com zero. O texto manda não executar direto da memória, mas passar pelo `instructionRegister` (p. 2).\n- **Ciclo de execução:** busca (fetch), extração de opcode e operando, `switch` e atualização do contador (p. 3).\n  - Instrução sem desvio: `++instructionCounter;` (pp. 3–4).\n  - BRANCH: `instructionCounter = operand;`.\n  - BRANCHZERO: `if(accumulador == 0){ instructionCounter = operand; }` (p. 4).\n- **Dump** (Figura 1, p. 3), exibido ao fim da execução:\n  - Registradores, nesta ordem: Accumulator (+0000), Instruction Counter (00), Instruction Register (+0000), Operation Code (00), Operand (00).\n  - Memória em grade 10×10, com colunas 0–9 e linhas 0–9, cada célula no formato +0000.\n- **Limites e erros fatais (p. 4):**\n  - Na entrada, cada número deve estar entre -9999 e +9999. Se não estiver, o simulador pede de novo até o valor ser válido.\n  - Erros fatais na execução: divisão por zero, opcode inválido e estouro do acumulador (valor > +9999 ou < -9999).\n  - Mensagens: `error : attempt to divide by zero!` e `Simpletron execution abnormally terminated!`. Nesse caso o dump completo também deve ser impresso.\n- **Mensagens do simulador (pp. 2–3):**\n  - Início: `Welcome to Simpletron!` / `Please enter your file program:`.\n  - Após carregar: `Simpletron loading completed!` / `Simpletron execution begins!`.\n\n## 2) Tabela de instruções (Tabela 1, pp. 1–2)\nSeus códigos estão **corretos**. Não há outros opcodes além dos 13 abaixo, e não há mnemônicos em português: o documento usa só os nomes em inglês.\n\n| Cód. | Mnemônico | Semântica no texto |\n|---|---|---|\n| 10 | READ | Lê uma palavra do teclado para uma posição de memória. |\n| 11 | WRITE | Escreve na tela uma palavra de uma posição de memória. |\n| 20 | LOAD | Memória → acumulador. |\n| 21 | STORE | Acumulador → memória. |\n| 30 | ADD | Soma a palavra da memória ao acumulador, e o resultado fica no acumulador. |\n| 31 | SUBTRACT | Subtrai a palavra da memória do acumulador, e o resultado fica no acumulador. |\n| 32 | DIVIDE | Acumulador ÷ palavra da memória, e o resultado fica no acumulador. |\n| 33 | MULTIPLY | Palavra da memória × acumulador, e o resultado fica no acumulador. |\n| 34 | **MODULE** (não \"MODULO\") | \"Resto da divisão da palavra de uma posição específica na memória pela palavra no acumulador\", e o resultado fica no acumulador. |\n| 40 | BRANCH | Desvio incondicional para o endereço. |\n| 41 | BRANCHNEG | Desvia se o acumulador for negativo. |\n| 42 | BRANCHZERO | Desvia se o acumulador for zero. |\n| 43 | HALT | Finaliza o programa. |\n\nObservações sobre o texto:\n- **Redação do MODULE:** ela é ambígua. Lida literalmente, é memória ÷ acumulador, o inverso do DIVIDE (p. 1). O Ybadoo não esclarece isso.\n- **Contagem de operações:** o texto diz que o `switch` diferencia \"as doze operações\" (p. 3), mas a tabela lista 13 códigos. É uma inconsistência do original, herdada do Deitel.\n- **Descrições de comportamento (Tabela 1 da p. 3):** o documento só detalha READ, LOAD e ADD:\n  - READ: exibe o prompt `input :`, converte o valor digitado em inteiro e o guarda em `memory[operand]`. O usuário digita o valor e aperta Enter.\n  - LOAD: `accumulator = memory[operand];`.\n  - ADD: `accumulator += memory[operand];`.\n  - \"Deixamos as outras para o leitor\" (p. 3).\n- **WRITE:** só se diz que escreve a palavra na tela (p. 1).\n\n## 3) Programas de exemplo\nNão há programas com colunas Posição/Palavra/Instrução. O único código SML é o arquivo de entrada do Exercício 10.01 (p. 2), com 10 palavras que ocupam as posições 00 a 09 em ordem:\n\n| Pos. | Palavra |\n|---|---|\n| 00 | +1007 |\n| 01 | +1008 |\n| 02 | +2007 |\n| 03 | +3008 |\n| 04 | +2109 |\n| 05 | +1109 |\n| 06 | +4300 |\n| 07 | +0000 |\n| 08 | +0000 |\n| 09 | +0000 |\n\n- **O que o texto explica (p. 3):** só a execução da primeira instrução, +1007 na posição 00. Ela é um READ que guarda o valor digitado na posição 07, e depois o contador é incrementado.\n- **Leitura minha, que o documento não faz:**\n  - 00 = READ 07 e 01 = READ 08.\n  - 02 = LOAD 07, 03 = ADD 08, 04 = STORE 09.\n  - 05 = WRITE 09 e 06 = HALT.\n  - As posições 07 a 09 são dados, depois do HALT.\n  - O programa soma dois números lidos, o que corresponde ao Exercício 10.02.\n\n## 4) Convenções do professor\nO documento é omisso em quase tudo o que você perguntou:\n- **Variáveis e constantes:** não há convenção escrita sobre onde ficam. O único indício é o exemplo da p. 2, em que os dados ficam nas posições 07–09, depois do HALT na 06, ou seja, no fim do programa.\n- **Palavras \"variable\"/\"constant\":** não aparecem no PDF.\n- **Constantes negativas:** não há regra. Só se diz que dados podem ter sinal e se citam -1293 e -0001 como exemplos de palavras (p. 1).\n- **Divisão inteira ou não:** não é dito explicitamente. O fato de a palavra ser um número decimal de 4 dígitos sugere inteiros, e READ converte para inteiro (p. 3). Os exercícios esperam resultados inteiros, como média = 3 para n = 5 (Ex. 10.07, p. 5), 11 no Ex. 10.31 (p. 9) e 4 no Ex. 10.22 (p. 7). Em 10.22, (1+1+2+3+5+8+13)/7 = 33/7 ≈ 4,71 e o enunciado diz 4. Isso indica truncamento, mas é inferência minha.\n- **Saída de erro nos exercícios:** a convenção recorrente é escrever -1 como resposta quando a entrada n for inválida (por exemplo, pp. 4–8).\n- **READ/WRITE:** o READ mostra o prompt `input :` (p. 3). O WRITE só \"escreve na tela\" a palavra (p. 1).\n\n## 5) Exercícios propostos (10.01 a 10.39, pp. 2–10)\n- **10.01 (pp. 2–4):** (Deitel, 2003) implementar o simulador do Simpletron, com carga de arquivo, ciclo de execução, dump, validação de entrada e erros fatais.\n- **10.02 (p. 4):** soma de dois números. Exemplo: 2 e 7 dão 9.\n- **10.03 (p. 4):** somatória dos n primeiros positivos. n = 5 dá 15. n inválido dá -1.\n- **10.04 (p. 4):** somatória dos números lidos até aparecer 0. 1, 7, 4, 3, 0 dão 15.\n- **10.05 (p. 4):** produto (fatorial) dos n primeiros. n = 5 dá 120. n inválido dá -1.\n- **10.06 (p. 5):** produto dos números lidos até 0. 1, 7, 4, 3 dão 84.\n- **10.07 (p. 5):** média dos n primeiros positivos. n = 5 dá 3. n inválido dá -1.\n- **10.08 (p. 5):** média dos números lidos até 0. 2, 7, 4, 3 dão 4.\n- **10.09 (p. 5):** maior de dois números.\n- **10.10 (p. 5):** maior de três números.\n- **10.11 (p. 5):** maior dos n números, em que o primeiro número lido é n. 4, 1, 7, 4, 3 dão 7. n inválido dá -1.\n- **10.12 (p. 5):** maior número até aparecer 0.\n- **10.13 (p. 6):** menor de três números.\n- **10.14 (p. 6):** menor dos n números lidos. 4, 1, 7, 4, 3 dão 1. n inválido dá -1.\n- **10.15 (p. 6):** menor número até aparecer 0.\n- **10.16 (p. 6):** sequência crescente de 0 a n. n = 5 dá 0 1 2 3 4 5. n inválido dá -1.\n- **10.17 (p. 6):** sequência decrescente de n a 0. n = 5 dá 5 4 3 2 1 0. n inválido dá -1.\n- **10.18 (p. 6):** exponenciação B^E, com E inteiro positivo. 2 e 5 dão 32. E inválido dá -1.\n- **10.19 (p. 6):** primeiros termos de Fibonacci (1 1 2 3 5 8 13 …). 7 termos dão 1 1 2 3 5 8 13. Termos inválidos dão -1.\n- **10.20 (p. 7):** soma dos termos de Fibonacci. 7 termos dão 33.\n- **10.21 (p. 7):** produto dos termos de Fibonacci. 7 termos dão 3.120.\n- **10.22 (p. 7):** média dos termos de Fibonacci. 7 termos dão 4.\n- **10.23 (p. 7):** sequência y_k = y_(k-1) + 2, com y_1 = 1. 5 termos dão 1 3 5 7 9.\n- **10.24 (p. 7):** y_k = y_(k-1) + k. 5 termos dão 1 3 6 10 15.\n- **10.25 (p. 8):** y_(k+1) = y_k + (2k+1). 5 termos dão 1 4 9 16 25.\n- **10.26 (p. 8):** y_(k+1) = y_k + (3k²+3k+1). 5 termos dão 1 8 27 64 125.\n- **10.27 (p. 8):** y_(k+1) = 2·y_k. 5 termos dão 1 2 4 8 16.\n- **10.28 (p. 8):** somatória de 2k para k = 1 a n. n = 5 dá 30.\n- **10.29 (p. 8):** média de 2k. n = 5 dá 6.\n- **10.30 (p. 9):** somatória de k². n = 5 dá 55.\n- **10.31 (p. 9):** média de k². n = 5 dá 11.\n- **10.32 e 10.33 (p. 9):** ler dois números e imprimir em ordem crescente (10.32) ou decrescente (10.33). 5 e 7 dão 5 7 (crescente) e 7 5 (decrescente).\n- **10.34 e 10.35 (p. 9):** o mesmo com três números. 5, 7, 4 dão 4 5 7 (crescente) e 7 5 4 (decrescente).\n- **10.36 e 10.37 (pp. 9–10):** o mesmo com quatro números. 1, 7, 4, 3 dão 1 3 4 7 (crescente) e 7 4 3 1 (decrescente).\n- **10.38 (p. 10):** Tribonacci, F_n = F_(n-1) + F_(n-2) + F_(n-3), com F_0 = 0, F_1 = 1 e F_2 = 1. n ≥ 0 inteiro. n = 6 dá 0 1 1 2 4 7 13. n inválido dá -1.\n- **10.39 (p. 10):** verificar se um número pertence à sequência de Fibonacci (F_0 = 0, F_1 = 1). Retorna 1 se pertence e 0 se não.\n\n**Referências (p. 10):** Deitel (2001), *C++, como programar*, 3ª ed., e Deitel (2003), *Java, como programar*, 4ª ed.\n\nPages consulted: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+		"pagesRead": [
+			1,
+			2,
+			3,
+			7,
+			8,
+			9,
+			10
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3,
+			7,
+			8,
+			9,
+			10
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}

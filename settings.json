@@ -12,6 +12,13 @@
 		},
 		"graphTools": {
 			"enabled": true
+		},
+		"fileAccess": {
+			"restricted": true,
+			"folders": [
+				"E:\\Estudos\\Learn Harness Material",
+				"F:\\Documentos e Livros\\Studies\\"
+			]
 		}
 	},
 	"models": {
@@ -20,7 +27,7 @@
 				"provider": "claude-code",
 				"id": "opus"
 			},
-			"thinkingLevel": "xhigh"
+			"thinkingLevel": "high"
 		},
 		"cheap": {
 			"model": {

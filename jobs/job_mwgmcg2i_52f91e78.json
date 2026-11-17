@@ -1,0 +1,77 @@
+{
+	"id": "job_mwgmcg2i_52f91e78",
+	"kind": "pdf",
+	"chatId": "chat_mwgmbz63_d8b7dd51",
+	"toolCallId": "toolu_014wAbJ2kmCqjto2nCTDPZm1",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Processamento de Imagens\\Plano de Ensino Completo - Processamento de Imagens - 2026-2 - Seg, Ter 18h - CCO074-CCONM4B.pdf",
+		"question": "Give the full syllabus: list of topics/units in order, the class schedule (dates and topics per class), what is covered in P1 vs P2 (exam dates and content), evaluation criteria, and bibliography. Cite pages."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-14T16:27:15.930Z",
+	"updatedAt": "2026-11-14T16:30:54.551Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 8,
+		"outputTokens": 4165,
+		"cacheReadTokens": 6684,
+		"cacheWriteTokens": 20764,
+		"cacheWrite1hTokens": 0,
+		"steps": 4,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 860,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1118,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 201,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 8068,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 3867,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 10718,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 3867,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 10718,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Processamento de Imagens\\Plano de Ensino Completo - Processamento de Imagens - 2026-2 - Seg, Ter 18h - CCO074-CCONM4B.pdf",
+		"question": "Give the full syllabus: list of topics/units in order, the class schedule (dates and topics per class), what is covered in P1 vs P2 (exam dates and content), evaluation criteria, and bibliography. Cite pages.",
+		"brief": "**Syllabus brief: Processamento de Imagens (CCO074, turma CCONM4B, IESB, 2026/2)**\n\n**General information (p. 1).** The course is taught by Thiago Raposo Milhomem de Carvalho. It is for the 7th period, with 60 h in total (45 theory and 15 practice). The prerequisites are Cálculo II and APC. The ementa covers:\n- definitions and fundamentals\n- multidimensional Fourier analysis\n- enhancement in the spatial and frequency domains\n- image filtering and restoration\n- color\n- transforms\n- image coding and compression\n- morphology and segmentation\n\nPractical work uses Matlab or Octave (p. 3). Teaching is by lectures with active methodologies, and the Google Classroom virtual learning environment is used (p. 3).\n\n**Units, in order (pp. 1–3)**\n1. **Introdução e Fundamentos (p. 1):**\n   - principles and applications\n   - the human visual system and perception\n   - digital image representation\n   - acquisition and the mathematical model\n   - image parameters\n   - pixel relations (adjacency, neighborhood, paths, connectivity)\n2. **Operações e Transformações sobre Imagens (pp. 1–2):**\n   - logical operations\n   - gray-level operations\n   - interpolation\n   - spatial and geometric operations\n   - classification of transformations\n   - histograms and equalization\n   - spatial masks, convolution and correlation\n   - filters\n   - Fourier transform\n   - sampling and aliasing (including spatial aliasing)\n3. **Filtragem no domínio espacial e da frequência: Realce e Restauração (p. 2):**\n   - spatial-domain enhancement\n   - statistical filters (mean, median, smoothing)\n   - sharpening, edge detection, unsharp masking and high-boost\n   - frequency-domain filtering: low-pass, high-pass, band-pass and band-reject, using ideal, Butterworth and Gaussian filters\n   - homomorphic and notch filters\n   - noise and artifacts: characterization and distributions, spectral, spatial, known-source and region-based treatment\n   - adaptive filtering\n4. **Imagens em Cores (p. 2):**\n   - the electromagnetic spectrum and perception\n   - additive and subtractive color\n   - hue, intensity and saturation\n   - RGB, CMY and HSI representations\n   - color processing: conversions, quantization, safe colors, slicing\n   - equalization, contrast, sharpness and color segmentation\n5. **Codificação, Morfologia e Segmentação (pp. 2–3):**\n   - compression fundamentals and psycho-visual redundancy\n   - information and entropy\n   - source and channel coding\n   - lossless and lossy compression\n   - other transforms: DCT, wavelets, Karhunen-Loève, Walsh-Hadamard\n   - main compression techniques\n   - image coding and JPEG\n   - spatial and temporal redundancy, video coding and MPEG\n   - binary images\n   - morphological operations on binary images\n   - morphology and segmentation of binary images\n   - morphology and segmentation in gray levels\n\nThe content list has only 5 units. The schedule (p. 7) mentions a \"Unidade 6: Morfologia e Segmentação\". In the content list, morphology and segmentation sit inside Unit 5.\n\n**Class schedule (classes on Mondays and Tuesdays) (pp. 6–7)**\n\n*1º Bimestre*\n- **3 and 4 Aug:** presentation of the plan and the main concepts. Unit 1 and Matlab. (p. 6)\n- **10 and 11 Aug:** Units 1 and 2 (Matlab). Possible graded activity. (p. 6)\n- **17 and 18 Aug:** Units 1 and 2. Possible graded activity. (p. 6)\n- **24 and 25 Aug:** Units 1, 2 and 3. Possible graded activity. (p. 6)\n- **31 Aug and 1 Sep:** Units 2 and 3, with review and exercises. (p. 6)\n- **7 and 8 Sep:** there is no class on 7 Sep. Units 2 and 3, with review and exercises. (p. 6)\n- **14 and 15 Sep: P1.** (p. 6)\n\n*2º Bimestre*\n- **21 and 22 Sep:** Units 2 and 3. (p. 6)\n- **28 and 29 Sep:** Units 2 and 3. (p. 6)\n- **5 and 6 Oct:** Unit 3. (p. 6)\n- **12 and 13 Oct:** no classes. (p. 6)\n- **19 and 20 Oct:** Units 3, 4 (Cores) and 5 (Codificação). (p. 6)\n- **26 and 27 Oct:** Units 3, 4 and 5. (p. 6)\n- **2 and 3 Nov:** there is no class on 2 Nov. Units 3, 4 and 5 are covered on 3 Nov. (pp. 6–7)\n- **9 and 10 Nov:** Units 3, 4, 5 and 6 (Morfologia e Segmentação), with review and exercises. (p. 7)\n- **16 and 17 Nov: P2.** (p. 7)\n\n*After the bimesters*\n- **23 and 24 Nov:** all units, with discussion of the exams and clarification of doubts. (p. 7)\n- **30 Nov and 1 Dec:** there is no class on 30 Nov. Same content as the previous week. (p. 7)\n- **7 and 8 Dec: P3 (substitutive exam)**, followed by closing and delivery of the final reports. (p. 7)\n\nThe bimester labels sit in a merged cell in the table, so I read the boundaries from the layout. The 1º Bimestre runs from 3 Aug to P1. The 2º Bimestre runs from 21 Sep to P2 (pp. 6–7).\n\n**P1 vs P2 (exam dates and content)**\n- **P1:** it takes place on 14 Sep (Part 1, Monday) and 15 Sep (Part 2, Tuesday). It is written, individual and closed-book. (pp. 4, 6)\n- **P2:** it takes place on 16 Nov (Part 1, Monday) and 17 Nov (Part 2, Tuesday). The format is the same. (pp. 4, 7)\n- **Content is not stated explicitly for either exam.** From the schedule, the classes before P1 covered Units 1 and 2 and the start of Unit 3 (p. 6). Before P2, the classes covered Units 2 and 3, with Units 4, 5 and 6 added from 19 Oct (pp. 6–7). That is my inference, not something the document says.\n- **P3** covers the whole semester's content (p. 4).\n\n**Evaluation criteria (pp. 3–5)**\n- All items are graded from 0 to 10.\n- **A1 = 0,7·P1 + 0,3·TE1**\n- **A2 = 0,7·P2 + 0,3·TE2** (p. 4)\n- **TE1 and TE2** are the averages of graded activities other than the written exams. These include exercises, quizzes, tests, labs, simulations, forums and presentations. Each TE is 50% synchronous activities and 50% asynchronous activities, and each half is a simple arithmetic mean. Class participation may count as a graded activity or as extra credit. There are no make-ups for missed graded exercises. (p. 4)\n- **MF = 0,4·A1 + 0,6·A2** (p. 4)\n- **P3:**\n  - It is available if MF < 5,0, and the student must request it.\n  - It covers all content and fully replaces A1 or A2, whichever is more favorable.\n  - **MF = max{0,4·P3 + 0,6·A2 ; 0,4·A1 + 0,6·P3}** (p. 4)\n- **Approval:**\n  - A student needs attendance of at least 75% and MF ≥ 5,0.\n  - With attendance below 75%, the student fails automatically, has no right to P3, and receives the mention SR. (pp. 4–5)\n  - Students on home-exercise regime (exercício domiciliar) must still take the in-person individual exams. (p. 4)\n- **Mentions (p. 5):**\n  - MF ≥ 9,0: SS (approved)\n  - 7,0 to <9,0: MS (approved)\n  - 5,0 to <7,0: MM (approved)\n  - 3,0 to <5,0: MI (failed)\n  - above 0 and <3,0: II (failed)\n  - 0,0: SR (failed)\n- The plan may be changed during the semester (p. 5).\n\n**Bibliography (p. 5)**\n- *Basic:*\n  - Gonzalez & Woods, *Digital Image Processing*, 3rd ed., 2008\n  - J. R. Parker, *Algorithms for Image Processing and Computer Vision*, 1997\n  - Schwartz & Pedrini, *Análise de Imagens Digitais*, 2007\n- *Complementary:*\n  - Al Bovik, *Handbook of Image and Video Processing*\n  - Castleman, *Digital Image Processing*, 1995\n  - Jain, *Fundamentals of Digital Image Processing*, 1988\n  - Sonka, Hlavac & Boyle, *Image Processing, Analysis and Machine Vision*, 1993\n  - Oppenheim & Schafer, *Discrete-Time Signal Processing*, 2010\n  - Gilat, *Matlab com aplicações em engenharia*, 2nd ed., 2006\n  - Hanselman, *Matlab 6: Curso Completo*, 2003\n  - Phillips, Parr & Riskin, *Signals, Systems, and Transforms*, 4th ed., 2008\n\nPages consulted: 1, 2, 3, 4, 5, 6, 7",
+		"pagesRead": [
+			6,
+			7
+		],
+		"pagesConsulted": [
+			6,
+			7
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

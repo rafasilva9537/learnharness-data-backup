@@ -1,0 +1,92 @@
+{
+	"id": "job_mwgm1q9s_9ad74ca1",
+	"kind": "pdf",
+	"chatId": "chat_mwgliw1o_92817a43",
+	"toolCallId": "toolu_015neTJsUU57xzg5wHVBRmEB",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Segunda Avaliação - Compiladores (IESB) - 2º Semestre de 2024 - Turmas - Ybadoo.pdf",
+		"question": "Esta é uma prova de Compiladores (IESB, 2024/2, A2) convertida de página web para PDF. 1) Liste TODAS as questões com o enunciado completo (inclua gramáticas, expressões regulares, autômatos, tabelas, código — transcreva literalmente). 2) Para cada questão, se o PDF contiver a solução/resolução, transcreva a resolução completa passo a passo, exatamente na forma e notação que o professor usa (nomes dos passos, formato das tabelas, como ele monta conjuntos FIRST/FOLLOW, tabelas de análise, árvores, autômatos etc.). 3) Para cada imagem/figura (ex.: diagrama de autômato, árvore sintática, tabela), leia visualmente e transcreva tudo: estados, estado inicial, finais, transições com rótulos, nós, células. Se alguma imagem estiver ilegível ou ausente, diga explicitamente. 4) Indique se as soluções estão no PDF ou só links para páginas externas. Cite páginas."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-14T16:18:55.936Z",
+	"updatedAt": "2026-11-14T16:24:31.619Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 10,
+		"outputTokens": 8128,
+		"cacheReadTokens": 16653,
+		"cacheWriteTokens": 29932,
+		"cacheWrite1hTokens": 0,
+		"steps": 5,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2803,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 141,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1366,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 227,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 6414,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 128,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 10336,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 7595,
+				"cacheReadTokens": 11640,
+				"cacheWriteTokens": 9013,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 7595,
+			"cacheReadTokens": 11640,
+			"cacheWriteTokens": 9013,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Compiladores\\Segunda Avaliação - Compiladores (IESB) - 2º Semestre de 2024 - Turmas - Ybadoo.pdf",
+		"question": "Esta é uma prova de Compiladores (IESB, 2024/2, A2) convertida de página web para PDF. 1) Liste TODAS as questões com o enunciado completo (inclua gramáticas, expressões regulares, autômatos, tabelas, código — transcreva literalmente). 2) Para cada questão, se o PDF contiver a solução/resolução, transcreva a resolução completa passo a passo, exatamente na forma e notação que o professor usa (nomes dos passos, formato das tabelas, como ele monta conjuntos FIRST/FOLLOW, tabelas de análise, árvores, autômatos etc.). 3) Para cada imagem/figura (ex.: diagrama de autômato, árvore sintática, tabela), leia visualmente e transcreva tudo: estados, estado inicial, finais, transições com rótulos, nós, células. Se alguma imagem estiver ilegível ou ausente, diga explicitamente. 4) Indique se as soluções estão no PDF ou só links para páginas externas. Cite páginas.",
+		"brief": "# Brief: Segunda Avaliação, Compiladores (IESB, 2024/2), Ybadoo (www.ybadoo.com.br/turmas/2024_02/iesb_cmp/A2/)\n\n**Visão geral.** O PDF tem 6 páginas e contém 6 questões numeradas (01–06) mais uma \"Questão Extra\". Não há imagens de conteúdo, só o logo Ybadoo na p. 1 e o selo GFDL na p. 6. Não há autômatos, árvores sintáticas nem conjuntos FIRST/FOLLOW. O material gráfico que existe são tabelas, que li visualmente e transcrevi abaixo.\n\n**Onde estão as soluções:**\n- **Q01–Q04 (múltipla escolha):** o PDF não marca o gabarito nem traz resolução (pp. 1–3). Os gabaritos que dou abaixo são cálculo meu e não vêm do documento.\n- **Q05, Q06 e Extra:** a resolução está no próprio PDF, como tabelas de quádruplas e tabela de código objeto (pp. 4–6). Elas aparecem logo abaixo do enunciado, sem passo a passo textual.\n- **Links externos:** nenhum link para soluções. Os únicos links são de navegação do site e da licença GFDL.\n\n---\n\n## Questão 01 (p. 1)\nEnunciado: \"Para desempenhar suas tarefas, um compilador deve executar dois tipos de atividade. A primeira atividade é a análise do código fonte, onde a estrutura e significado do programa de alto nível são reconhecidos. A segunda atividade é a síntese do programa equivalente em linguagem simbólica. Após realizada a análise do código fonte, na fase de síntese, o compilador deverá gerar o código em linguagem simbólica equivalente ao código analisado. Analise as seguintes afirmativas sobre a fase de síntese de um compilador.\"\n\n- I. De acordo com Aho (2008), o problema de gerar um código \"ótimo\" é que não pode ser solucionado, contudo é possível garantir, com a aplicação de técnicas de otimização, um código bom.\n- II. Apesar da geração de código intermediário tornar a implementação do compilador mais portável, já que o código intermediário pode ser traduzido para várias arquiteturas diferentes, o código intermediário é geralmente mais difícil de ser otimizado já que ainda está muito longe do código alvo final.\n- III. O processo de otimização de código desenvolve-se em duas fases, uma que inclui técnicas para eliminar atribuições redundantes e suprimir subexpressões comuns, e outra, que inclui a troca de instruções de máquina por instruções mais rápidas e da melhor utilização de registradores.\n- IV. Na geração de código intermediário, são realizadas tarefas como seleção de instruções, alocação e atribuição de registradores e escalonamento de instruções que dependem do conhecimento da máquina-alvo para a qual está sendo gerado o código objeto.\n\n\"Quais das assertivas apresentadas estão corretas?\"\na. apenas as assertivas I e II. / b. apenas as assertivas I e III. / c. apenas as assertivas II e III. / d. apenas as assertivas II e IV. / e. apenas as assertivas III e IV.\n\n**Gabarito no PDF:** não. Pelo conhecimento geral (não do PDF), minha inferência é **b**:\n- II é falsa, porque o código intermediário costuma ser mais fácil de otimizar.\n- IV descreve a geração de código objeto, não a de código intermediário.\n\n## Questão 02 (pp. 1–2)\nEnunciado: \"A notação tradicional para expressões aritméticas, que representa uma operação binária na forma x + y, ou seja, com o operador entre seus dois operandos, é conhecida como notação infixada. Uma notação alternativa para esse tipo de expressão é a notação pré-fixada, na qual o operador é expresso antes de seus operandos, como por exemplo, + x y. Outra notação alternativa é a notação pós-fixada, na qual o operador é expresso após seus operandos, como por exemplo, x y +. O atrativo das notações pré-fixada e pós-fixada é que elas dispensam o uso de parênteses ao adotar a noção de pilha para a representação das expressões. Analise as assertivas a seguir, considerando a gramática livre de contexto G.\"\n\n```\nG = ({A, E, T, F}, {a, b, c, d, e, f, g, h, =, +, -, *, /}, P, A)\nP = {A → F=E\n     E → T+E | T-E | T\n     T → F*T | F/T | F\n     F → a | b | c | d | e | f | g | h}\n```\n(A gramática é recursiva à direita.)\n\n- I. A notação pré-fixada da expressão aritmética `a = b + c * d / e - f + g * h` é `= a + b - / * c d e + f * g h`.\n- II. A notação pós-fixada da expressão aritmética `a = b + c * d / e - f + g * h` é `a b c d * e / f g h * + - + =`.\n- III. A notação pré-fixada da expressão aritmética `a = b + c * d / e - f + g * h` é `= a + b - * c / d e + f * g h`.\n- IV. A notação pós-fixada da expressão aritmética `a = b + c * d / e - f + g * h` é `a b c d e / * f g h * + - + =`.\n\nAlternativas (p. 2): a. I e II / b. I e III / c. II e III / d. II e IV / e. III e IV (todas \"apenas as assertivas …\").\n\n**Gabarito no PDF:** não. Pelo cálculo (não do PDF), como a gramática é recursiva à direita, a árvore é b + ((c*(d/e)) − (f + (g*h))). Isso confere com III e IV, logo **e**.\n\n## Questão 03 (pp. 2–3)\nEnunciado: \"Dado o trecho de programa a seguir:\"\n```c\nint a, b;\n\nvoid xpto (T1 int x, T2 int y)\n{\n  int z = x + a;\n  x = y + 2;\n  y = y + z;\n}\n\nvoid main()\n  a = 3;\n  b = 2;\n  xpto(a, b);\n  printf(\"%d %d\", a, b);\n}\n```\n(Transcrito literalmente: o `main` não tem `{` de abertura no PDF.)\n\n\"Onde T1 e T2 indicam mecanismos de passagem de parâmetros (por valor ou por referência). A tabela a seguir deve ser preenchida com os valores a serem impressos pelo programa para cada combinação de T1 e T2.\" A tabela vem vazia: colunas T1 (valor, referência) e linhas T2 (valor, referência).\n\n\"Qual das alternativas abaixo preenche a tabela acima com os valores a serem impressos pelo trecho de programa?\" Cada alternativa é uma tabela. Em cada uma, cada célula traz dois números (a b).\n\n| Alt. | T2 valor: T1 valor | T2 valor: T1 ref. | T2 ref.: T1 valor | T2 ref.: T1 ref. |\n|---|---|---|---|---|\n| a | 3 2 | 4 8 | 3 8 | 4 2 |\n| b | 3 2 | 2 4 | 3 8 | 8 4 |\n| c | 3 8 | 4 2 | 3 2 | 4 8 |\n| d | 3 2 | 4 2 | 3 8 | 4 8 |\n| e | 3 2 | 4 2 | 4 2 | 4 8 |\n\n**Gabarito no PDF:** não. Pelo cálculo (não do PDF), com a=3 e b=2, z = x + a = 6 em todos os casos:\n- Os dois por valor: imprime 3 2.\n- T1 valor e T2 referência: b = 2+6 = 8, imprime 3 8.\n- T1 referência e T2 valor: a = y+2 = 4, imprime 4 2.\n- Os dois por referência: a = 4 e b = 8, imprime 4 8.\n\nIsso dá a alternativa **d**.\n\n## Questão 04 (pp. 3–4)\nEnunciado: \"Considere o programa escrito em Simpletron Machine Language, apresento a seguir.\" A tabela \"Programa em Simpletron Machine Language\" tem as colunas Posição / Palavra / Instrução:\n\n| Pos | Palavra | Instrução |\n|---|---|---|\n| 00 | +1017 | read N |\n| 01 | +2017 | load N |\n| 02 | +4114 | branch negative to 14 |\n| 03 | +4214 | branch zero to 14 |\n| 04 | +3317 | multiply N |\n| 05 | +3018 | add S |\n| 06 | +2118 | store S |\n| 07 | +2017 | load N |\n| 08 | +3016 | add -1 |\n| 09 | +2117 | store N |\n| 10 | +4212 | branch zero to 12 |\n| 11 | +4004 | branch to 04 |\n| 12 | +1118 | write S |\n| 13 | +4300 | halt |\n| 14 | +1116 | write -1 |\n| 15 | +4300 | halt |\n| 16 | -0001 | variable -1 |\n| 17 | +0000 | variable N |\n| 18 | +0000 | variable S |\n\n\"Com base no programa apresentado, avalie as assertivas a seguir.\"\n- I. Caso o valor fornecido pelo usuário seja 2, o valor impresso pelo programa será 5.\n- II. Caso o valor fornecido pelo usuário seja 3, o valor impresso pelo programa será 14.\n- III. Caso o valor fornecido pelo usuário seja 4, o valor impresso pelo programa será 24.\n- IV. Caso o valor fornecido pelo usuário seja 5, o valor impresso pelo programa será 120.\n\n\"A respeito dessas asserções, assinale a alternativa correta.\" a. I e II / b. I e III / c. II e III / d. II e IV / e. III e IV (todas \"apenas as assertivas …\", p. 3–4).\n\n**Gabarito no PDF:** não. Pelo cálculo (não do PDF), o programa calcula a soma dos quadrados 1²+…+N²: N=2 dá 5, N=3 dá 14, N=4 dá 30, N=5 dá 55. I e II estão corretas, logo **a**.\n\n## Questão 05 (p. 4)\nEnunciado: \"A fase de otimização do código intermediário vem logo após a fase de geração desse código e tem por objetivo tornar o código intermediário mais apropriado para a produção de código objeto (código de máquina) eficiente, tanto em relação ao tamanho como ao tempo de execução. Uma das técnicas de otimização de código intermediário consiste em identificar segmentos sequencias do programa, chamados blocos básicos, e representá-los através de grafos dirigidos e submetê-los a um processo de otimização. Apresente o código de três endereços não otimizado da seguinte sequência de comandos, sobre a gramática livre de contexto G, utilizando a notação pós-fixada.\"\n\n```\na = d + e – f * g + h;\nb = e – f * g / h;\nc = d + e + g / h;\n\nG = ({A, E, T, F}, {a, b, c, d, e, f, g, h, =, +, -, *, /}, P, A)\nP = {A → F=E\n     E → E+T | E-T | T\n     T → T*F | T/F | F\n     F → a | b | c | d | e | f | g | h }\n```\n(Aqui a gramática é recursiva à esquerda, ao contrário da Q02.)\n\n**Resolução no PDF**, \"Código de três endereços, representado por quádruplas\":\n\n| # | oper | arg1 | arg2 | result |\n|---|---|---|---|---|\n| (0) | + | d | e | T1 |\n| (1) | * | f | g | T2 |\n| (2) | - | T1 | T2 | T3 |\n| (3) | + | T3 | h | T4 |\n| (4) | = | T4 | | a |\n| (5) | * | f | g | T5 |\n| (6) | / | T5 | h | T6 |\n| (7) | - | e | T6 | T7 |\n| (8) | = | T7 | | b |\n| (9) | + | d | e | T8 |\n| (10) | / | g | h | T9 |\n| (11) | + | T8 | T9 | T10 |\n| (12) | = | T10 | | c |\n\nO PDF não traz explicação passo a passo, só a tabela.\n\n## Questão 06 (pp. 4–5)\nEnunciado: \"Um grafo acíclico dirigido também é uma representação intermediária de um compilador, sendo utilizado para a identificação de subexpressões comuns existentes no mesmo bloco básico. Apresente o código de três endereços otimizado, após a construção do grafo acíclico dirigido para blocos básicos, no código de três endereços não otimizado elaborado na Questão 5.\"\n\n**Resolução no PDF**, \"Código de três endereços, representado por quádruplas\" (pp. 4–5). O PDF não desenha o DAG, só apresenta o resultado:\n\n| # | oper | arg1 | arg2 | result |\n|---|---|---|---|---|\n| (0) | + | d | e | T1 |\n| (1) | * | f | g | T2 |\n| (2) | - | T1 | T2 | T3 |\n| (3) | + | T3 | h | T4 |\n| (4) | = | T4 | | a |\n| (5) | / | T2 | h | T5 |\n| (6) | - | e | T5 | T6 |\n| (7) | = | T6 | | b |\n| (8) | / | g | h | T7 |\n| (9) | + | T1 | T7 | T8 |\n| (10) | = | T8 | | c |\n\nEm relação à Q05, as subexpressões comuns `d+e` (T1) e `f*g` (T2) foram reaproveitadas. As quádruplas (5), (9) e (10) da Q05 foram eliminadas, e o código passou de 13 para 11 quádruplas.\n\n## Questão Extra (pp. 5–6)\nEnunciado: \"Apresente o código objeto resultante do código de três endereços otimizado obtido na Questão 6, utilizando no máximo cinco registradores (R0 a R4).\"\n\n**Resolução no PDF**, \"Código objeto resultante do código de três endereços otimizado obtido na Questão 6\". A tabela tem as colunas Código objeto | Comentário | R0 | R1 | R2 | R3 | R4. Cada linha mostra o conteúdo dos registradores depois da instrução. Células vazias estão marcadas \"—\".\n\n| Código objeto | Comentário | R0 | R1 | R2 | R3 | R4 |\n|---|---|---|---|---|---|---|\n| LOAD d, R0 | R0 = d | d | — | — | — | — |\n| LOAD e, R3 | R3 = e | d | — | — | e | — |\n| ADD R3, R0 | R0 = R0 + R3 (d + e) | (d + e) | — | — | e | — |\n| COPY R0, R1 | R1 = R0 (d + e) | (d + e) | (d + e) | — | e | — |\n| LOAD f, R2 | R2 = f | (d + e) | (d + e) | f | e | — |\n| LOAD g, R4 | R4 = g | (d + e) | (d + e) | f | e | g |\n| MUL R4, R2 | R2 = R2 * R4 (f * g) | (d + e) | (d + e) | (f * g) | e | g |\n| SUB R2, R1 | R1 = R1 - R2 ((d + e) - (f * g)) | (d + e) | ((d + e) - (f * g)) | (f * g) | e | g |\n| LOAD h, R4 | R4 = h | (d + e) | ((d + e) - (f * g)) | (f * g) | e | h |\n| ADD R4, R1 | R1 = R1 + R4 (((d + e) - (f * g)) + h) | (d + e) | (((d + e) - (f * g)) + h) | (f * g) | e | h |\n| STORE R1, a | a = (((d + e) - (f * g)) + h) | (d + e) | (((d + e) - (f * g)) + h) | (f * g) | e | h |\n| DIV R4, R2 | R2 = R2 / R4 ((f * g) / h) | (d + e) | (((d + e) - (f * g)) + h) | ((f * g) / h) | e | h |\n| SUB R2, R3 | R3 = R3 – R2 (e - ((f * g) / h)) | (d + e) | (((d + e) - (f * g)) + h) | ((f * g) / h) | (e - ((f * g) / h)) | h |\n| STORE R3, b | b = (e - ((f * g) / h)) | (d + e) | (((d + e) - (f * g)) + h) | ((f * g) / h) | (e - ((f * g) / h)) | h |\n| LOAD g, R1 | R1 = g | (d + e) | g | ((f * g) / h) | (e - ((f * g) / h)) | h |\n| DIV R4, R1 | R1 = R1 / R4 (g / h) | (d + e) | (g / h) | ((f * g) / h) | (e - ((f * g) / h)) | h |\n| ADD R1, R0 | R0 = R0 + R1 ((d + e) + (g / h)) | ((d + e) + (g / h)) | (g / h) | ((f * g) / h) | (e - ((f * g) / h)) | h |\n| STORE R0, c | c = ((d + e) + (g / h)) | ((d + e) + (g / h)) | (g / h) | ((f * g) / h) | (e - ((f * g) / h)) | h |\n\nConvenções da notação do professor:\n- Instruções no formato `OP origem, destino`: `ADD R3, R0` significa R0 = R0 + R3, e `SUB R2, R1` significa R1 = R1 − R2.\n- Operações usadas: LOAD, STORE, COPY, ADD, SUB, MUL, DIV.\n- O comentário traz a atribuição entre registradores e, ao lado, a expressão totalmente parentetizada.\n- O \"descritor de registradores\" é mostrado como a expressão mantida em cada registrador. Isso permite reaproveitar (d+e) em R0 e (f*g) em R2.\n\n---\n\nPages consulted: 1, 2, 3, 4, 5, 6",
+		"pagesRead": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}
