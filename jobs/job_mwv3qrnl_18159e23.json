@@ -1,0 +1,89 @@
+{
+	"id": "job_mwv3qrnl_18159e23",
+	"kind": "pdf",
+	"chatId": "chat_mwv3lftr_0d8c8abd",
+	"toolCallId": "toolu_01XmuhQKCvufcFL6wbikYiPt",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\Plano de Ensino Completo - Sistemas de Comunicação - 2026-2 - Qua-19h15 - MDC080-CCONM4B.pdf",
+		"question": "Extract the full syllabus: course content units/topics (ementa, conteúdo programático), weekly schedule with dates, which topics are covered before P1 vs P2 (and exam dates), evaluation scheme, bibliography. I need to know exactly what content the P2 exam covers."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-24T19:43:04.065Z",
+	"updatedAt": "2026-11-24T19:47:01.951Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 10,
+		"outputTokens": 5668,
+		"cacheReadTokens": 10358,
+		"cacheWriteTokens": 32685,
+		"cacheWrite1hTokens": 0,
+		"steps": 6,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 882,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 2553,
+				"cacheWriteTokens": 239,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2374,
+				"cacheReadTokens": 2792,
+				"cacheWriteTokens": 5791,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 284,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 9305,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 0,
+				"outputTokens": 0,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 0,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2913,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 16468,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 2913,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 16468,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\Plano de Ensino Completo - Sistemas de Comunicação - 2026-2 - Qua-19h15 - MDC080-CCONM4B.pdf",
+		"question": "Extract the full syllabus: course content units/topics (ementa, conteúdo programático), weekly schedule with dates, which topics are covered before P1 vs P2 (and exam dates), evaluation scheme, bibliography. I need to know exactly what content the P2 exam covers.",
+		"brief": "**Brief: Sistemas de Comunicação (MDC080), turma CCONM4B, 2026/2, IESB**\n\nThe professor is Thiago Raposo Milhomem de Carvalho. The course has 60 h: 45 theory and 15 practice (p. 1). This brief is from the extracted text of all 5 pages, and I rendered p. 5 to check the schedule table against the text.\n\n**The plan gives no explicit exam syllabus for P1 or P2.** The split below is inferred from the weekly schedule on p. 5. The plan can also be changed during the semester (p. 4).\n\n**Exam dates (p. 5)**\n- P1 is on 23-sep.\n- P2 is on 25-nov, which is tomorrow (today is 24-nov).\n- 2-dec is the \"Devolutiva da P2\", covering all units, with review and a question session.\n- P3 (substitute exam) is on 9-dec, followed by closing.\n- P1 and P2 are individual, written and closed-book (p. 3).\n\n**Ementa (p. 1)**\n- Elements of communication systems and analog communication systems.\n- Signals in the frequency domain via Fourier analysis.\n- Analog transmission and modulation.\n- Signal digitization.\n- Digital communication systems.\n- Elements of information theory, source coding, algebra and channel coding.\n\n**Units (pp. 1–2)**\n- **Unit 1, Elements of Communication Systems (p. 1):**\n  - Communication systems and their elements.\n  - Analog and digital messages.\n  - Continuous-time and discrete-time signals.\n  - Modulation and coding.\n  - Signals and noise.\n  - Channels.\n- **Unit 2, Signals, Fourier Analysis and Principles of Communications (pp. 1–2):**\n  - Continuous-time signal representations.\n  - Complex numbers.\n  - Time vs. frequency domain.\n  - Fourier series and Fourier transform.\n  - Frequency spectrum.\n  - Modulation, filtering and distortion.\n  - Principles of AM.\n  - Digitization, sampling and the Sampling Theorem.\n  - Digital modulations FSK and PSK.\n- **Unit 3, Information Theory and Source Coding (p. 2):**\n  - Digital communication.\n  - Symbols, sources and discrete messages.\n  - Quantity of information and uncertainty.\n  - Entropy and source coding.\n  - Redundancy and lossless compression.\n  - Entropy codes.\n  - The Source Coding Theorem and the limits of lossless compression.\n  - Lossy compression topics.\n- **Unit 4, Algebra and Channel Coding (p. 2):**\n  - Abstract algebra.\n  - Groups, rings and fields.\n  - The channel coding problem.\n  - Information theory revisited and the source-channel model.\n  - Error detection and correction.\n  - Channel capacity and the Channel Coding Theorem.\n  - Error-detecting and error-correcting codes.\n\n**Weekly schedule (p. 5)**\n- 5-ago: plan presentation and start of Unit 1.\n- 12-ago: Units 1 and 2.\n- 19-ago and 26-ago: Units 1 and 2, with a possible practical activity.\n- 2-sep: Unit 2, with a probable practical activity.\n- 9-sep and 16-sep: Unit 2 and the start of Unit 3, with a probable practical activity.\n- **23-sep: P1.**\n- 30-sep: Unit 3, with a possible practical activity.\n- 7-oct, 14-oct and 21-oct: Units 3 and 4, with a possible practical activity.\n- 28-oct, 4-nov, 11-nov and 18-nov: Unit 4 only, with a possible practical activity.\n- **25-nov: P2.**\n- 2-dec: P2 return and review of all units.\n- **9-dec: P3.**\n\n**What P2 covers**\n- The schedule puts the weeks between P1 (23-sep) and P2 (25-nov) as 30-sep through 18-nov (p. 5). Those weeks teach the rest of **Unit 3** (30-sep to 21-oct) and all of **Unit 4** (from 7-oct to 18-nov) (p. 5).\n- Unit 3 topics for P2 (p. 2): quantity of information and entropy, source coding, redundancy, lossless compression, entropy codes, the Source Coding Theorem and lossy compression.\n- Unit 4 topics for P2 (p. 2): abstract algebra (groups, rings, fields), the channel coding problem, the source-channel model, error detection and correction, channel capacity, the Channel Coding Theorem and the main error-correcting codes.\n- Units 1 and 2 are not scheduled after P1 (p. 5), so they are probably not examined in P2. The plan does not explicitly exclude them, and P2 is not described as cumulative. Only the P3 is stated to cover the whole semester (p. 3).\n- Unit 3 began on 9-sep and 16-sep, before P1 (p. 5). Its introductory topics (digital communication, symbols and sources, possibly information measures) may therefore have been tested in P1. Confirm with the professor whether P2 assumes them. Entropy and information theory are the foundation of the rest of Unit 3 and of Unit 4, so they are worth reviewing either way.\n\n**Evaluation (pp. 3–4)**\n- A1 = 0.7·P1 + 0.3·TE1, and A2 = 0.7·P2 + 0.3·TE2 (p. 3).\n- TE1 and TE2 are averages of non-exam activities: exercises, quizzes, labs, simulations, forums and presentations. Synchronous and asynchronous activities each count 50%. Class participation may count as scored work or as extra points (p. 3).\n- MF = 0.4·A1 + 0.6·A2 (p. 3). P2 therefore carries 0.6 × 0.7 = 42% of the final grade, against 28% for P1. This weighting is my calculation from the formulas.\n- If MF is below 5.0, the student may request the P3. It covers the whole semester and replaces A1 or A2, whichever is more favorable: MF = max{0.4·P3 + 0.6·A2, 0.4·A1 + 0.6·P3} (p. 3).\n- To pass, a student needs at least 75% attendance and MF ≥ 5.0. With less than 75% attendance the student fails automatically with no right to the P3, and the mention is SR (p. 4).\n- Mentions (p. 4):\n\n| MF | Mention | Result |\n|---|---|---|\n| ≥ 9.0 | SS | Pass |\n| 7.0 to < 9.0 | MS | Pass |\n| 5.0 to < 7.0 | MM | Pass |\n| 3.0 to < 5.0 | MI | Fail |\n| above 0 and < 3.0 | II | Fail |\n| 0 | SR | Fail |\n\n- Practical activities use Matlab or Octave (p. 3).\n\n**Bibliography (p. 4)**\n- **Basic:**\n  - Lathi, *Modern Digital and Analog Communication Systems*, 3rd ed., Oxford, 1998.\n  - Moon, *Error Correction Coding: Mathematical Methods and Algorithms*, Wiley, 2005.\n  - Sayood, *Introduction to Data Compression*, 3rd ed., Elsevier, 2005.\n- **Complementary:**\n  - Haykin, *Sistemas de Comunicação*, Bookman, 2004.\n  - Lathi, *Random Signal and Communication Theory*.\n  - Ash, *Information Theory*, Dover, 1990.\n  - Koblitz, *Course in Number Theory and Cryptography*, 2nd ed.\n  - Herstein, *Topics in Algebra*, 1964.\n  - MacKay, *Information Theory, Inference, and Learning Algorithms*, Cambridge, 2003.\n  - Cover & Thomas, *Elements of Information Theory*, Wiley, 1991.\n- The book that best matches the P2 material is Sayood for lossless and lossy compression. Moon fits Unit 4's error-correcting codes. This mapping is my inference, not stated in the plan.\n\nPages consulted: 1, 2, 3, 4, 5",
+		"pagesRead": [
+			5
+		],
+		"pagesConsulted": [
+			5
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

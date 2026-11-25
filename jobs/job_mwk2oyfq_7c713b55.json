@@ -1,0 +1,78 @@
+{
+	"id": "job_mwk2oyfq_7c713b55",
+	"kind": "pdf",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_01JrK3PabKPDtjMaD5wwyC8n",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1_gabarito Discursiva.pdf",
+		"question": "This is the expected-answer key (padrão de resposta) for the discursive question of a university ENADE 2026 mock exam (Ciência da Computação) about greedy shortest-route selection on a dynamic road graph ('efeito manada'), items (a), (b), (c). Extract the full expected answer for each item, any grading criteria/scoring rubric and point distribution, and the concepts/algorithms the key expects the student to mention (e.g., feedback loops, local vs global optimum, Dijkstra/A*, multi-criteria cost, load balancing, game theory/Wardrop equilibrium, etc.). Quote key passages and cite pages."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-17T02:28:11.990Z",
+	"updatedAt": "2026-11-17T02:33:23.067Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 10,
+		"outputTokens": 4778,
+		"cacheReadTokens": 8355,
+		"cacheWriteTokens": 16042,
+		"cacheWrite1hTokens": 0,
+		"steps": 5,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 962,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1093,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2119,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 2705,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 301,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 4811,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2261,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 6471,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 2261,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 6471,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1_gabarito Discursiva.pdf",
+		"question": "This is the expected-answer key (padrão de resposta) for the discursive question of a university ENADE 2026 mock exam (Ciência da Computação) about greedy shortest-route selection on a dynamic road graph ('efeito manada'), items (a), (b), (c). Extract the full expected answer for each item, any grading criteria/scoring rubric and point distribution, and the concepts/algorithms the key expects the student to mention (e.g., feedback loops, local vs global optimum, Dijkstra/A*, multi-criteria cost, load balancing, game theory/Wardrop equilibrium, etc.). Quote key passages and cite pages.",
+		"brief": "Reli o documento com `pdf_extract` e escrevi este brief a partir do texto extraído. O rascunho anterior foi escrito antes da leitura. Conferi cada ponto dele contra o texto, e o conteúdo se confirmou. O PDF tem 2 páginas, só de texto. Não traz enunciado, pseudocódigo nem pontuação.\n\n**Rubrica e pontuação**\n- O documento não traz distribuição de pontos nem notas por item.\n- O único critério de correção explícito está no item (a): \"conceitos explicados corretamente e ligados ao cenário, não apenas citados\" (p. 1).\n- No item (b), aceita-se \"quaisquer dois fatores válidos, desde que justificados\" (p. 1).\n- No item (c), aceitam-se \"propostas fundamentadas\" (p. 1).\n\n**(a) Falha da estratégia gulosa em sistemas urbanos dinâmicos (p. 1)**\n\nO gabarito lista cinco elementos esperados:\n1. **Ótimo local vs. ótimo global.** O algoritmo \"escolhe a rota de menor tempo instantâneo, sem considerar o efeito da decisão sobre o estado futuro do sistema\". Escolhas localmente ótimas não garantem o ótimo global, \"pois o problema não tem a propriedade de escolha gulosa nesse contexto (o custo das arestas muda em função das próprias decisões)\".\n2. **Laço de feedback (realimentação).** Despachar vários veículos para a mesma \"melhor rota\" aumenta a carga nessas arestas e eleva o tempo de percurso. Isso torna outra rota \"a melhor\", e \"a frota inteira migra para ela\". O resultado é \"oscilação e sobrecorreção\".\n3. **Efeito manada (herding).** Decisões correlacionadas e simultâneas geram congestionamento nas rotas escolhidas e ociosidade nas demais. Há \"instabilidade sistêmica e falhas em cascata diante de perturbações abruptas (acidentes, bloqueios)\".\n4. **Ausência de antecipação.** O algoritmo é \"míope\". Usa uma \"fotografia\" do estado e ignora a dinâmica temporal e a reação do ambiente.\n5. **Observação sobre o pseudocódigo.** Ele \"apenas compara o tempo estimado de cada rota candidata. Não modela capacidade, demanda futura nem a interação entre veículos.\"\n\n**(b) Dois fatores contextuais a incorporar nas arestas (p. 1)**\n\nQualquer fator válido e justificado é aceito. O gabarito dá estes exemplos, com a parametrização do custo da aresta:\n\n| Fator | Parametrização |\n|---|---|\n| Capacidade da via / densidade de tráfego | Peso dependente do fluxo, por exemplo pela função BPR: t = t0 · [1 + α · (fluxo/capacidade)^β] |\n| Tempo de espera em cruzamentos / semáforos | Atraso nos nós, com custo de conversão |\n| Variação temporal (horário, sazonalidade) | Grafo dependente do tempo (*time-dependent graph*), com pesos w(e, t) |\n| Incerteza / variância do tempo de viagem | Peso como distribuição (média + desvio) ou custo ajustado ao risco |\n| Restrições físicas (declividade, pavimento, restrição a veículos pesados) | Atributos adicionais por aresta |\n| Latência e frescor dos dados | Peso de confiança, com dados desatualizados descontados |\n| Incidentes / probabilidade de bloqueio | Penalidade probabilística por aresta |\n\n**Estrutura de dados esperada:** \"um grafo direcionado ponderado com pesos dinâmicos ou multiatributo (por exemplo, vetor de atributos por aresta, ou função de custo w(e, t, carga)), e não um escalar estático\" (p. 1).\n\n**(c) Modificação conceitual ou alternativa de paradigma (pp. 1–2)**\n\nO gabarito aceita estas propostas, desde que fundamentadas (p. 2):\n- **Balanceamento de carga / atribuição de tráfego:** equilíbrio de usuário vs. ótimo do sistema (Wardrop), *system-optimal routing*, ou distribuição da frota em múltiplas rotas.\n- **Caminho mínimo dependente do tempo:** Dijkstra/A* em grafos dinâmicos, com recomputação incremental, por exemplo D* Lite.\n- **Programação dinâmica, MDP e aprendizado por reforço:** \"otimizam a recompensa acumulada, e não a decisão imediata\".\n- **Otimização em horizonte deslizante (Model Predictive Control):** planeja para uma janela futura e replaneja continuamente.\n- **Abordagem probabilística/estocástica:** caminho de menor custo esperado, ou com restrição de risco.\n- **Randomização/diversificação de rotas:** k-caminhos mínimos e penalização de arestas já utilizadas, \"para quebrar a sincronização entre veículos\".\n- **Arquitetura descentralizada/multiagente,** com coordenação entre agentes.\n\n**Justificativa esperada:** \"ganho em resiliência (tolera perturbações), adaptação em tempo real (replaneja) e estabilidade (evita oscilação e cascata), com menção ao custo computacional como trade-off\" (p. 2).\n\n**Cobertura dos conceitos que você listou**\n- **Presentes:** laço de feedback, ótimo local vs. global, Dijkstra/A*, custo multiatributo, balanceamento de carga e Wardrop (pp. 1–2).\n- **Teoria dos jogos:** o gabarito não usa a expressão. Ela aparece só de forma implícita, pelo equilíbrio de Wardrop e pela coordenação multiagente (p. 2).\n\nPages consulted: 1, 2",
+		"pagesRead": [],
+		"pagesConsulted": []
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

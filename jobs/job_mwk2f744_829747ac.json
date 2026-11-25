@@ -1,0 +1,98 @@
+{
+	"id": "job_mwk2f744_829747ac",
+	"kind": "pdf",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_01UQpRXDdYfaD6Q1CegDxcDK",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\PORTARIA Nº 154, DE 14 DE ABRIL DE 2026 - PORTARIA Nº 154, DE 14 DE ABRIL DE 2026 - DOU - Formação Específica.pdf",
+		"question": "This is an INEP/ENADE 2026 portaria about the Formação Geral / general structure (or Formação Específica rules). Extract: the structure of the exam (number of questions in Formação Geral and Componente Específico, objective vs discursive, weights), the full list of themes/conteúdos for Formação Geral if listed, competências listed, date of the exam, and any rules relevant to a Ciência da Computação student preparing. Give page citations and quote lists verbatim."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-17T02:20:36.676Z",
+	"updatedAt": "2026-11-17T02:28:19.942Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 14,
+		"outputTokens": 4704,
+		"cacheReadTokens": 10026,
+		"cacheWriteTokens": 37320,
+		"cacheWrite1hTokens": 0,
+		"steps": 7,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2631,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 60,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1145,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 1855,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 3260,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 215,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 5031,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 306,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 5243,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 211,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 7402,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 2020,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 12608,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 2020,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 12608,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\PORTARIA Nº 154, DE 14 DE ABRIL DE 2026 - PORTARIA Nº 154, DE 14 DE ABRIL DE 2026 - DOU - Formação Específica.pdf",
+		"question": "This is an INEP/ENADE 2026 portaria about the Formação Geral / general structure (or Formação Específica rules). Extract: the structure of the exam (number of questions in Formação Geral and Componente Específico, objective vs discursive, weights), the full list of themes/conteúdos for Formação Geral if listed, competências listed, date of the exam, and any rules relevant to a Ciência da Computação student preparing. Give page citations and quote lists verbatim.",
+		"brief": "**Correction first:** my earlier brief was written before I had opened any page. This one comes from the extracted text of pp. 1–2, and I rendered both pages to check it against the layout. The extraction matched the rendered pages.\n\n**What the document is.** Portaria INEP nº 154, de 14/04/2026, published in the DOU on 16/04/2026 (Edição 72, Seção 1, p. 90). It \"Dispõe sobre as diretrizes de prova do componente de Formação Geral\" of the Enade \"a partir da edição 2026\" (p. 1). Despite the file name saying \"Formação Específica\", it covers only Formação Geral. Art. 3º, parágrafo único says the guidelines for each area's specific component \"são publicadas em portarias específicas\" (p. 1).\n\n**Exam structure**\n- The Enade test for Bacharelado and Tecnologia courses has \"o componente de Formação Geral, comum a todos os cursos avaliados nesse ciclo, e … o componente específico de cada área\" (Art. 1º, p. 1).\n- The concluinte \"terá 4 (quatro) horas para resolver todas as questões da prova\" (Art. 1º, parágrafo único, p. 1).\n- Formação Geral has \"15 (quinze) questões, todas de múltipla escolha\" (Art. 2º, p. 1).\n- Each area's specific component in Enade 2026 has \"30 (trinta) questões de múltipla escolha e 1 (uma) questão discursiva\" (Art. 3º, p. 1).\n- The totals of 45 multiple-choice questions and 1 discursive question are my own sum of Arts. 2º and 3º. The portaria does not state them.\n- The portaria gives no weights for the components or questions.\n\n**Profile of the concluinte (Art. 4º, p. 1)**\n- I - \"ético em relação às questões sociais, culturais e ambientais;\"\n- II - \"comprometido com a democracia e com o exercício da cidadania;\"\n- III - \"responsável na tomada de decisões que envolvem a área de atuação profissional e seus impactos científicos, sociais e culturais; e\"\n- IV - \"colaborativo, capaz de interagir com diferentes profissionais e integrar diversas áreas do conhecimento.\"\n\n**Competências and habilidades (Art. 5º)**\n- **Competência I** (p. 1): \"envolve a capacidade de interpretar, produzir e compartilhar conteúdos de forma ética e eficaz, a fim de promover o diálogo e a interação social em diferentes contextos.\"\n  - 1. \"analisar linguagens ou recursos de comunicação em seus usos e seus impactos na construção de significados para públicos diversos;\" (p. 1)\n  - 2. \"avaliar formas de interação que favoreçam o diálogo e o compartilhamento de saberes em diferentes contextos socioculturais.\" (p. 1)\n- **Competência II** (p. 1): \"envolve a capacidade de examinar cenários complexos, identificando desafios e oportunidades para a tomada de decisões e resolução de problemas.\"\n  - 1. \"analisar processos e recursos a fim de implementar ações para resolução de problemas;\" (p. 2)\n  - 2. \"avaliar argumentos ou estratégias, de forma reflexiva, a fim de fundamentar a tomada de decisões; e\" (p. 2)\n  - 3. \"avaliar situações da atuação profissional e suas implicações sociais.\" (p. 2)\n\n**Objetos de conhecimento (Art. 6º, p. 2), verbatim.** The portaria says Formação Geral \"tomará como referencial os seguintes objetos de conhecimento\":\n- I - ética, democracia, cidadania e direitos humanos;\n- II - estado, sociedade e trabalho;\n- III - educação e desenvolvimento humano e social;\n- IV - mudanças climáticas e questões socioambientais;\n- V - equidade nas relações étnico-raciais, geracionais, de classe, de gênero e de sexualidade;\n- VI - cultura, arte e comunicação;\n- VII - ciência, tecnologia e inovação;\n- VIII - processos de globalização e política internacional;\n- IX - campo, cidade e qualidade de vida;\n- X - territórios, sociodiversidade e diversidade cultural;\n- XI - acessibilidade e inclusão social; e\n- XII - saúde e bem-estar.\n\n**Validity.** \"Esta portaria entra em vigor na data de sua publicação\" (Art. 7º, p. 2). The signatory is Manuel Fernando Palacios da Cunha e Melo (p. 2). The page footer says \"Este conteúdo não substitui o publicado na versão certificada.\" (p. 2)\n\n**Not in this document**\n- The exam date.\n- Weights.\n- Any Ciência da Computação content. That would be in the area-specific portaria (p. 1).\n\n**For a Ciência da Computação student**\n- Formação Geral is 15 multiple-choice questions across the 12 themes above (pp. 1–2).\n- The specific component is a separate 30 multiple-choice questions plus 1 discursive question, all within one 4-hour sitting (pp. 1).\n- Theme VII, \"ciência, tecnologia e inovação\", is the closest to the student's field (p. 2).\n- Habilidade II.3, \"avaliar situações da atuação profissional e suas implicações sociais\", is also close to the field (p. 2).\n- The questions are framed around the two competências, which are interpreting and communicating, and analyzing scenarios to decide and solve problems (p. 1).\n\nPages consulted: 1, 2",
+		"pagesRead": [
+			1,
+			2
+		],
+		"pagesConsulted": [
+			1,
+			2
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

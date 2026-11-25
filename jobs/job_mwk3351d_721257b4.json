@@ -1,0 +1,124 @@
+{
+	"id": "job_mwk3351d_721257b4",
+	"kind": "research",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_01UMxkME3WhRG3bJMqJWqQEX",
+	"input": {
+		"question": "Did the ENADE 2024 or ENADE 2025 edition include the area \"Ciência da Computação (bacharelado)\"? Answer with the list of areas evaluated in ENADE 2024 and ENADE 2025 as published by INEP.",
+		"context": "A student has only the ENADE 2017 and 2021 Ciência da Computação exams and needs to know whether a newer past exam exists."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-17T02:39:13.729Z",
+	"updatedAt": "2026-11-17T02:40:16.175Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 18,
+		"outputTokens": 6669,
+		"cacheReadTokens": 20187,
+		"cacheWriteTokens": 178171,
+		"cacheWrite1hTokens": 0,
+		"steps": 9,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 165,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 813,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 242,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 2233,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 236,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 4479,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 627,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 5632,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 880,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 7713,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 609,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 24700,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 347,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 43074,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 326,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 44302,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 3237,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 45225,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 3237,
+			"cacheReadTokens": 2243,
+			"cacheWriteTokens": 45225,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"brief": "## Summary\nNeither ENADE 2024 nor ENADE 2025 included \"Ciência da Computação (bacharelado)\". ENADE 2024 was applied only to licenciaturas. ENADE 2025 covered licenciaturas, ten bacharelado areas, and eight tecnologia areas. \"Computação\" appears in both editions only as a *licenciatura* (teacher-training) area. Ciência da Computação bacharelado is listed for ENADE 2026, but that exam is scheduled for 29 Nov 2026, after today's date (2026-11-16), so no 2026 past exam exists yet. For the student, the ENADE 2021 exam is still the newest Ciência da Computação bacharelado exam.\n\n## Findings\n1. **ENADE 2024 was applied only to licenciaturas.** Edital nº 124/2024 (DOU, 22/07/2024) says the exam was \"nesta edição aplicado exclusivamente aos cursos de licenciaturas\". Its section 4.1 lists 17 areas, all of grau Licenciatura:\n   - Artes Visuais, Ciências Biológicas, Ciências Sociais\n   - Computação (Cine Brasil 0114C05, \"Computação formação de professor\")\n   - Educação Física, Filosofia, Física, Geografia, História\n   - Letras Português, Letras Português e Espanhol, Letras Português e Inglês, Letras Inglês\n   - Matemática, Música, Pedagogia, Química\n\n   The exam was applied on 24 Nov 2024. [Edital 124/2024](https://www.in.gov.br/web/dou/-/edital-n-124-de-20-de-julho-de-2024-573487662); [Inep news](https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enade/enade-das-licenciaturas-inep-publica-edital-da-edicao-de-2024)\n\n2. **ENADE 2025 had three groups of areas, and none is Ciência da Computação.** Edital nº 57/2025 (DOU, 30/05/2025), item 2.1, lists:\n   - **Licenciaturas (17 areas):** the same list as 2024, including Computação (0114C05, \"formação de professor\").\n   - **Bacharelados (10 areas):** Administração, Ciências Contábeis, Ciências Econômicas, Design, Direito, Jornalismo, Medicina, Psicologia, Publicidade e Propaganda, Relações Internacionais.\n   - **Superiores de Tecnologia (8 areas):** Design Gráfico, Gestão Comercial, Gestão de Recursos Humanos, Gestão Financeira, Gestão Pública, Logística, Marketing, Processos Gerenciais.\n\n   [Edital 57/2025](https://www.in.gov.br/en/web/dou/-/edital-n-57-de-29-de-maio-de-2025-633123690); [Inep news](https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enade/publicado-edital-do-enade-2025)\n\n3. **2025 dates and structure.** The 2025 exam had four modalities:\n   - Enamed (Medicina), 19 Oct 2025\n   - Enade das Licenciaturas / Prova Nacional Docente, 26 Oct 2025\n   - Bacharelados and Superiores de Tecnologia, 23 Nov 2025\n   - Avaliação da Prática, for licenciaturas\n\n   The Edital 57/2025 itself lists the bacharelado areas under item 2.1.2. [Edital 57/2025](https://www.in.gov.br/en/web/dou/-/edital-n-57-de-29-de-maio-de-2025-633123690)\n\n4. **\"Computação\" in 2024 and 2025 is not the bacharelado.** The Cine Brasil label is \"Computação formação de professor\" and the grau is Licenciatura, so it is a different course from Ciência da Computação (bacharelado). Its exam has a Formação Geral Docente part plus a specific component. Using it for bacharelado study would be a mismatch. [Edital 124/2024](https://www.in.gov.br/web/dou/-/edital-n-124-de-20-de-julho-de-2024-573487662)\n\n5. **Ciência da Computação bacharelado returns in ENADE 2026, which has not happened yet.** Per AMIES's report on Edital Inep nº 61 of 14 May 2026, the 2026 bacharelado areas are:\n   - engenharia civil, de produção, mecânica, elétrica, de computação, química, de controle e automação, ambiental e de alimentos\n   - arquitetura e urbanismo\n   - sistemas de informação\n   - **ciência da computação**\n   - ciências biológicas\n   - química\n\n   Tecnologia areas include análise e desenvolvimento de sistemas, gestão da TI and redes de computadores. The exam is on 29 Nov 2026, so the provas and gabaritos will not be public until after that date. Past 2025 editais say item públicos are released by around 30 April of the following year. For 2026 this is only my inference from the 2025 pattern; I did not verify the 2026 schedule. [AMIES](https://amies.org.br/publicado-edital-do-enade-2026-para-cursos-de-bacharelado-e-superiores-de-tecnologia/); the edital is linked there: https://www.in.gov.br/en/web/dou/-/edital-n-61-de-14-de-maio-de-2026-705977430\n\n## Sources\n- Kept: Edital Inep nº 124/2024, DOU (https://www.in.gov.br/web/dou/-/edital-n-124-de-20-de-julho-de-2024-573487662). Primary source for the 2024 areas.\n- Kept: Edital Inep nº 57/2025, DOU (https://www.in.gov.br/en/web/dou/-/edital-n-57-de-29-de-maio-de-2025-633123690). Primary source for the 2025 areas.\n- Kept: Inep news, \"Enade das Licenciaturas: Inep publica edital da edição de 2024\" (gov.br). Official confirmation of the 2024 areas.\n- Kept: Inep news, \"Publicado edital do Enade 2025\" (gov.br). Official confirmation of the 2025 areas.\n- Kept: AMIES, Enade 2026 edital summary. Secondary source, used only for the 2026 outlook.\n- Dropped: Qconcursos, PUC Minas and IFPA snippets. They were redundant with the official sources.\n- Dropped: estude.org and educamaisbrasil. They are SEO-style secondary pages and I did not need them.\n\n## Gaps\n- I did not open the 2026 DOU edital (nº 61/2026) directly. Check its item 2 and the Portaria MEC nº 276/2026 on gov.br/inep before relying on the 2026 area list.\n- I did not verify the 2026 release dates for provas and gabaritos. Watch the Inep \"Provas e gabaritos\" page after 29 Nov 2026.\n- I did not check which editions between 2021 and 2026 might have included related computing areas, such as Sistemas de Informação or tecnólogos. Ciência da Computação bacharelado is not among the 2024 or 2025 areas, but I did not check 2022 or 2023. Check the Inep \"Enade – provas e gabaritos\" archive for those years if the student wants related computing exams.",
+		"sources": [
+			{
+				"title": "Edital 124/2024",
+				"url": "https://www.in.gov.br/web/dou/-/edital-n-124-de-20-de-julho-de-2024-573487662"
+			},
+			{
+				"title": "Inep news",
+				"url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enade/enade-das-licenciaturas-inep-publica-edital-da-edicao-de-2024"
+			},
+			{
+				"title": "Edital 57/2025",
+				"url": "https://www.in.gov.br/en/web/dou/-/edital-n-57-de-29-de-maio-de-2025-633123690"
+			},
+			{
+				"title": "Inep news",
+				"url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enade/publicado-edital-do-enade-2025"
+			},
+			{
+				"title": "AMIES",
+				"url": "https://amies.org.br/publicado-edital-do-enade-2026-para-cursos-de-bacharelado-e-superiores-de-tecnologia/"
+			}
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}

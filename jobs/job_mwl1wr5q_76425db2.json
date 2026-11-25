@@ -1,0 +1,145 @@
+{
+	"id": "job_mwl1wr5q_76425db2",
+	"kind": "research",
+	"chatId": "chat_mwgliw1o_92817a43",
+	"toolCallId": "toolu_01YCQkA8Q69NxcG7gteSKxbX",
+	"input": {
+		"question": "In parameter passing by value-result (copy-in/copy-out), when the actual parameter is an array element like v[i] and the subprogram also changes i (e.g., i is passed as another value-result parameter, or is global), is the address for the copy-back computed at call time or at return time? What does Sebesta (\"Concepts of Programming Languages\", section on pass-by-result / pass-by-value-result) say exactly about this, and about the order of copy-back when two parameters alias the same variable (sub(x, x))? Also: what happens in pass-by-value-result when the actual parameter is an expression (e.g., x + 2) — is it treated as value-only?",
+		"context": "I'm teaching a Brazilian compilers course exam (prof. Cristiano Lehrer, IESB/Ybadoo, based on Sebesta/Price) where a question calls xpto(v[i], i) under value, reference, name and value-result; I need the textbook-standard convention to teach it correctly."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-17T18:54:02.366Z",
+	"updatedAt": "2026-11-17T18:55:39.513Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 24,
+		"outputTokens": 9950,
+		"cacheReadTokens": 24673,
+		"cacheWriteTokens": 204917,
+		"cacheWrite1hTokens": 0,
+		"steps": 12,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 207,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 3243,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 297,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 1085,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 198,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 2027,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 386,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 15518,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 581,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 16633,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 588,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 18238,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 687,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 22599,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 673,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 23649,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 388,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 24592,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 811,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 24833,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 1117,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 25927,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 4017,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 26573,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 4017,
+			"cacheReadTokens": 2243,
+			"cacheWriteTokens": 26573,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"brief": "## Summary\nSebesta's convention is that, in pass-by-value-result, the address of the actual parameter is computed once, at the time of the call. The copy-back at return uses that saved address, so a later change to `i` does not move where `v[i]` is written. For pass-by-result alone, Sebesta says the timing is implementation-dependent. The same is true of the copy-back order when two formals alias one actual, as in `sub(x, x)`. An expression such as `x + 2` has no address to copy back to, so it can only be copied in. Ybadoo's own answer key treats it that way.\n\n## Findings\n1. **Value-result: the address is computed at call time (Sebesta's explicit worked example).** In §9.5.8 the global `i = 3` and `list[i] = 5`, and the call is `fun(i, list[i])`. The text shows the actions as `addr_i = &i`, `addr_listi = &list[i]`, then copy-in, then copy-out through those saved addresses. It concludes: \"because the address of the second parameter is computed at the beginning of fun, any change to the global i has no effect on the address used at the end to return the value of list[i].\" It also says that, if the addresses were computed at return time, \"the results would be wrong\" (this sentence appears only as a search snippet, because the page fetch was truncated). [studfile p.64](https://studfile.net/preview/16470412/page:64/) and [studfile p.65](https://studfile.net/preview/16470412/page:65/)\n2. **In that example the copy-back also overwrites the callee's change to `i`.** `fun` sets `i = b` (that is, 5), but the copy-back of the first formal then restores `i` to 3. With pass-by-reference, `i` stays 5. [studfile p.65](https://studfile.net/preview/16470412/page:65/)\n3. **Pass-by-result alone: Sebesta says the timing is a real ambiguity.** In §9.5.2.2 the C# example is `DoIt(out int x, int index){ x = 17; index = 42; }` called as `DoIt(list[sub], sub)` with `sub = 21`. If the address is computed on entry, 17 goes to `list[21]`. If it is computed just before return, 17 goes to `list[42]`. He says \"the implementor must choose the time to bind this parameter to an address\", that this makes programs unportable, and that the language designer should specify the timing. [studfile p.64](https://studfile.net/preview/16470412/page:64/)\n   - **Reading for teaching:** the \"unspecified\" caveat belongs to the pass-by-result discussion. For value-result, the textbook's concrete worked example (finding 1) uses call-time addresses. Teach call time as the standard convention.\n4. **`sub(x, x)` and copy-back order: the last copy wins, and the order is implementation-dependent.** For result parameters, Sebesta writes `sub(p1, p1)`. Whichever formal is copied to the actual parameter last \"becomes the value of p1 in the caller. Thus, the order in which the actual parameters are copied determines their value.\" His C# example is `Fixer(out a, out a)` with `x = 17; y = 35`. If x is copied first, `a` ends as 35. If y is copied first, `a` ends as 17. He adds that \"different implementations can produce different results\". [studfile p.64](https://studfile.net/preview/16470412/page:64/)\n   - **Value-result:** §9.5.2.3 says it \"shares with pass-by-result the problems associated with the order in which actual parameters are assigned\". The textbook gives no single mandated order. If an exam needs one, state the assumption. Left-to-right copy-back, so the last formal wins, is the usual choice.\n5. **Expressions under value-result: the copy-in works, but there is nothing to copy back to.** Sebesta says the actual parameter of a result parameter \"obviously must be a variable (How would the caller reference the computed result if it were a literal or an expression?)\". He does not say this again for value-result. It follows because value-result is value plus result. [studfile p.64](https://studfile.net/preview/16470412/page:64/)\n   - **Ybadoo's key agrees.** In Exercise 07.08, `xpto(x, y, x + y)` under value-result, `c` is just 5, with no write-back. `a` (from `x`) and `b` (from `y`) are copied back, giving x = 8 and y = 15. [Ybadoo 07.08](http://www.ybadoo.com.br/tutoriais/cmp/07/08/)\n6. **Ybadoo's own answer key is consistent with call-time addresses.** In Exercise 07.09, `serie(k, 1, 5, 2*k+1, v[k])` with `k = 0`, the formal `i` is bound to `k` and `result` to `v[0]`. Under value-result the key shows `k` becoming 5 and `v[0]` becoming 5, with `v[1..4]` untouched. This holds even though `k` ends as 5 after copy-back. So `v[0]` was targeted, not `v[5]` (which would be out of bounds). Exercises 07.01, 07.02, 07.10, 07.11 and 07.15 are the same pattern: `v[i]` with `i` also passed or global. [Ybadoo 07.09](http://www.ybadoo.com.br/tutoriais/cmp/07/09/) and [Ybadoo index](http://www.ybadoo.com.br/tutoriais/cmp/07/)\n7. **Contrast with by-name and by-reference, useful when teaching `xpto(v[i], i)` under all four methods.**\n   - **By name:** Sebesta says the formal is bound to an \"access method\" at call time, but \"the actual binding to a value or an address is delayed until the formal parameter is assigned or referenced\". So `v[i]` is re-evaluated on each use, using the current `i`. [studfile p.64](https://studfile.net/preview/16470412/page:64/)\n   - **By reference:** the address is fixed at call time. For an expression, the compiler evaluates it before the call and passes the address of a temporary. [studfile p.64](https://studfile.net/preview/16470412/page:64/)\n   - **Summary:** value-result and reference both fix the `v[i]` address at call time, while name re-evaluates it every time. That is the key difference to put in the answer.\n\n## Suggested exam convention (for `xpto(v[i], i)` under value-result)\n1. At the call, record the address `&v[i]` with the current `i`, and `&i`.\n2. Copy in the values of `v[i]` and `i`.\n3. Run the body on the local copies. Changes to a global `i` do not affect the saved address.\n4. At return, copy the first formal back to its saved address, then the second. If both formals alias one variable, the last copy wins, so state the assumed order.\n5. Expressions and literals are copy-in only.\n\n## Sources\n- Kept: Sebesta, *Concepts of Programming Languages*, Ch. 9 §9.5 (studfile.net, page 64 and page 65) (https://studfile.net/preview/16470412/page:64/) — primary text for all the Sebesta claims above, including the result-timing example, the `sub(p1, p1)` collision and the value-result `fun(i, list[i])` example. The page numbers shown (399–417) suggest a 10th or 11th edition, not the 4th-edition Portuguese translation the course cites. The edition is not confirmed.\n- Kept: Ybadoo CMP07 exercises 07.01–07.15 and the solved 07.08 and 07.09 (http://www.ybadoo.com.br/tutoriais/cmp/07/) — the course's own problems and answer key, showing the convention actually applied.\n- Dropped: Quizlet, Brainly, Bartleby and Stack Overflow results — secondary or incomplete solutions with no authoritative statement of the convention.\n- Dropped: Bilkent, DePaul and Virginia Tech slide decks, and the Southwestern notes — only snippets were seen, and they are less precise than the primary text.\n\n## Gaps\n- The page 64 fetch was truncated before the §9.5.8 swap1/swap2 discussion. The sentence \"If the addresses … at the time of the return, the results would be wrong\" was seen only as a search snippet. Its exact wording and the surrounding example are unverified, so pull the full text from the textbook if you want to quote it.\n- I did not check the Portuguese 4th edition (Bookman, 2000) that Lehrer cites. Its wording of the `fun(i, list[i])` example may differ, so verify there.\n- Sebesta gives no explicit statement for value-result with an expression actual. Finding 5 is an inference from the result-mode statement plus Ybadoo's key.\n- Sebesta gives no mandated copy-back order for `sub(x, x)`. I did not find a Ybadoo exercise with a collision, so Lehrer's preferred order is unknown. If the exam has one, ask him or state your assumption in the answer.",
+		"sources": [
+			{
+				"title": "studfile p.64",
+				"url": "https://studfile.net/preview/16470412/page:64/"
+			},
+			{
+				"title": "studfile p.65",
+				"url": "https://studfile.net/preview/16470412/page:65/"
+			},
+			{
+				"title": "Ybadoo 07.08",
+				"url": "http://www.ybadoo.com.br/tutoriais/cmp/07/08/"
+			},
+			{
+				"title": "Ybadoo 07.09",
+				"url": "http://www.ybadoo.com.br/tutoriais/cmp/07/09/"
+			},
+			{
+				"title": "Ybadoo index",
+				"url": "http://www.ybadoo.com.br/tutoriais/cmp/07/"
+			}
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "pending"
+	}
+}

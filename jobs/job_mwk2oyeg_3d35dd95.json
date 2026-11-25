@@ -1,0 +1,125 @@
+{
+	"id": "job_mwk2oyeg_3d35dd95",
+	"kind": "research",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_011twWma56b5DyBHaHygCyPf",
+	"input": {
+		"question": "In which years did INEP apply the ENADE exam to Ciência da Computação (bacharelado) courses in Brazil? Specifically: after ENADE 2021, was there an ENADE edition covering Ciência da Computação in 2022, 2023, 2024 or 2025? Also: what changes were officially announced for ENADE 2026 (format with 15 Formação Geral + 30 objective + 1 discursive specific questions; scoring method such as TRI / item response theory; weights of components; consequences for students), and what is the official date of ENADE 2026?",
+		"context": "Student preparing for ENADE 2026 (Ciência da Computação). Need to know if a more recent past exam exists beyond 2017/2021 (closest sample to new format), and whether scoring/weights changed, to set study and test-taking strategy."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-17T02:28:11.944Z",
+	"updatedAt": "2026-11-17T02:33:23.113Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 24,
+		"outputTokens": 7453,
+		"cacheReadTokens": 24673,
+		"cacheWriteTokens": 307598,
+		"cacheWrite1hTokens": 0,
+		"steps": 12,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 263,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 3195,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 306,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 2153,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 438,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 19045,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 902,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 20319,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 713,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 21456,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 459,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 30700,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 863,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 31819,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 735,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 33077,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 524,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 34216,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 652,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 36086,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 911,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 37220,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 687,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 38312,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 687,
+			"cacheReadTokens": 2243,
+			"cacheWriteTokens": 38312,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"error": "the researcher produced no text",
+	"result": {
+		"brief": "Research failed: the researcher produced no text",
+		"sources": []
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

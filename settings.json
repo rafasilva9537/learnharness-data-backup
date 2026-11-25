@@ -17,7 +17,8 @@
 			"restricted": true,
 			"folders": [
 				"E:\\Estudos\\Learn Harness Material",
-				"F:\\Documentos e Livros\\Studies\\"
+				"F:\\Documentos e Livros\\Studies\\",
+				"C:\\Users\\Usuário\\Documents\\QuickShare"
 			]
 		}
 	},
@@ -27,7 +28,7 @@
 				"provider": "claude-code",
 				"id": "opus"
 			},
-			"thinkingLevel": "high"
+			"thinkingLevel": "xhigh"
 		},
 		"cheap": {
 			"model": {

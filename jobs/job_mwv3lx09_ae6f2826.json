@@ -1,0 +1,51 @@
+{
+	"id": "job_mwv3lx09_ae6f2826",
+	"kind": "pdf",
+	"chatId": "chat_mwv3lftr_0d8c8abd",
+	"toolCallId": "toolu_01WAZHE9iAQCXxbRsvMse3hh",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\CADERNO - SISTEMAS DE COMUNICAÇÃO _261015_092048.pdf",
+		"question": "This is a student's handwritten class notebook (scanned). Summarize all topics covered, in order, with dates if present, including key formulas, definitions, example problems with numbers, and diagrams. Be thorough: I need to know exactly what was taught in class and in what notation."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-24T19:39:17.721Z",
+	"updatedAt": "2026-11-24T19:42:18.733Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 2,
+		"outputTokens": 37,
+		"cacheReadTokens": 0,
+		"cacheWriteTokens": 2528,
+		"cacheWrite1hTokens": 0,
+		"steps": 1,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2528,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 37,
+			"cacheReadTokens": 0,
+			"cacheWriteTokens": 2528,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"error": "the reader crashed — claude CLI refused a harness tool call before MCP admission",
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\CADERNO - SISTEMAS DE COMUNICAÇÃO _261015_092048.pdf",
+		"question": "This is a student's handwritten class notebook (scanned). Summarize all topics covered, in order, with dates if present, including key formulas, definitions, example problems with numbers, and diagrams. Be thorough: I need to know exactly what was taught in class and in what notation.",
+		"brief": "PDF failed: the reader crashed — claude CLI refused a harness tool call before MCP admission",
+		"pagesRead": [],
+		"pagesConsulted": []
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

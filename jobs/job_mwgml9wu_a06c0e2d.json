@@ -10,7 +10,7 @@
 	"status": "done",
 	"activity": "finished",
 	"createdAt": "2026-11-14T16:34:07.854Z",
-	"updatedAt": "2026-11-14T16:34:56.873Z",
+	"updatedAt": "2026-11-17T17:15:54.613Z",
 	"usage": {
 		"model": "claude-code:sonnet",
 		"inputTokens": 10,
@@ -89,6 +89,6 @@
 	},
 	"delivery": {
 		"kind": "result",
-		"status": "pending"
+		"status": "delivered"
 	}
 }

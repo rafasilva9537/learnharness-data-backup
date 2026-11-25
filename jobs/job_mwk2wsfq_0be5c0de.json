@@ -1,0 +1,125 @@
+{
+	"id": "job_mwk2wsfq_0be5c0de",
+	"kind": "research",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_017q543onpj5q5Q1bG3mMHFV",
+	"input": {
+		"question": "What has INEP officially announced about ENADE 2026? Specifically: (1) the official exam date (is it 29 November 2026?); (2) the scoring methodology (is Teoria de Resposta ao Item / TRI being adopted, and how are the 15 Formação Geral, 30 objective and 1 discursive specific questions weighted?); (3) any other changes compared with earlier editions (format, consequences for students).",
+		"context": "Under Portarias INEP 154 and 157 of April 2026, the new format is 15 objective Formação Geral questions plus 30 objective and 1 discursive specific questions. Neither portaria states weights or the date. This determines test-taking strategy (how much the discursive question is worth, and whether guessing is penalized under TRI)."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-17T02:34:17.462Z",
+	"updatedAt": "2026-11-17T02:39:13.784Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 24,
+		"outputTokens": 5340,
+		"cacheReadTokens": 26916,
+		"cacheWriteTokens": 306644,
+		"cacheWrite1hTokens": 0,
+		"steps": 12,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 285,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 933,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 220,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 2617,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 388,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 4906,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 247,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 5134,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 396,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 32692,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 338,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 34367,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 513,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 34807,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 656,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 34954,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 479,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 35099,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 524,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 36371,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 709,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 40526,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 585,
+				"cacheReadTokens": 2243,
+				"cacheWriteTokens": 44238,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 585,
+			"cacheReadTokens": 2243,
+			"cacheWriteTokens": 44238,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"error": "the researcher produced no text",
+	"result": {
+		"brief": "Research failed: the researcher produced no text",
+		"sources": []
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

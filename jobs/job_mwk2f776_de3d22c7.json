@@ -1,0 +1,159 @@
+{
+	"id": "job_mwk2f776_de3d22c7",
+	"kind": "pdf",
+	"chatId": "chat_mwk2erln_102e13a4",
+	"toolCallId": "toolu_017cHJHMcHQPeMFZ2nc6Rnsq",
+	"input": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1 CCO.pdf",
+		"question": "This is a university mock exam (simulado) for ENADE Ciência da Computação. For EVERY question, give: question number, type (discursive/objective, format), precise subject/topic, and a one-to-two sentence summary of what is asked and what knowledge is needed. If the student's answers or marks are visible anywhere in the document (handwritten marks, selected options, scores), report them precisely per question. Include page citations. Be exhaustive."
+	},
+	"status": "done",
+	"activity": "finished",
+	"createdAt": "2026-11-17T02:20:36.786Z",
+	"updatedAt": "2026-11-17T02:28:19.998Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 16,
+		"outputTokens": 9035,
+		"cacheReadTokens": 11697,
+		"cacheWriteTokens": 172319,
+		"cacheWrite1hTokens": 0,
+		"steps": 8,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2554,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 200,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 1494,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 287,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 10927,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 223,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 15968,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 290,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 25103,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 212,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 35028,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 260,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 37388,
+				"cacheWrite1hTokens": 0
+			},
+			{
+				"inputTokens": 2,
+				"outputTokens": 7526,
+				"cacheReadTokens": 1671,
+				"cacheWriteTokens": 43857,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 7526,
+			"cacheReadTokens": 1671,
+			"cacheWriteTokens": 43857,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"result": {
+		"path": "F:\\Documentos e Livros\\Studies\\ENADE\\Material\\Simulado 1 CCO.pdf",
+		"question": "This is a university mock exam (simulado) for ENADE Ciência da Computação. For EVERY question, give: question number, type (discursive/objective, format), precise subject/topic, and a one-to-two sentence summary of what is asked and what knowledge is needed. If the student's answers or marks are visible anywhere in the document (handwritten marks, selected options, scores), report them precisely per question. Include page citations. Be exhaustive.",
+		"brief": "# Brief: \"Simulado 1 CCO\", ENADE Ciência da Computação, Avaliação Diagnóstica 2026 (29 pp.)\n\n**Structure.** p. 1 is the cover. Formação Geral is Q1–Q15 (pp. 2–10). Componente Específico starts on p. 11 with one discursive question, followed by Q16–Q45 (pp. 12–29). That makes 45 numbered questions plus the discursive one. The discursive question is unnumbered and sits between Q15 and Q16.\n\n**Student marks.** I found none. I rendered pp. 6, 11, 12, 14 and 18, and they show no handwritten marks, circled options or scores. The extracted text of the other pages contains no marks either. There is no answer key, grade or score anywhere in the document. The \"RASCUNHO\" box on p. 11 is blank (p. 11).\n\n**Format.** Every numbered question is objective with options A–E and a single correct answer. Many use the \"avalie as afirmações I–IV / É correto apenas o que se afirma em\" format.\n\n## Formação Geral (Q1–Q15)\n\n- **Q1 (p. 2)**: Objective, assertion-assessment (I–IV).\n  - Topic: algorithmic bias in automated credit scoring.\n  - Asks which statements hold. Needed: training data reproduces historical inequality, data cleaning mitigates bias, and ML is neither neutral nor free of human oversight.\n- **Q2 (p. 2)**: Objective, assertion-assessment.\n  - Topic: IoT and data analytics in the agri-food supply chain.\n  - Needed: data integration supports decisions, early data errors cascade, and technology does not by itself fix connectivity gaps or make human oversight redundant.\n- **Q3 (p. 3)**: Objective, assertion-assessment, with a table.\n  - Topic: gig-economy platform algorithms and work. The table relates acceptance rate, weekly hours and monthly income.\n  - Needed: reading the table (income rises with hours, not independently of them), algorithmic prioritization as a behavioral inducer, and the myth of algorithmic neutrality.\n- **Q4 (p. 3–4)**: Objective, assertion-assessment (\"hipóteses\"), with a table.\n  - Topic: smart urban mobility and adaptive traffic lights. The table gives percentage reductions in travel time and congestion per region.\n  - Needed: dependence on sensor coverage, no proportional link between travel-time and congestion reductions, exogenous factors affecting model calibration, and automation not replacing human planning.\n- **Q5 (p. 4)**: Objective, best-solution choice.\n  - Topic: smart public-lighting system optimized only for energy.\n  - Needed: improve the model by adding multifactor contextual data (pedestrian flow, regional types, event calendar) for dynamic parameterized adjustment, rather than static or single-objective designs. Option C is that approach.\n- **Q6 (p. 5)**: Objective, conclusion choice, with a table.\n  - Topic: exploratory data analysis of digital-education indicators across four regions. The table gives internet access, devices per household and dropout rate.\n  - Needed: dropout depends on several variables, since regions A and D have similar internet access but very different dropout, so connectivity alone is not sufficient. Beware over-claiming correlation or causation.\n- **Q7 (p. 5–6)**: Objective, assertion-assessment, with Texts I–III and a technical diagram on p. 6.\n  - Topic: centralized (monolithic cloud) versus fog/edge and event-driven architecture for smart-city traffic and emergency vehicles.\n  - Needed: single point of failure and latency, edge resilience under network isolation, and consistency/scalability trade-offs. Distribution does not remove the need for synchronization or consensus.\n  - The diagram contrasts the \"current model\" (centralized cluster with an I/O and latency bottleneck) with the \"proposal\" (fog gateways with local decisions) (p. 6).\n- **Q8 (p. 6–7)**: Objective, evaluate two proposals, single-answer.\n  - Topic: inclusive design and accessibility in a municipal digital-scheduling system.\n  - Proposal I reserves assisted-booking slots for low-connectivity areas. Proposal II is a digital-only (digital-first) service.\n  - Needed: inclusive design and contextual adaptation. Proposal I is adequate and II is inadequate. Option C is that pairing.\n- **Q9 (p. 7)**: Objective, \"relação entre afirmações\" (I and II true/false, and whether II justifies I).\n  - Topic: informational self-determination, privacy and valid consent (free, informed, unambiguous).\n  - Needed: data-protection law (LGPD-style) concepts.\n- **Q10 (p. 7–8)**: Objective, \"estão corretas apenas\".\n  - Topic: Green IT and sustainability.\n  - Needed: server virtualization and consolidation cut idle energy, algorithm and data-structure choice affects energy use, e-waste needs reverse logistics, and cloud or microservices are not carbon-neutral.\n- **Q11 (p. 8)**: Objective, single correct alternative.\n  - Topic: digital inclusion, accessibility and universal design in smart cities (elderly, people with disabilities, low-income users).\n  - Needed: the principle of universal design.\n- **Q12 (p. 8–9)**: Objective, assertion-assessment.\n  - Topic: ethics and human rights of facial recognition in public spaces.\n  - Needed: chilling effect on freedoms, unequal error rates and false positives, and the need for strict regulation and impact assessment. No exemption from ethical scrutiny just because a system was procured by public tender.\n- **Q13 (p. 9)**: Objective, single correct alternative.\n  - Topic: ethics of autonomous vehicles (Trolley Problem).\n  - Needed: designers and manufacturers bear ethical and legal responsibility. This calls for explainability, edge-case simulation and regulation, and rules out socioeconomic prioritization of lives.\n- **Q14 (p. 9–10)**: Objective, \"estão corretas apenas\".\n  - Topic: ethics and sustainability in the hardware supply chain (mining of rare minerals, child labor, environmental damage).\n  - Needed: product life-cycle responsibility, planned obsolescence, and environmental impacts of mining and e-waste.\n- **Q15 (p. 10)**: Objective, \"estão corretas apenas\".\n  - Topic: engagement-optimizing recommendation algorithms, political polarization, misinformation and echo chambers.\n  - Needed: algorithmic neutrality is a myth, design choices have democratic consequences, and attention-based business models create incentives for echo chambers. Content moderation is not automatically unconstitutional censorship.\n\n## Componente Específico\n\n- **Discursive question, unnumbered (p. 11)**: Discursive, with parts (a), (b) and (c). It includes a Delphi-style pseudocode image (`selecionarRota`: greedy choice of the route with minimum `rota.tempo`) and a blank \"RASCUNHO\" box.\n  - Topic: greedy shortest-path routing on a dynamic directed road graph. Abrupt changes cause cascading overload (\"efeito manada\", herd effect).\n  - (a) Explain why pure greedy routing on instantaneous time fails, using feedback loops and local versus global optimum.\n  - (b) Discuss two additional contextual factors (computational or road-physical) to put into the graph's edge-cost parameterization.\n  - (c) Propose a conceptual modification or alternative algorithmic paradigm, justifying resilience and real-time adaptation. Needed: graph theory, shortest paths, dynamic or multi-criteria cost, and optimization and systems engineering.\n- **Q16 (p. 12)**: Objective, assertion-assessment (I–III), with a pseudocode image. Options are A: I; B: II; C: I e II; D: I e III; E: II e III.\n  - Topic: tracing a nested-loop string algorithm on S = \"ABABA\".\n  - The algorithm adds (j − i) to `resultado` whenever S[i] == S[j] for i < j.\n  - Asks whether the inner loop runs exactly 10 times, whether the returned value is 8, and whether the test is true exactly 4 times. Needed: manual trace and loop counting.\n- **Q17 (p. 12–13)**: Objective, assertion-assessment (I–III). Options are A: I; B: III; C: I e II; D: I e III; E: I, II e III.\n  - Topic: stack (LIFO) and queue (FIFO) simulation through seven operations.\n  - Asks about the state after step 3, the top of the stack after step 6, and the final stack top and queue front.\n- **Q18 (p. 13)**: Objective, single alternative.\n  - Topic: asymptotic complexity (Big-O) of five functions (A: 100n·log₂n + 50n; B: 2^(n/2) + n⁴; C: 0.5n² + 1000n; D: 5n·log₂(n³); E: 10n³ + n²·log₂n).\n  - Asks for the two slowest-growing algorithms. Needed: A and D are both Θ(n log n), and log(n³) = 3 log n.\n- **Q19 (p. 13–14)**: Objective, single alternative.\n  - Topic: propositional-logic equivalences for (p∧q)→r, with a natural-language translation.\n  - Needed: material implication and De Morgan. The correct form is (¬p∨¬q)∨r, or the contrapositive ¬r→(¬p∨¬q). The p. 14 rendering shows the answers use ∧/∨ in specific ways, so check the symbols carefully, for example in option C.\n- **Q20 (p. 14)**: Objective, assertion-assessment (I–III). Options include \"E) Nenhuma das afirmações está correta\". It has a graph image of 5 nodes (1–5).\n  - Topic: graph representations, adjacency matrix versus adjacency list.\n  - Asks about matrix symmetry and the sum of its entries (I says 14), the number of neighbors of the maximum-degree vertex (II says 3), and O(1) versus O(V) edge-existence checking (III).\n  - Needed: sum of matrix entries = 2×edges, and degrees. Count the edges directly in the p. 14 graph before judging the claims.\n- **Q21 (p. 15)**: Objective, assertion-assessment (I–III).\n  - Topic: relational model integrity constraints (CLIENTE/PEDIDO/ITEM_PEDIDO schema).\n  - Needed: entity integrity (primary key) versus referential integrity (foreign key, and a foreign key may be NULL). ON DELETE CASCADE.\n- **Q22 (p. 15–16)**: Objective, \"which SQL query is correct and most efficient\".\n  - Topic: SQL aggregation with JOIN, WHERE, GROUP BY and HAVING.\n  - Task: total approved transaction value per client in 2025, only for clients above R$ 50,000.\n  - Needed: WHERE filters rows, HAVING filters aggregates, aggregates are not allowed in WHERE, and there is a single WHERE clause. Option A has the correct structure.\n- **Q23 (p. 16–17)**: Objective, assertion-assessment (I–III).\n  - Topic: software process models by criticality. A pacemaker (safety-critical) versus an internal vacation-scheduling web app.\n  - Needed: V-Model or Cleanroom for safety-critical systems, agile suited to low-risk systems, and pure Scrum/MVP unsuitable for the pacemaker.\n- **Q24 (p. 17)**: Objective, matching/classification of four testing actions as black-box or white-box.\n  - Topic: software testing.\n  - Needed: control-flow, independent paths and coverage are white-box. Equivalence partitioning, boundary-value analysis and interface stress testing without code access are black-box.\n- **Q25 (p. 17–18)**: Objective, assertion-assessment (I–III).\n  - Topic: TCP versus UDP at the transport layer. Real-time surgical video suits UDP, and the legal audit record suits TCP.\n  - Needed: UDP does not eliminate loss or corruption, so III is false.\n- **Q26 (p. 18)**: Objective, single alternative.\n  - Topic: encapsulation and PDU names across layers.\n  - Asks for the PDU at the Application, Transport, Network and Link layers for an HTTP request. The expected answer is Data/Message, Segment, Packet/Datagram, Frame (option B).\n- **Q27 (p. 18–19)**: Objective, single alternative, with a 3-state process diagram (Blocked, Ready, Running) on p. 18.\n  - Topic: operating-system process states.\n  - A Running process issues an I/O system call, which moves it to Blocked. When the I/O completes, an interrupt moves it to Ready (not directly to Running). Option D matches this.\n- **Q28 (p. 19)**: Objective, assertion-assessment (I–III), with numerical calculation.\n  - Topic: memory hierarchy, cache and average access time. T_mp = 80 ns, T_c = 4 ns, H = 0.95.\n  - Asks whether T_med is 7.8 ns, whether raising H to 98% cuts T_med by more than 25%, and the definitions of temporal versus spatial locality.\n  - Needed: T_med = H·T_c + (1−H)·T_mp, and the correct locality definitions (III swaps them).\n- **Q29 (p. 19–20)**: Objective, assertion-assessment (I–III).\n  - Topic: pipeline hazards in a 5-stage pipeline (ADD, SUB, BEQ sequence).\n  - Needed: RAW data hazard and forwarding, control hazard and branch prediction, and out-of-order execution with Tomasulo.\n- **Q30 (p. 20)**: Objective, assertion-assessment (I–III), with calculation.\n  - Topic: Amdahl's Law with 10% serial and 90% parallel work on 16 cores.\n  - Asks whether the 16-core speedup is 6.4, whether the speedup is capped at 10× as N→∞, and whether cutting the serial fraction to 5% raises the speedup by less than 15%.\n  - Needed: S = 1/(f + (1−f)/N).\n- **Q31 (p. 20–21)**: Objective, single alternative.\n  - Topic: A* search, admissible and consistent heuristics, f(n) = g(n) + h(n).\n  - Needed: admissible means it never overestimates. Consistency means h(n) ≤ c(n,a,n') + h(n'). Option C states the consistency condition.\n- **Q32 (p. 21)**: Objective, assertion-assessment (I–III), with a confusion matrix.\n  - Topic: classification metrics on imbalanced data. TN = 9900, FP = 100, FN = 10, TP = 90.\n  - Needed: accuracy (high but misleading), precision (below 50%: 90/190), and recall (90%).\n- **Q33 (p. 21–22)**: Objective, single alternative.\n  - Topic: Poisson distribution with λ = 2 failures per week.\n  - Asks for the expression for P(X ≥ 2). Needed: the complement 1 − P(0) − P(1) = 1 − e⁻² − 2e⁻² (option A).\n- **Q34 (p. 22)**: Objective, single alternative.\n  - Topic: hypothesis testing, a left-tailed Z-test (x̄ = 114, μ₀ = 120, σ = 30, n = 100, α = 0.05).\n  - Needed: Z = (114−120)/(30/√100) = −2.0, which is below the critical value −1.645, so reject H₀ (option A).\n- **Q35 (p. 23)**: Objective, single alternative.\n  - Topic: classifying the binary relation R on A = {1,2,3}, with R = {(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2)}.\n  - Needed: R is reflexive and symmetric but not transitive, since (1,2) and (2,3) are present without (1,3). So it is a tolerance (compatibility) relation, not an equivalence (option D).\n- **Q36 (p. 23)**: Objective, assertion-assessment (I–III), with a DFA transition table.\n  - Topic: deterministic finite automaton and regular language, with Q = {q0,q1,q2}, Σ = {a,b}, F = {q2}.\n  - Asks whether \"ab\", \"baab\" and \"bbbbaabab\" are accepted, whether the regex b*aa*b(b*aa*b)* is exact, and whether every accepted string ends in b.\n  - Needed: tracing the DFA. It accepts strings ending in \"ab\", and all accepted strings end in b.\n- **Q37 (p. 24)**: Objective, single alternative.\n  - Topic: compilers, eliminating left recursion for LL(1) parsing of E → E+T | T, T → id.\n  - Needed: the standard transformation E → T E', E' → +T E' | ε (option A).\n- **Q38 (p. 24)**: Objective, assertion-assessment (I–III).\n  - Topic: symmetric versus asymmetric cryptography and hybrid protocols.\n  - Needed: AES for bulk data, digital signature for authenticity and non-repudiation, and a hybrid handshake that distributes the session key.\n- **Q39 (p. 25)**: Objective, single alternative.\n  - Topic: access-control models (DAC, MAC, RBAC) for a military hospital.\n  - Needed: MAC uses mandatory classification labels, RBAC links privileges to job roles (option B), and DAC is owner-discretionary.\n- **Q40 (p. 25–26)**: Objective, single alternative.\n  - Topic: CAP theorem in an e-commerce inventory system partitioned by submarine-cable failures.\n  - Needed: partitions are unavoidable, so the design chooses between CP and AP during isolation (option A).\n- **Q41 (p. 26)**: Objective, assertion-assessment (I–III).\n  - Topic: cloud load balancing and session state.\n  - Needed: pure Round-Robin does not guarantee session persistence, sticky sessions or session affinity as a remedy, and externalizing session state to Redis as the more scalable alternative.\n- **Q42 (p. 26–27)**: Objective, assertion-assessment (I–III).\n  - Topic: IoT application protocols, MQTT versus CoAP, for low-power forest sensors.\n  - Needed: MQTT is publish/subscribe over TCP with a broker. CoAP is request/response, REST-like, usually over UDP, and lighter for constrained devices.\n- **Q43 (p. 27)**: Objective, assertion-assessment (I–III).\n  - Topic: pedagogical and ethical impacts of LLM tutors in programming education.\n  - The three observed patterns are blind trust and hallucinations, atrophy of debugging skill, and involuntary plagiarism and licensing violations.\n  - Needed: LLMs are not deterministic or error-free, so I is false. Automation bias, and the need for compliance and data governance for license and attribution issues.\n- **Q44 (p. 28)**: Objective, single alternative, with a text-drawn latency/CPU chart.\n  - Topic: MLOps trade-offs for a GBDT fraud-detection model. Latency is 180 ms, AUC 0.94, and the SLA is under 200 ms.\n  - Two strategies are compared: (1) quantization and distillation (AUC 0.92, latency 35 ms) and (2) a Redis cache with dynamic TTL.\n  - Needed: the accuracy-versus-latency/availability trade-off, with Approach 1 recovering SLA compliance (option C). Do not confuse the Redis cache with strong consistency.\n- **Q45 (p. 29)**: Objective, assertion-assessment (I–III).\n  - Topic: reinforcement-learning feed recommendation optimizing engagement. Echo chambers, polarized content and induced behavior change are observed.\n  - Needed: algorithms are not morally neutral (I is false). Reward-function design ignores negative externalities. The user-algorithm feedback loop in complex systems.\n\n**Overall coverage.** Formação Geral (Q1–Q15) is about ethics, society and technology: AI bias, smart cities, inclusion, privacy, Green IT, autonomous vehicles, and social-media algorithms. Componente Específico covers algorithms and data structures, complexity, logic, graphs, databases and SQL, software engineering and testing, networks, operating systems, computer architecture (cache, pipeline, Amdahl), AI and ML, statistics (Poisson and hypothesis test), discrete math, theory of computation and compilers, security, distributed systems and cloud, and IoT.\n\nPages consulted: 1–29 extracted (rendered visually: 6, 11, 12, 14, 18)",
+		"pagesRead": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29
+		],
+		"pagesConsulted": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29
+		]
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}

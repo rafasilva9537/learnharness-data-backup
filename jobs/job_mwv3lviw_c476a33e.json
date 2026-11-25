@@ -1,0 +1,51 @@
+{
+	"id": "job_mwv3lviw_c476a33e",
+	"kind": "pdf",
+	"chatId": "chat_mwv3lftr_0d8c8abd",
+	"toolCallId": "toolu_01WxLngoqvAQP4iuwzSLLdh9",
+	"input": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\Simulado P2.pdf",
+		"question": "Transcribe every question in this exam simulation (simulado P2, Sistemas de Comunicação) in full, including all alternatives, formulas, numerical data, figures/diagrams (describe them precisely). List the topics each question covers (e.g., modulation AM/FM, Fourier, sampling, Nyquist, Shannon capacity, dB, noise, digital modulation, multiplexing, etc.)."
+	},
+	"status": "error",
+	"activity": "failed",
+	"createdAt": "2026-11-24T19:39:15.800Z",
+	"updatedAt": "2026-11-24T19:42:18.739Z",
+	"usage": {
+		"model": "claude-code:sonnet",
+		"inputTokens": 2,
+		"outputTokens": 37,
+		"cacheReadTokens": 0,
+		"cacheWriteTokens": 2550,
+		"cacheWrite1hTokens": 0,
+		"steps": 1,
+		"calls": [
+			{
+				"inputTokens": 2,
+				"outputTokens": 37,
+				"cacheReadTokens": 0,
+				"cacheWriteTokens": 2550,
+				"cacheWrite1hTokens": 0
+			}
+		],
+		"lastStep": {
+			"inputTokens": 2,
+			"outputTokens": 37,
+			"cacheReadTokens": 0,
+			"cacheWriteTokens": 2550,
+			"cacheWrite1hTokens": 0
+		}
+	},
+	"error": "the reader crashed — claude CLI refused a harness tool call before MCP admission",
+	"result": {
+		"path": "E:\\Estudos\\Learn Harness Material\\Sistemas de Comunicacao\\Simulado P2.pdf",
+		"question": "Transcribe every question in this exam simulation (simulado P2, Sistemas de Comunicação) in full, including all alternatives, formulas, numerical data, figures/diagrams (describe them precisely). List the topics each question covers (e.g., modulation AM/FM, Fourier, sampling, Nyquist, Shannon capacity, dB, noise, digital modulation, multiplexing, etc.).",
+		"brief": "PDF failed: the reader crashed — claude CLI refused a harness tool call before MCP admission",
+		"pagesRead": [],
+		"pagesConsulted": []
+	},
+	"delivery": {
+		"kind": "result",
+		"status": "delivered"
+	}
+}
